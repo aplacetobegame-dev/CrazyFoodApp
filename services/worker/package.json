@@ -1,0 +1,18 @@
+{
+  "name": "@food-felonies/worker",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test src/loop.test.ts"
+  },
+  "dependencies": {
+    "@food-felonies/contracts": "workspace:*",
+    "postgres": "^3.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
