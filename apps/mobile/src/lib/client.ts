@@ -1,6 +1,6 @@
 import "react-native-get-random-values";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import * as aesjs from "aes-js";
 import * as SecureStore from "expo-secure-store";
 import { publicSupabaseConfig } from "@/lib/public-config";
@@ -46,14 +46,21 @@ class LargeSecureStore {
   }
 }
 
-const { url, publishableKey } = publicSupabaseConfig();
+let supabase: SupabaseClient | undefined;
 
-export const supabase = createClient(url, publishableKey, {
-  auth: {
-    storage: new LargeSecureStore(),
-    autoRefreshToken: true,
-    persistSession: true,
-    detectSessionInUrl: false,
-    flowType: "pkce",
-  },
-});
+export function getSupabase() {
+  if (!supabase) {
+    const { url, publishableKey } = publicSupabaseConfig();
+    supabase = createClient(url, publishableKey, {
+      auth: {
+        storage: new LargeSecureStore(),
+        autoRefreshToken: true,
+        persistSession: true,
+        detectSessionInUrl: false,
+        flowType: "pkce",
+      },
+    });
+  }
+
+  return supabase;
+}

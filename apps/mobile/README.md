@@ -4,24 +4,33 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Get started
 
-1. Install dependencies
+1. Run pnpm install from the repository root.
+2. Start Metro from the repository root.
 
-   ```bash
-   npm install
+   ```sh
+   pnpm run mobile --test
    ```
 
-2. Start the app
+3. On Android, open [Expo Go for SDK 58](https://expo.dev/go?device=true&platform=android&sdkVersion=58) and scan the terminal QR code while connected to the same Wi-Fi as the computer.
 
-   ```bash
-   npx expo start
-   ```
+Test mode opens Discover with sample recipes and skips sign-in and Supabase. Drafts, votes, selected photos, and sample outcomes stay in the preview session.
 
-In the output, you'll find options to open the app in a
+- Open a sample case from Discover to try the public share-card link, reporting, blocking, or in-app camera and gallery.
+- Generate a sample draft to try generation and publish failure and retry.
+- Save a cooked review to try approval, rejection, replacement, and sample posting outcomes.
+- Open Profile for rewarded-ad verification, account dialogs, sample clip playback, and the separate staff moderation queue.
+- Open /recipe/pickle-rice in the Metro web preview to test a direct anonymous sample link.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Test with Supabase
+
+Set the following in apps/mobile/.env.local:
+
+```dotenv
+EXPO_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT_REF.supabase.co
+EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_YOUR_KEY
+```
+
+For local Supabase on a phone, use your computer's LAN address in the URL. Run pnpm run mobile from the repository root to start the connected app. Release builds use the connected flow.
 
 You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 

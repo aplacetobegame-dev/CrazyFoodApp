@@ -1,6 +1,10 @@
+import { isUiPreview } from "@/lib/app-mode";
 import { createRequestSupabase } from "@/lib/supabase-server";
 
 export async function GET(request: Request): Promise<Response> {
+  if (isUiPreview) {
+    return Response.json({ email: null });
+  }
   const supabase = createRequestSupabase(request.headers.get("cookie"));
   const { data, error } = await supabase.auth.getUser();
   if (error || !data.user) {

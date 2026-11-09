@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { AppState, Platform } from "react-native";
 import type { Session } from "@supabase/supabase-js";
-import { supabase } from "@/lib/client";
+import { getSupabase } from "@/lib/client";
 
 type AuthContextValue = {
   ready: boolean;
@@ -12,6 +12,7 @@ type AuthContextValue = {
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 export function AuthProvider({ children }: { children: ReactNode }) {
+  const supabase = getSupabase();
   const [session, setSession] = useState<Session | null>(null);
   const [ready, setReady] = useState(false);
 
@@ -32,7 +33,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       active = false;
       data.subscription.unsubscribe();
     };
-  }, []);
+  }, [supabase]);
 
   useEffect(() => {
     if (Platform.OS === "web") {
@@ -46,7 +47,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       void supabase.auth.stopAutoRefresh();
     });
     return () => subscription.remove();
-  }, []);
+  }, [supabase]);
 
   const value = useMemo<AuthContextValue>(
     () => ({
@@ -56,7 +57,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         await supabase.auth.signOut();
       },
     }),
-    [ready, session],
+    [ready, session, supabase],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

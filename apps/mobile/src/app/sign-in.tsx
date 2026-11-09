@@ -1,14 +1,11 @@
 import { Redirect } from "expo-router";
 import { useState } from "react";
-import {
-  ActivityIndicator,
-  Pressable,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from "react-native";
-import { supabase } from "@/lib/client";
+import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
+import { colors } from "@/components/food-felonies-theme";
+import { Action, Badge, ChefMark, Field, Heading, Note, Panel, ui } from "@/features/preview/preview-ui";
+import { getSupabase } from "@/lib/client";
 import { useAuth } from "@/lib/auth";
 
 export default function SignInScreen() {
@@ -21,7 +18,7 @@ export default function SignInScreen() {
 
   if (!ready) {
     return (
-      <View style={styles.screen}>
+      <View style={styles.loading}>
         <ActivityIndicator />
       </View>
     );
@@ -38,7 +35,7 @@ export default function SignInScreen() {
       return;
     }
     setBusy(true);
-    const { error: sendError } = await supabase.auth.signInWithOtp({
+    const { error: sendError } = await getSupabase().auth.signInWithOtp({
       email: trimmed,
       options: { shouldCreateUser: true },
     });
@@ -53,7 +50,7 @@ export default function SignInScreen() {
   async function verifyCode() {
     setError(null);
     setBusy(true);
-    const { error: verifyError } = await supabase.auth.verifyOtp({
+    const { error: verifyError } = await getSupabase().auth.verifyOtp({
       email: email.trim().toLowerCase(),
       token: code.trim(),
       type: "email",
@@ -65,106 +62,42 @@ export default function SignInScreen() {
   }
 
   return (
-    <View style={styles.screen}>
-      <View style={styles.card}>
-        <Text style={styles.title}>Food Felonies</Text>
-        <Text style={styles.subtitle}>Sign in with an email code.</Text>
-        <Text style={styles.label} nativeID="email-label">
-          Email
-        </Text>
-        <TextInput
-          accessibilityLabel="Email"
-          aria-labelledby="email-label"
-          autoCapitalize="none"
-          autoComplete="email"
-          keyboardType="email-address"
-          onChangeText={setEmail}
-          style={styles.input}
-          value={email}
-        />
-        {codeSent ? (
-          <>
-            <Text style={styles.label} nativeID="code-label">
-              Code
-            </Text>
-            <TextInput
-              accessibilityLabel="Sign-in code"
-              aria-labelledby="code-label"
-              autoComplete="one-time-code"
-              keyboardType="number-pad"
-              onChangeText={setCode}
-              style={styles.input}
-              value={code}
-            />
-            <Pressable accessibilityRole="button" disabled={busy} onPress={() => void verifyCode()} style={styles.button}>
-              <Text style={styles.buttonText}>{busy ? "Checking" : "Sign in"}</Text>
-            </Pressable>
-            <Text style={styles.hint}>
-              Local mail is captured at http://127.0.0.1:55324. Open the message and enter the code.
-            </Text>
-          </>
-        ) : (
-          <Pressable accessibilityRole="button" disabled={busy} onPress={() => void sendCode()} style={styles.button}>
-            <Text style={styles.buttonText}>{busy ? "Sending" : "Send code"}</Text>
-          </Pressable>
-        )}
-        {error ? <Text style={styles.error}>{error}</Text> : null}
-      </View>
-    </View>
+    <SafeAreaView style={styles.screen}>
+      <StatusBar style="dark" />
+      <ScrollView contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
+        <View style={styles.brand}>
+          <ChefMark />
+          <Text style={styles.title}>Food <Text style={ui.redText}>Felonies</Text></Text>
+          <Badge>THE CULINARY CASE FILES</Badge>
+        </View>
+        <Panel>
+          <Heading>{codeSent ? "Check your email" : "Sign in"}</Heading>
+          <Note>{codeSent ? "Enter the one-time code from your email." : "We’ll send a one-time code to your email."}</Note>
+          <Text style={ui.bold}>Email</Text>
+          <Field accessibilityLabel="Email" editable={!busy} autoCapitalize="none" autoComplete="email"
+            keyboardType="email-address" value={email}
+            onChangeText={(value) => { setEmail(value); setCodeSent(false); setCode(""); }} />
+          {codeSent && (
+            <>
+              <Text style={ui.bold}>Code</Text>
+              <Field accessibilityLabel="Sign-in code" autoComplete="one-time-code"
+                keyboardType="number-pad" value={code} onChangeText={setCode} />
+            </>
+          )}
+          <Action disabled={busy}
+            label={codeSent ? (busy ? "Checking" : "Sign in") : (busy ? "Sending" : "Send code")}
+            onPress={() => void (codeSent ? verifyCode() : sendCode())} />
+          {error && <Text accessibilityRole="alert" style={[ui.body, ui.redText]}>{error}</Text>}
+        </Panel>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  screen: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 24,
-    backgroundColor: "#f6f3ee",
-  },
-  card: {
-    width: "100%",
-    maxWidth: 420,
-    gap: 12,
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: "700",
-  },
-  subtitle: {
-    fontSize: 16,
-    marginBottom: 8,
-  },
-  label: {
-    fontSize: 14,
-    fontWeight: "600",
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: "#c8c2b8",
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    fontSize: 16,
-    backgroundColor: "#fff",
-  },
-  button: {
-    backgroundColor: "#1f1a17",
-    borderRadius: 8,
-    paddingVertical: 12,
-    alignItems: "center",
-  },
-  buttonText: {
-    color: "#fff",
-    fontSize: 16,
-    fontWeight: "600",
-  },
-  hint: {
-    fontSize: 14,
-    lineHeight: 20,
-  },
-  error: {
-    color: "#8d1d18",
-    fontSize: 14,
-  },
+  screen: { flex: 1, backgroundColor: colors.canvas },
+  loading: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: colors.canvas },
+  content: { flexGrow: 1, justifyContent: "center", alignSelf: "center", width: "100%", maxWidth: 470, padding: 20, gap: 20 },
+  brand: { alignItems: "center", gap: 8, paddingVertical: 8 },
+  title: { ...ui.title, fontSize: 42, lineHeight: 47, textAlign: "center" },
 });

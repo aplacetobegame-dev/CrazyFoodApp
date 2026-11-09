@@ -1,7 +1,11 @@
-import { Redirect } from "expo-router";
+import { Link, Redirect } from "expo-router";
 import { useEffect, useState } from "react";
-import { ActivityIndicator, Platform, Pressable, StyleSheet, Text, View } from "react-native";
-import { supabase } from "@/lib/client";
+import { ActivityIndicator, Platform, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
+import { colors } from "@/components/food-felonies-theme";
+import { Action, Badge, ChefMark, Heading, Note, Panel, ui } from "@/features/preview/preview-ui";
+import { getSupabase } from "@/lib/client";
 import { useAuth } from "@/lib/auth";
 import { publicSupabaseConfig } from "@/lib/public-config";
 
@@ -33,7 +37,7 @@ export default function HomeScreen() {
       });
       const health = healthResponse.ok ? "Edge health ok" : "Edge health unavailable";
 
-      const { data, error } = await supabase
+      const { data, error } = await getSupabase()
         .from("profiles")
         .select("display_name")
         .eq("id", current.user.id)
@@ -73,7 +77,7 @@ export default function HomeScreen() {
 
   if (!ready) {
     return (
-      <View style={styles.screen}>
+      <View style={styles.loading}>
         <ActivityIndicator />
       </View>
     );
@@ -83,48 +87,34 @@ export default function HomeScreen() {
   }
 
   return (
-    <View style={styles.screen}>
-      <View style={styles.card}>
-        <Text style={styles.title}>Signed in</Text>
-        <Text accessibilityLabel="Account email">{session.user.email}</Text>
-        <Text>{status.profile}</Text>
-        <Text>{status.health}</Text>
-        <Text>{status.serverSession}</Text>
-        <Pressable accessibilityRole="button" onPress={() => void signOut()} style={styles.button}>
-          <Text style={styles.buttonText}>Sign out</Text>
-        </Pressable>
-      </View>
-    </View>
+    <SafeAreaView style={styles.screen}>
+      <StatusBar style="dark" />
+      <ScrollView contentContainerStyle={styles.content}>
+        <View style={ui.rowLine}><ChefMark /><Text style={[ui.title, ui.flex]}>Food Felonies</Text></View>
+        <Panel>
+          <Badge tone="green">CONNECTED ACCOUNT</Badge>
+          <Heading>Profile</Heading>
+          <Text accessibilityLabel="Account email" style={ui.body}>{session.user.email}</Text>
+          <Link href="/create" asChild>
+            <Pressable accessibilityRole="button" style={ui.action}>
+              <Text style={ui.actionText}>Create a Recipe</Text>
+            </Pressable>
+          </Link>
+          <Action label="Sign out" kind="outline" onPress={() => void signOut()} />
+        </Panel>
+        <Panel>
+          <Heading>Connection status</Heading>
+          <Note>{status.profile}</Note>
+          <Note>{status.health}</Note>
+          <Note>{status.serverSession}</Note>
+        </Panel>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  screen: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    padding: 24,
-    backgroundColor: "#f6f3ee",
-  },
-  card: {
-    width: "100%",
-    maxWidth: 420,
-    gap: 12,
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: "700",
-  },
-  button: {
-    backgroundColor: "#1f1a17",
-    borderRadius: 8,
-    paddingVertical: 12,
-    alignItems: "center",
-    marginTop: 8,
-  },
-  buttonText: {
-    color: "#fff",
-    fontSize: 16,
-    fontWeight: "600",
-  },
+  screen: { flex: 1, backgroundColor: colors.canvas },
+  loading: { flex: 1, alignItems: "center", justifyContent: "center", backgroundColor: colors.canvas },
+  content: { flexGrow: 1, alignSelf: "center", width: "100%", maxWidth: 540, padding: 20, gap: 16 },
 });
