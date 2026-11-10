@@ -24,7 +24,7 @@ export default function SignInScreen() {
     );
   }
   if (session) {
-    return <Redirect href="/home" />;
+    return <Redirect href="/discover" />;
   }
 
   async function sendCode() {

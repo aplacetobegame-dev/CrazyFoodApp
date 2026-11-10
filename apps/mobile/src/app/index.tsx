@@ -18,7 +18,7 @@ function ConnectedIndex() {
     );
   }
   if (session) {
-    return <Redirect href="/home" />;
+    return <Redirect href="/discover" />;
   }
   return <Redirect href="/sign-in" />;
 }

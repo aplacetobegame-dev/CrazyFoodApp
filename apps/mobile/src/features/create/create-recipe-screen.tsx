@@ -347,13 +347,13 @@ export function CreateRecipeScreen({ preview = false, onBack, onSelectTab, onPre
             </View>
           </ScrollView>
 
-          <SafeAreaView edges={["bottom"]} style={styles.footer}>
+          <SafeAreaView edges={preview ? ["bottom"] : []} style={styles.footer}>
             <Pressable accessibilityRole="button" onPress={generate}
               style={({ pressed }) => [styles.generate, pressed && styles.generatePressed]}>
               <Text style={styles.generateText}>Generate Recipe</Text>
               <Icon name="spark" color={colors.cream} size={22} />
             </Pressable>
-            <FoodTabs active="create" onSelect={onSelectTab} />
+            {onSelectTab && <FoodTabs active="create" onSelect={onSelectTab} />}
           </SafeAreaView>
         </View>
       </KeyboardAvoidingView>

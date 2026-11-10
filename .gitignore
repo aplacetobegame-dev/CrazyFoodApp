@@ -5,14 +5,12 @@ dist/
 npm-debug.log*
 pnpm-debug.log*
 
+.env
 .env.*
-.env.local
-.env.*.local
-apps/mobile/.env
+!.env.example
 
 supabase/.branches/
 supabase/.temp/
-supabase/.env
 
 *.tsbuildinfo
 coverage/

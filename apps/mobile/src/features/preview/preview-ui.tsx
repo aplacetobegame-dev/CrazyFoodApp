@@ -10,36 +10,47 @@ import { Icon, type CreateIconName } from "@/features/create/create-art";
 import { backFromPreview, selectPreviewTab } from "./preview-navigation";
 import type { RecipeCase } from "./preview-data";
 
-export function PreviewPage({ title, activeTab, children, trailing, scrollProps, creamHeader = false }: {
+type FoodPageProps = {
   title: string;
-  activeTab?: FoodTab;
+  onBack?: () => void;
+  footer?: ReactNode;
   children: ReactNode;
   trailing?: ReactNode;
   scrollProps?: ScrollViewProps & { ref?: React.Ref<React.ComponentRef<typeof ScrollView>> };
   creamHeader?: boolean;
-}) {
-  const light = creamHeader || !!activeTab;
+};
+
+export function FoodPage({ title, children, trailing, scrollProps, creamHeader: light = false, onBack, footer }: FoodPageProps) {
   return (
     <SafeAreaView edges={["top", "left", "right"]} style={[ui.shell, light && ui.lightShell]}>
       <StatusBar style={light ? "dark" : "light"} />
       <View style={ui.frame}>
         <View style={[ui.header, light && ui.lightHeader]}>
-          {activeTab ? <View style={ui.side} /> : (
-            <Pressable accessibilityRole="button" accessibilityLabel="Go back" onPress={backFromPreview} style={ui.side}>
+          {onBack ? (
+            <Pressable accessibilityRole="button" accessibilityLabel="Go back" onPress={onBack} style={ui.side}>
               <Icon name="back" color={light ? colors.ink : colors.cream} size={24} />
             </Pressable>
-          )}
+          ) : <View style={ui.side} />}
           <Text accessibilityRole="header" style={[ui.headerTitle, light && ui.ink]}>{title}</Text>
           <View style={ui.side}>{trailing}</View>
         </View>
         <ScrollView style={ui.scroll} contentContainerStyle={ui.content} automaticallyAdjustKeyboardInsets keyboardShouldPersistTaps="handled" {...scrollProps}>
           {children}
         </ScrollView>
+        {footer}
+      </View>
+    </SafeAreaView>
+  );
+}
+
+export function PreviewPage({ activeTab, creamHeader, ...props }: Omit<FoodPageProps, "onBack" | "footer"> & { activeTab?: FoodTab }) {
+  return (
+    <FoodPage {...props} creamHeader={creamHeader || !!activeTab} onBack={activeTab ? undefined : backFromPreview}
+      footer={(
         <SafeAreaView edges={["bottom"]} style={activeTab ? ui.footer : undefined}>
           {activeTab && <FoodTabs active={activeTab} onSelect={selectPreviewTab} />}
         </SafeAreaView>
-      </View>
-    </SafeAreaView>
+      )} />
   );
 }
 

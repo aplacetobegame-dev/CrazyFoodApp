@@ -75,6 +75,7 @@ export default function RootLayout() {
         <Stack.Screen name="staff/[item]" />
       </Stack.Protected>
       <Stack.Protected guard={!isUiPreview}>
+        <Stack.Screen name="(main)" />
         <Stack.Screen name="home" />
         <Stack.Screen name="sign-in" />
       </Stack.Protected>

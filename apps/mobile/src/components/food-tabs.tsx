@@ -13,11 +13,11 @@ export type FoodTab = typeof tabs[number]["id"];
 
 export function FoodTabs({ active, onSelect }: { active: FoodTab; onSelect?: (tab: FoodTab) => void }) {
   return (
-    <View style={styles.tabs}>
+    <View role="tablist" style={styles.tabs}>
       {tabs.map(({ id, label, icon }) => {
         const selected = id === active;
         return (
-          <Pressable key={id} accessibilityRole="tab"
+          <Pressable key={id} accessibilityRole="tab" aria-selected={selected}
             accessibilityState={{ selected, disabled: !selected && !onSelect }}
             disabled={selected || !onSelect} onPress={() => onSelect?.(id)}
             style={({ pressed }) => [styles.tab, (selected || pressed) && styles.active]}>

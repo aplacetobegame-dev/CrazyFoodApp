@@ -8,3 +8,7 @@ coverage
 *.md
 marketing
 outreach
+
+# Local environment files stay out of Docker build contexts.
+**/.env
+**/.env.*
