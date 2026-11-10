@@ -5,7 +5,7 @@ dist/
 npm-debug.log*
 pnpm-debug.log*
 
-.env
+.env.*
 .env.local
 .env.*.local
 apps/mobile/.env
