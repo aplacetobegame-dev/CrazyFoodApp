@@ -1,0 +1,83 @@
+{
+  "status": "awaiting_user_review",
+  "duration_seconds": 25,
+  "format": "1080x1920, 9:16",
+  "model": "seedance_2_5",
+  "ai_shots": 3,
+  "seconds_per_ai_shot": 4,
+  "resolution": "1080p",
+  "generate_audio": true,
+  "quoted_credits_per_shot": 64,
+  "estimated_total_credits": 192,
+  "submitted_jobs": [],
+  "ui_reference": "https://chatgpt.com/share/6aee6355-7448-83eb-8f8c-315972f168d5",
+  "notes": "Satirical regret figure is a mock display value. Crime Levels come from seed_cases.csv. UI is reconstructed, not captured from a live app.",
+  "scenes": [
+    {
+      "time": "00-04s",
+      "title": "THE BUTTER IMPACT",
+      "key": "butter",
+      "score": 88,
+      "headline": [
+        "THIS SHOULD",
+        "BE ILLEGAL."
+      ],
+      "name": "DEEP-FRIED BUTTER",
+      "motion": "Crust cracks. Butter bursts. Camera punches in.",
+      "method": "Seedance 2.5 / 4s / 1080p",
+      "audio": "Bass hit + crisp crack + sizzle"
+    },
+    {
+      "time": "04-08s",
+      "title": "THE CANDLE CRIME",
+      "key": "candle",
+      "score": 90,
+      "headline": [
+        "BANANA. MAYO.",
+        "NO ALIBI."
+      ],
+      "name": "CANDLE SALAD",
+      "motion": "Cherry lands. Mayo splashes. Whip-pan out.",
+      "method": "Seedance 2.5 / 4s / 1080p",
+      "audio": "Plop + whoosh + beat cut"
+    },
+    {
+      "time": "08-12s",
+      "title": "MAXIMUM JIGGLE",
+      "key": "gelatin",
+      "score": 92,
+      "headline": [
+        "VEGETABLES.",
+        "IN JELLY."
+      ],
+      "name": "SAVORY VEGETABLE GELATIN",
+      "motion": "Gelatin lands and wobbles. Fast macro orbit.",
+      "method": "Seedance 2.5 / 4s / 1080p",
+      "audio": "Impact + exaggerated wobble"
+    },
+    {
+      "time": "12-17s",
+      "title": "TURN UP THE CHAOS",
+      "key": "create",
+      "motion": "Ingredient chips fly in. Slider races to 92.",
+      "method": "Precise UI animation / reconstructed from brief",
+      "audio": "Fast ticks + rising synth"
+    },
+    {
+      "time": "17-21s",
+      "title": "THE CRIMINAL RECORD",
+      "key": "case",
+      "motion": "Case file slams in. Crime + regret meters fill.",
+      "method": "UI inspired by the shared app reference",
+      "audio": "File slam + stamp hit"
+    },
+    {
+      "time": "21-25s",
+      "title": "THE DOWNLOAD PAYOFF",
+      "key": "end",
+      "motion": "Food flashes, then a bold red download card.",
+      "method": "Motion graphics / clear 4-second call to action",
+      "audio": "Final drop + clean logo sting"
+    }
+  ]
+}

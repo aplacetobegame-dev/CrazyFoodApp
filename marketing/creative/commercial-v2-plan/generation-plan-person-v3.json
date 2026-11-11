@@ -1,0 +1,95 @@
+{
+  "status": "awaiting_user_review",
+  "duration_seconds": 25,
+  "format": "1080x1920, 9:16",
+  "model": "seedance_2_5",
+  "resolution": "1080p",
+  "generate_audio": true,
+  "estimated_total_credits": 352,
+  "submitted_jobs": [],
+  "supersedes": "generation-plan-brand-v2.json",
+  "dish": {
+    "case_id": "AC-041",
+    "name": "Savory vegetable gelatin",
+    "database_crime_level": 92,
+    "input_weirdness": 100,
+    "concept_image": "../food-crime-images/AC-041-vegetable-gelatin-v1.png",
+    "staged_result_image": "../../seed_database/archive_images/AC-041_savory-gelatin-mold-with-suspended-vegetables.png"
+  },
+  "brand_reference": "references/food-felonies-app-design.png",
+  "reference_interpretation": "Use the original database photo as the staged cooked-result example, beside the polished AI-generated concept image.",
+  "shots": [
+    {
+      "key": "prompt_and_reveal",
+      "duration": 7,
+      "quoted_credits": 112,
+      "screen_compositing": "Create prompt, max slider, chef loading and concept image are controlled overlays."
+    },
+    {
+      "key": "cooking",
+      "duration": 6,
+      "quoted_credits": 96,
+      "continuity": "Same fictional adult cook, wardrobe, kitchen and dish."
+    },
+    {
+      "key": "comparison_and_share",
+      "duration": 4,
+      "quoted_credits": 64,
+      "screen_compositing": "Exact concept and archive photo, not regenerated substitutes; fictional share flow."
+    },
+    {
+      "key": "reactions",
+      "duration": 5,
+      "quoted_credits": 80,
+      "casting": "Nine fictional adult reactors; scripted dramatization, not real testimonials."
+    }
+  ],
+  "scenes": [
+    {
+      "time": "00–04",
+      "seconds": 4,
+      "action": "The cook types a prompt and drags the Weirdness / Food Felony slider all the way to 100/100 before tapping Generate.",
+      "screen_copy": "Make the weirdest dinner from gelatin, celery, green pepper and onion.",
+      "overlay": "CRIME MODE: MAX",
+      "sound": "Slider ticks accelerate into a bass hit."
+    },
+    {
+      "time": "04–07",
+      "seconds": 3,
+      "action": "The chef loading mascot flashes, then the existing AI-generated vegetable gelatin hero appears on the phone. The same cook gives a mischievous grin.",
+      "sound": "Generation chime, quick riser."
+    },
+    {
+      "time": "07–13",
+      "seconds": 6,
+      "action": "The same cook in the same kitchen chops the vegetables, whisks the gelatin mixture, pours into a ring mold, then unmolds the completed wobbling dish after a clear time jump.",
+      "screen_copy": "After chilling",
+      "sound": "Knife chops, whisk, pour, plate impact, comic wobble."
+    },
+    {
+      "time": "13–17",
+      "seconds": 4,
+      "action": "On the phone, show the polished generated concept on the left and the original archive dish photo as the staged cooked result on the right. The cook taps Share and the comparison posts to a fictional feed.",
+      "labels": [
+        "AI idea",
+        "Cooked result"
+      ],
+      "disclosure": "Commercial dramatization",
+      "sound": "Camera snap, share tap, notification pop."
+    },
+    {
+      "time": "17–22",
+      "seconds": 5,
+      "action": "Rapid reaction close-ups build into a nine-person reaction grid: laughter, shocked faces, delighted surprise, playful horror. Guilty / Acquitted stamps pop over the grid.",
+      "sound": "Overlapping brief gasps and laughter over an energetic beat."
+    },
+    {
+      "time": "22–25",
+      "seconds": 3,
+      "action": "The supplied wordmark, chef mascot and handwritten tagline land on warm paper, followed by a bold red download button.",
+      "screen_copy": "Make a recipe. Cook it. Show the evidence.",
+      "cta": "Download Food Felonies",
+      "sound": "Final impact and logo sting."
+    }
+  ]
+}

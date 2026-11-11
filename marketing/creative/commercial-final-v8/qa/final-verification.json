@@ -1,0 +1,31 @@
+{
+  "verified": true,
+  "duration_seconds": 25.0,
+  "width": 1080,
+  "height": 1920,
+  "frames": 750,
+  "fps": 30,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "channels": 2,
+  "audio_peak_dbfs": -1.4,
+  "decode_errors": false,
+  "size_bytes": 15841805,
+  "reaction_people": 4,
+  "reaction_layout": "2x2",
+  "reaction_interval_seconds": [
+    14,
+    18
+  ],
+  "share_tap_seconds": 13.35,
+  "leading_share_hearts": 4,
+  "new_completed_seedance_jobs": 4,
+  "quoted_generation_credits": 256,
+  "native_reaction_vocals_included": false,
+  "quiet_kitchen_audio_global_seconds": [
+    6,
+    9.12
+  ],
+  "visual_review": "Matched comparison images, natural hearts, four phone-to-dish performances, faces and food clear."
+}

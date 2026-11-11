@@ -1,0 +1,105 @@
+{
+  "approved_total_credits": 352,
+  "model": "seedance_2_5",
+  "final_duration": 25,
+  "reference_image_tool": "built-in image_gen",
+  "reference_prompt": "Fictional adult main cook with curly dark hair, cream T-shirt, pickle-green apron, warm kitchen, blank cream phone display.",
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "duration": 6,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "502323be-0606-4edc-8335-0be1260b721a"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, vertical 9:16, energetic editorial rhythm, warm cream and natural kitchen light, realistic faces and anatomically correct hands. The unusual recipe is a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, with a central hole; preserve the dish shown in the food reference. No writing, captions, logos, watermarks, app UI, graphic overlays or music: those will be composited later. Natural action sound effects only. Shots must be clear, physical actions, not a slideshow. CHARACTER AND LOCATION: image 1 is the exact fictional lead actor and kitchen reference. Preserve her face, curly dark tied-back hair, cream T-shirt, pickle-green apron and warm oak-and-cream kitchen across all shots. Image 2 is the dish reference only, not a background.\nSIX-SECOND OPENING, four purposeful shots with clean cuts:\n0.0–2.0s: tight over-the-shoulder insert of her hand holding an upright black smartphone, display uniformly cream with no markings. Her right thumb makes ONE decisive horizontal left-to-right slider gesture across the lower screen, reaching the far-right end. The physical phone is stable and its rectangular screen unobscured apart from the thumb.\n2.0–3.0s: slightly wider over-the-shoulder view as she holds the phone still and studies the blank cream display. A tiny upbeat notification chime.\n3.0–4.8s: cut to her actual face, clear cinematic close-up. She raises an eyebrow and gives a slow, mischievous closed-mouth grin, visibly deciding to make this ridiculous dish. Do not replace this with a shot of food.\n4.8–6.0s: hard cut overhead to her counter with celery, a green bell pepper, an onion and a small clear bowl of yellow gelatin mixture arranged as ingredients. Her green-apron torso is visible at the frame edge. Quick purposeful movement into preparing them.\nCamera energy: short punch-in, clean whip-matched cuts, expressive human performance. No typing. No spoken dialogue."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "502323be-0606-4edc-8335-0be1260b721a"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, vertical 9:16, energetic editorial rhythm, warm cream and natural kitchen light, realistic faces and anatomically correct hands. The unusual recipe is a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, with a central hole; preserve the dish shown in the food reference. No writing, captions, logos, watermarks, app UI, graphic overlays or music: those will be composited later. Natural action sound effects only. Shots must be clear, physical actions, not a slideshow. CHARACTER AND LOCATION: image 1 is the exact lead actor, wardrobe and kitchen identity reference. Image 2 is the exact finished vegetable gelatin dish to make. Same adult woman, same green apron and cream shirt, same kitchen.\nFIVE-SECOND FAST COOKING MONTAGE with four legible shots, showing her actively cooking:\n0.0–1.2s: medium-close of the woman chopping celery and green bell pepper on a wooden board, her face partly visible and focused, knife and hands behaving naturally.\n1.2–2.3s: close-up of her whisking a transparent yellow gelatin mixture in a glass bowl, then adding the chopped vegetables.\n2.3–3.4s: the woman pours the yellow mixture and vegetables from the bowl into a scalloped ring mold with a center tube.\n3.4–5.0s: clearly separate later-time setup: she lifts the ring mold off an ivory plate, revealing the fully set bright yellow vegetable gelatin ring. It wobbles once and she laughs with delighted disbelief. The actual woman must be visible in this final shot, not just disembodied hands.\nBright tactile food detail, rapid but physically plausible prep cuts. No instant morphing from raw liquid to a finished dish in the same take. Include crisp chopping, whisking, pouring and a comic wobble sound. No voice or music."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "502323be-0606-4edc-8335-0be1260b721a"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          },
+          {
+            "role": "image",
+            "value": "edea32fc-d427-4ed4-a584-24c8e31d376e"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, vertical 9:16, energetic editorial rhythm, warm cream and natural kitchen light, realistic faces and anatomically correct hands. The unusual recipe is a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, with a central hole; preserve the dish shown in the food reference. No writing, captions, logos, watermarks, app UI, graphic overlays or music: those will be composited later. Natural action sound effects only. Shots must be clear, physical actions, not a slideshow. CHARACTER AND LOCATION: image 1 is the exact lead actor and kitchen. Image 2 is the polished dish identity; image 3 is an archival homemade version used only to guide plausible food construction. Do not place the reference photos as floating images in the scene.\nFOUR-SECOND SHARING SHOT: the same adult woman stands in her kitchen behind the finished yellow vegetable gelatin ring on a home plate. She raises her upright black smartphone at chest height with the blank warm-cream display facing the camera. She proudly glances at her dish, taps once on the bottom of the blank screen to share, then looks toward the camera with a satisfied grin. Keep her face in the upper half and the physical dish visible on the counter. Display remains a flat, blank cream rectangle for precise later UI compositing. Keep the phone held reasonably still after the tap, without rotating its screen edge-on. Add one camera shutter and a short sending whoosh. Natural human motion, no digital app interfaces, no typography, no speech or music."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "seedance_2_5",
+        "duration": 7,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": true,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          },
+          {
+            "role": "image",
+            "value": "edea32fc-d427-4ed4-a584-24c8e31d376e"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, vertical 9:16, energetic editorial rhythm, warm cream and natural kitchen light, realistic faces and anatomically correct hands. The unusual recipe is a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, with a central hole; preserve the dish shown in the food reference. No writing, captions, logos, watermarks, app UI, graphic overlays or music: those will be composited later. Natural action sound effects only. Shots must be clear, physical actions, not a slideshow. COMMUNITY CHALLENGE, SEVEN SECONDS. Food images 1 and 2 show the same yellow vegetable gelatin ring to recreate. Cast fictional adults, not celebrities. This sequence contains a clean 3x3 reaction grid and then three distinct kitchen panels; panels have thin neutral borders, no text.\n0.0–2.0s: a precise nine-person grid, nine different adults in nine portrait cells, all clearly visible and reacting naturally with shock, laughter or delighted disbelief. Age and appearance variety. Establish these THREE FEATURED COOKS in the middle row: left, a Black adult man with short hair wearing a burgundy T-shirt; center, an East Asian adult woman with a straight dark bob wearing a blue apron; right, an older white adult man with gray hair wearing a mustard-yellow shirt. Other six cells contain different adult friends, no duplicates. The nine faces should look alive and expressive, not still photos.\n2.0–5.0s: clean hard cut to THREE VERTICAL PANELS filling the frame. These exact three featured cooks are now actively making the same vegetable gelatin ring in their different home kitchens. Left cook stirs yellow mixture with visible green vegetables, center cook pours the mixture into a scalloped ring mold, right cook unmolds a finished yellow vegetable gelatin ring. Show their faces and hand actions, not only finished food. Different kitchens, different home plates, same recognizable recipe.\n5.0–7.0s: maintain three vertical panels. All three now have their own slightly imperfect finished yellow vegetable gelatin rings. Each person lifts or aims a black smartphone at their own dish and photographs it. Distinct white, pale blue and patterned plates make the attempts individual. End with the three homemade results clearly visible. Add a little overlapping laughter, one surprised gasp, and three camera shutter sounds. No readable phone screens, no speech claims, no logos, no numbers or captions. No main cook in these panels. No extra fingers or fused people."
+      }
+    }
+  ]
+}

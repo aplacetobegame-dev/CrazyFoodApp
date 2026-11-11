@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "id": "135c61d7-862c-4cf3-b0a6-9c2822a74770",
+      "type": "video",
+      "status": "pending",
+      "model": "seedance_2_5",
+      "params": {
+        "prompt": "Photorealistic premium food-comedy commercial, vertical 9:16, energetic editorial rhythm, warm cream and natural kitchen light, realistic faces and anatomically correct hands. The unusual recipe is a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, with a central hole; preserve the dish shown in the food reference. No writing, captions, logos, watermarks, app UI, graphic overlays or music: those will be composited later. Natural action sound effects only. Shots must be clear, physical actions, not a slideshow. CHARACTER AND LOCATION: image 1 is the exact lead actor and kitchen. Image 2 is the polished dish identity; image 3 is an archival homemade version used only to guide plausible food construction. Do not place the reference photos as floating images in the scene.\nFOUR-SECOND SHARING SHOT: the same adult woman stands in her kitchen behind the finished yellow vegetable gelatin ring on a home plate. She raises her upright black smartphone at chest height with the blank warm-cream display facing the camera. She proudly glances at her dish, taps once on the bottom of the blank screen to share, then looks toward the camera with a satisfied grin. Keep her face in the upper half and the physical dish visible on the counter. Display remains a flat, blank cream rectangle for precise later UI compositing. Keep the phone held reasonably still after the tap, without rotating its screen edge-on. Add one camera shutter and a short sending whoosh. Natural human motion, no digital app interfaces, no typography, no speech or music.",
+        "aspect_ratio": "9:16",
+        "duration": 4,
+        "reference_images": [
+          "502323be-0606-4edc-8335-0be1260b721a",
+          "d3893b04-1d9d-4786-a857-e66daed7d9ee",
+          "edea32fc-d427-4ed4-a584-24c8e31d376e"
+        ],
+        "resolution": "1080p",
+        "mode": "omni_reference",
+        "generate_audio": true
+      }
+    }
+  ],
+  "adjustments": {
+    "medias[0].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Seedance 2.5 backend expects schema-key media roles"
+    },
+    "medias[1].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Seedance 2.5 backend expects schema-key media roles"
+    },
+    "medias[2].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Seedance 2.5 backend expects schema-key media roles"
+    }
+  }
+}

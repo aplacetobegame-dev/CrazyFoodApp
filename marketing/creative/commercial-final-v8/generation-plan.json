@@ -1,0 +1,125 @@
+{
+  "model": "seedance_2_5",
+  "quoted_total_credits": 256,
+  "purpose": "Four natural phone-to-dish reactions replacing the nine-person grid.",
+  "people": [
+    {
+      "index": 0,
+      "key": "burgundy-cook",
+      "identity": "Use ONLY the original fictional adult Black man in the MIDDLE ROW LEFT of image 1: short dark hair, burgundy crew-neck T-shirt. Preserve his face and wardrobe. He is in his warm wood-and-cream kitchen.",
+      "reaction": "He raises his eyebrows, looks impressed by his creation and breaks into a warm amused grin, giving one small disbelieving head shake."
+    },
+    {
+      "index": 1,
+      "key": "blue-apron-cook",
+      "identity": "Use ONLY the original fictional adult East Asian woman in the MIDDLE ROW CENTER of image 1: straight dark bob, white tee, simple blue apron. Preserve her face and wardrobe. She is in her bright neutral home kitchen.",
+      "reaction": "She narrows her eyes with playful skepticism at first, then laughs silently and smiles with delighted disbelief."
+    },
+    {
+      "index": 2,
+      "key": "mustard-cook",
+      "identity": "Use ONLY the original fictional older white adult man in the MIDDLE ROW RIGHT of image 1: short gray hair, mustard-yellow collared shirt. Preserve his face and wardrobe. He is in his warm traditional home kitchen.",
+      "reaction": "He leans forward a little, opens his eyes in delighted surprise, then smiles proudly and gives a tiny approving nod."
+    },
+    {
+      "index": 3,
+      "key": "braids-cook",
+      "identity": "Use ONLY the original fictional adult woman in the TOP ROW LEFT of image 1: dark braids, cream sweater. Preserve her face and wardrobe. She is in her softly sunlit modern home kitchen.",
+      "reaction": "She gives the dish a wide-eyed double take, brings her free hand lightly toward her chest and laughs silently, ending with a broad natural delighted smile."
+    }
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7f325949-0e8b-4424-aa4c-bb911f2d0098"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "A premium photorealistic food-comedy commercial. One uninterrupted FOUR-SECOND medium portrait shot, vertical9:16, warm natural home-kitchen light, subtle camera push-in only. This is an original fictional adult cast, not a celebrity or customer testimonial. Image 1 is a contact sheet of identity references; use only the named person, NEVER reproduce the grid or include any other person. Image 2 is ONLY the dish reference: a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, a clear central hole, on a home plate. Match its recognizable food construction, not a floating reference image. Composition: the ONE person is shown from head to waist behind a counter, their whole face well lit and completely visible in the upper half. A real black smartphone is held at chest height in one hand; phone back faces camera and screen faces the person. The actual completed vegetable gelatin ring sits prominently on the counter in the lower third and stays in the same place. Both phone and actual dish are visible together. Physical continuity, realistic eyes and anatomically correct hands. No captions, words, borders, graphic overlays, hearts, UI or logo, no music, no speech, no vocal effects, no additional person, no disembodied hands, no morphing food. Keep them energetic but believable.\nUse ONLY the original fictional adult Black man in the MIDDLE ROW LEFT of image 1: short dark hair, burgundy crew-neck T-shirt. Preserve his face and wardrobe. He is in his warm wood-and-cream kitchen.\nAction timing is crucial:0.0–0.85s they are naturally LOOKING AT THEIR OWN PHONE with a small anticipating smile, visibly reading the screen.0.85–1.55s their eyes and head clearly TURN DOWN FROM THE PHONE TO THEIR ACTUAL GELATIN DISH ON THE COUNTER, lowering the phone slightly.1.55–3.25s they study the physical dish and react as described.3.25–4.0s they briefly glance back toward the phone and hold a natural pleased expression. Make the phone-to-dish gaze shift obvious and motivated, not a continuous stare into camera. No cuts.\nHe raises his eyebrows, looks impressed by his creation and breaks into a warm amused grin, giving one small disbelieving head shake."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7f325949-0e8b-4424-aa4c-bb911f2d0098"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "A premium photorealistic food-comedy commercial. One uninterrupted FOUR-SECOND medium portrait shot, vertical9:16, warm natural home-kitchen light, subtle camera push-in only. This is an original fictional adult cast, not a celebrity or customer testimonial. Image 1 is a contact sheet of identity references; use only the named person, NEVER reproduce the grid or include any other person. Image 2 is ONLY the dish reference: a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, a clear central hole, on a home plate. Match its recognizable food construction, not a floating reference image. Composition: the ONE person is shown from head to waist behind a counter, their whole face well lit and completely visible in the upper half. A real black smartphone is held at chest height in one hand; phone back faces camera and screen faces the person. The actual completed vegetable gelatin ring sits prominently on the counter in the lower third and stays in the same place. Both phone and actual dish are visible together. Physical continuity, realistic eyes and anatomically correct hands. No captions, words, borders, graphic overlays, hearts, UI or logo, no music, no speech, no vocal effects, no additional person, no disembodied hands, no morphing food. Keep them energetic but believable.\nUse ONLY the original fictional adult East Asian woman in the MIDDLE ROW CENTER of image 1: straight dark bob, white tee, simple blue apron. Preserve her face and wardrobe. She is in her bright neutral home kitchen.\nAction timing is crucial:0.0–0.85s they are naturally LOOKING AT THEIR OWN PHONE with a small anticipating smile, visibly reading the screen.0.85–1.55s their eyes and head clearly TURN DOWN FROM THE PHONE TO THEIR ACTUAL GELATIN DISH ON THE COUNTER, lowering the phone slightly.1.55–3.25s they study the physical dish and react as described.3.25–4.0s they briefly glance back toward the phone and hold a natural pleased expression. Make the phone-to-dish gaze shift obvious and motivated, not a continuous stare into camera. No cuts.\nShe narrows her eyes with playful skepticism at first, then laughs silently and smiles with delighted disbelief."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7f325949-0e8b-4424-aa4c-bb911f2d0098"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "A premium photorealistic food-comedy commercial. One uninterrupted FOUR-SECOND medium portrait shot, vertical9:16, warm natural home-kitchen light, subtle camera push-in only. This is an original fictional adult cast, not a celebrity or customer testimonial. Image 1 is a contact sheet of identity references; use only the named person, NEVER reproduce the grid or include any other person. Image 2 is ONLY the dish reference: a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, a clear central hole, on a home plate. Match its recognizable food construction, not a floating reference image. Composition: the ONE person is shown from head to waist behind a counter, their whole face well lit and completely visible in the upper half. A real black smartphone is held at chest height in one hand; phone back faces camera and screen faces the person. The actual completed vegetable gelatin ring sits prominently on the counter in the lower third and stays in the same place. Both phone and actual dish are visible together. Physical continuity, realistic eyes and anatomically correct hands. No captions, words, borders, graphic overlays, hearts, UI or logo, no music, no speech, no vocal effects, no additional person, no disembodied hands, no morphing food. Keep them energetic but believable.\nUse ONLY the original fictional older white adult man in the MIDDLE ROW RIGHT of image 1: short gray hair, mustard-yellow collared shirt. Preserve his face and wardrobe. He is in his warm traditional home kitchen.\nAction timing is crucial:0.0–0.85s they are naturally LOOKING AT THEIR OWN PHONE with a small anticipating smile, visibly reading the screen.0.85–1.55s their eyes and head clearly TURN DOWN FROM THE PHONE TO THEIR ACTUAL GELATIN DISH ON THE COUNTER, lowering the phone slightly.1.55–3.25s they study the physical dish and react as described.3.25–4.0s they briefly glance back toward the phone and hold a natural pleased expression. Make the phone-to-dish gaze shift obvious and motivated, not a continuous stare into camera. No cuts.\nHe leans forward a little, opens his eyes in delighted surprise, then smiles proudly and gives a tiny approving nod."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "7f325949-0e8b-4424-aa4c-bb911f2d0098"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "A premium photorealistic food-comedy commercial. One uninterrupted FOUR-SECOND medium portrait shot, vertical9:16, warm natural home-kitchen light, subtle camera push-in only. This is an original fictional adult cast, not a celebrity or customer testimonial. Image 1 is a contact sheet of identity references; use only the named person, NEVER reproduce the grid or include any other person. Image 2 is ONLY the dish reference: a transparent bright yellow scalloped ring of savory vegetable gelatin containing celery, green bell pepper and chopped onion, a clear central hole, on a home plate. Match its recognizable food construction, not a floating reference image. Composition: the ONE person is shown from head to waist behind a counter, their whole face well lit and completely visible in the upper half. A real black smartphone is held at chest height in one hand; phone back faces camera and screen faces the person. The actual completed vegetable gelatin ring sits prominently on the counter in the lower third and stays in the same place. Both phone and actual dish are visible together. Physical continuity, realistic eyes and anatomically correct hands. No captions, words, borders, graphic overlays, hearts, UI or logo, no music, no speech, no vocal effects, no additional person, no disembodied hands, no morphing food. Keep them energetic but believable.\nUse ONLY the original fictional adult woman in the TOP ROW LEFT of image 1: dark braids, cream sweater. Preserve her face and wardrobe. She is in her softly sunlit modern home kitchen.\nAction timing is crucial:0.0–0.85s they are naturally LOOKING AT THEIR OWN PHONE with a small anticipating smile, visibly reading the screen.0.85–1.55s their eyes and head clearly TURN DOWN FROM THE PHONE TO THEIR ACTUAL GELATIN DISH ON THE COUNTER, lowering the phone slightly.1.55–3.25s they study the physical dish and react as described.3.25–4.0s they briefly glance back toward the phone and hold a natural pleased expression. Make the phone-to-dish gaze shift obvious and motivated, not a continuous stare into camera. No cuts.\nShe gives the dish a wide-eyed double take, brings her free hand lightly toward her chest and laughs silently, ending with a broad natural delighted smile."
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This app tool requires a non-empty string link_id argument"
+    }
+  ],
+  "isError": true
+}

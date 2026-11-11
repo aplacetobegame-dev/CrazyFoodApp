@@ -1,0 +1,96 @@
+{
+  "status": "awaiting_user_review",
+  "version": "person-flow-v4",
+  "supersedes": "generation-plan-person-v3.json",
+  "duration_seconds": 25,
+  "model": "seedance_2_5",
+  "format": "1080x1920, 9:16",
+  "prompt_typing": false,
+  "onscreen_ai_labels": false,
+  "ui_guidance": "Follow the supplied app design, wordmark, mascot, fonts and palette. Composite controlled UI layers. Supplied reference screens contain AI-generated badges; these must not appear in the commercial's screen compositions. Use The idea / The result for the comparison.",
+  "crime_meter": {
+    "start_seconds": 0,
+    "end_seconds": 2,
+    "target": 100,
+    "label": "Weirdness level / Food Felony",
+    "distinction": "Creation setting is 100/100. The source recipe's database Crime Level is 92/100; do not rewrite that stored score."
+  },
+  "dish": {
+    "case_id": "AC-041",
+    "name": "Savory Vegetable Gelatin",
+    "concept_image": "../food-crime-images/AC-041-vegetable-gelatin-v1.png",
+    "staged_result_image": "../../seed_database/archive_images/AC-041_savory-gelatin-mold-with-suspended-vegetables.png"
+  },
+  "continuity": "One fictional adult cook, one kitchen, consistent clothing, consistent dish. Scripted reaction performers. Commercial dramatization disclosure on comparison, without AI labels.",
+  "proposed_generation_durations": [
+    8,
+    6,
+    4,
+    4
+  ],
+  "cost_note": "Previous total estimate was 352 credits for 22 seconds of 1080p footage. Recheck the revised 8/6/4/4-second shot allocation before generation.",
+  "submitted_jobs": [],
+  "flow": [
+    {
+      "start": 0,
+      "end": 2,
+      "title": "Maximum crime",
+      "visual": "Close-up of the person's thumb dragging the app's Weirdness / Food Felony meter to 100/100. Red pulse and an immediate bass hit. No typing or prompt entry.",
+      "screen_text": "100/100 · FOOD FELONY"
+    },
+    {
+      "start": 2,
+      "end": 4,
+      "title": "Dish reveal",
+      "visual": "The vegetable gelatin concept image snaps onto the phone. Brief over-the-shoulder shot establishes the person holding it.",
+      "screen_text": "Savory Vegetable Gelatin"
+    },
+    {
+      "start": 4,
+      "end": 6,
+      "title": "The grin",
+      "visual": "Cut to the same person's face. They glance from phone toward the ingredients, pause, then give a mischievous grin.",
+      "screen_text": ""
+    },
+    {
+      "start": 6,
+      "end": 8,
+      "title": "Ingredients",
+      "visual": "Quick overhead ingredient reveal: gelatin, celery, green pepper and onion land on the counter in time with the beat.",
+      "screen_text": ""
+    },
+    {
+      "start": 8,
+      "end": 14,
+      "title": "Cook it",
+      "visual": "Same person and kitchen: rapid cuts of chopping vegetables, whisking gelatin, pouring into a ring mold, then unmolding the wobbling finished dish after a visible time jump.",
+      "screen_text": "After chilling"
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "title": "Compare and share",
+      "visual": "Phone displays the polished concept image beside the original archive dish photo as a staged result. The person taps Share; the paired post appears in a fictional feed.",
+      "comparison_labels": [
+        "The idea",
+        "The result"
+      ],
+      "disclosure": "Commercial dramatization"
+    },
+    {
+      "start": 18,
+      "end": 22,
+      "title": "Everyone reacts",
+      "visual": "Fast reaction close-ups build into a nine-person grid: shock, laughter, delight and playful horror. Guilty / Acquitted stamps punctuate the beat.",
+      "screen_text": "Guilty or acquitted?"
+    },
+    {
+      "start": 22,
+      "end": 25,
+      "title": "Brand and download",
+      "visual": "Supplied Food Felonies wordmark, chef mascot, warm paper background and red download button.",
+      "screen_text": "Make it. Cook it. Show the evidence.",
+      "cta": "Download Food Felonies"
+    }
+  ]
+}

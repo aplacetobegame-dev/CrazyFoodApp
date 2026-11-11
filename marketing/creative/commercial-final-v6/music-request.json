@@ -1,0 +1,32 @@
+{
+  "quote": {
+    "cost": {
+      "credits": 3.64,
+      "credits_exact": 3.64
+    }
+  },
+  "params": {
+    "model": "elevenlabs_music_v2_5",
+    "prompt": "A punchy 25-second INSTRUMENTAL garage-funk / pop-punk food commercial cue, 144 BPM. Real crunchy electric guitar riffs with palm-muted syncopation, a lively electric bass line, tight acoustic rock drum kit, strong snare backbeat, kick, bright hi-hats and short cymbal fills. Mischievous, playful and exciting with swagger; energetic and polished, not aggressive metal. Hook immediately with a short guitar pickup and drum hit. Full guitar/drum groove by 2 seconds, a small drum fill around 6 seconds, a lift near 11 seconds, bigger driving guitar riff for the social montage around 15 seconds, and a final strong guitar chord and drum hit at 22 seconds with a clean short tail finishing by 25 seconds. Varied phrasing and fills so it develops rather than sounding like a repeating stock loop. No singing, no vocals, no spoken word, no shouting, no screams, no crowd, no synthetic whoops, no human excitement sounds, no electronic ringtone melody. Electric guitar and acoustic drums lead the mix. Commercial-ready instrumental only.",
+    "duration": 25,
+    "force_instrumental": true,
+    "batch_size": 1,
+    "count": 1
+  },
+  "submission": {
+    "results": [
+      {
+        "id": "75fe1d90-4d4a-4a2d-95db-8d2de2931e5c",
+        "type": "audio",
+        "status": "pending",
+        "model": "elevenlabs_music_v2_5",
+        "params": {
+          "prompt": "A punchy 25-second INSTRUMENTAL garage-funk / pop-punk food commercial cue, 144 BPM. Real crunchy electric guitar riffs with palm-muted syncopation, a lively electric bass line, tight acoustic rock drum kit, strong snare backbeat, kick, bright hi-hats and short cymbal fills. Mischievous, playful and exciting with swagger; energetic and polished, not aggressive metal. Hook immediately with a short guitar pickup and drum hit. Full guitar/drum groove by 2 seconds, a small drum fill around 6 seconds, a lift near 11 seconds, bigger driving guitar riff for the social montage around 15 seconds, and a final strong guitar chord and drum hit at 22 seconds with a clean short tail finishing by 25 seconds. Varied phrasing and fills so it develops rather than sounding like a repeating stock loop. No singing, no vocals, no spoken word, no shouting, no screams, no crowd, no synthetic whoops, no human excitement sounds, no electronic ringtone melody. Electric guitar and acoustic drums lead the mix. Commercial-ready instrumental only.",
+          "duration": 25,
+          "force_instrumental": true,
+          "batch_size": 1
+        }
+      }
+    ]
+  }
+}
