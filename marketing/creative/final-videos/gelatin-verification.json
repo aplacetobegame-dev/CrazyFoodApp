@@ -1,0 +1,35 @@
+{
+  "verified": true,
+  "duration_seconds": 25,
+  "width": 1080,
+  "height": 1920,
+  "frames": 750,
+  "fps": 30,
+  "caption": "Do I dare to cook this?",
+  "replaced_grin_captions": [
+    "BAD IDEA?",
+    "PERFECT."
+  ],
+  "replaced_video_frames": [
+    95,
+    144
+  ],
+  "audio_identical_to_v11": true,
+  "decode_errors": false,
+  "new_generation_jobs": 0,
+  "cleanup_verification": {
+    "verified": true,
+    "file": "C:\\Users\\aplac\\Documents\\GitHub\\CrazyFoodApp\\marketing\\creative\\final-videos\\food-felonies-gelatin-25s.mp4",
+    "duration_seconds": 25.0,
+    "width": 1080,
+    "height": 1920,
+    "frames": 750,
+    "fps": 30,
+    "audio_sample_rate": 48000,
+    "channels": 2,
+    "audio_peak_dbfs": -1.4,
+    "decode_errors": false,
+    "size_bytes": 20345096
+  },
+  "sha256": "c157c9b7ea46ff9c84eab7e93532b983e554ee1d88a71f0af82933e925138d14"
+}

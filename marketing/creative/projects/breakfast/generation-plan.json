@@ -1,0 +1,128 @@
+{
+  "campaign": "Breakfast: Final Boss",
+  "final_seconds": 25,
+  "model": "seedance_2_5",
+  "quoted_total_credits": 336,
+  "balance_before": 342.36,
+  "durations": [
+    6,
+    6,
+    4,
+    5
+  ],
+  "reference_media": {
+    "lead": "d5c4daf0-4983-4c51-a546-541c4f8a62e0",
+    "hero": "7acb052d-d6b2-4596-97aa-cf69a4671e04",
+    "homemade_result": "1d69eb2c-c44a-404b-87ce-b26a06e69691"
+  },
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 6,
+        "resolution": "1080p",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d5c4daf0-4983-4c51-a546-541c4f8a62e0"
+          },
+          {
+            "role": "image",
+            "value": "7acb052d-d6b2-4596-97aa-cf69a4671e04"
+          }
+        ],
+        "prompt": "Premium photorealistic Food Felonies food-comedy commercial, vertical9:16,1080p. Original fictional adults, not celebrities. Natural faces and anatomically correct hands/utensils, physical cooking continuity. Warm practical lighting, energetic clean editorial cuts, clear whole compositions. No writing, captions, logos, app UI, watermarks, graphic overlays, hearts or music; exact branded graphics are composited later. No speech, cheering or vocal effects. FOOD IDENTITY: TWO thick golden-brown brioche French-toast slices, ONE ivory bacon-speckled ice-cream scoop, crisp copper-red bacon pieces, a thin amber maple ribbon, one cream plate. Ice cream has visible bacon flecks inside. Preserve that construction from the food reference. No gelatin, green vegetables, fruit garnish, duplicate scoops or impossible food morphing.\nReference image1 is the exact new lead actor, wardrobe and location: original adult man around30 with short dark curls, round glasses, moustache/light stubble, navy T-shirt and mustard apron, warm amber midnight kitchen with matte dark-teal cabinets and wood counter. Keep him the same in every shot. Reference image2 is the food identity only. Leave8percent headroom whenever his face appears; show his whole head and eyes clearly, not a cropped forehead. Medium cooking framing: eyes near22percent of frame height, hands/counter around60–82percent.\nSIX-SECOND OPENING WITH FOUR CLEAR SHOTS.0.0–2.0s: stable tight over-the-shoulder insert of his upright black smartphone. Its display is a perfectly blank warm-cream rectangle. His right thumb makes ONE smooth decisive horizontal left-to-right slider gesture across the lower third of the display, reaching the far-right end. Keep phone rectangular and rigid, screen facing camera and not rotating edge-on; no text or digital marks.2.0–3.2s: slightly wider over-the-shoulder hold as he studies that blank cream phone screen, stable rectangular display, still no food on his counter.3.2–4.7s: cut to a loose close portrait of his WHOLE head with clear glasses and eyebrows, full head inside frame and room below for later caption. He raises one eyebrow and gives a slow quietly competitive mischievous grin, deciding to make the unusual recipe.4.7–6.0s: clean overhead cut to his wood counter. Four distinct ingredients arranged with negative countertop gaps: thick raw brioche slices upper-left, clear bowl of pale egg/milk mixture upper-right, crispy bacon strips lower-left, plain vanilla ice cream in a small cream bowl lower-right. One small maple bottle at far right edge. He moves a hand toward the bread to begin. Apron edge at lower frame. No prepared dish in this shot. Exact short action shots, not a slideshow. No typing."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 6,
+        "resolution": "1080p",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d5c4daf0-4983-4c51-a546-541c4f8a62e0"
+          },
+          {
+            "role": "image",
+            "value": "7acb052d-d6b2-4596-97aa-cf69a4671e04"
+          }
+        ],
+        "prompt": "Premium photorealistic Food Felonies food-comedy commercial, vertical9:16,1080p. Original fictional adults, not celebrities. Natural faces and anatomically correct hands/utensils, physical cooking continuity. Warm practical lighting, energetic clean editorial cuts, clear whole compositions. No writing, captions, logos, app UI, watermarks, graphic overlays, hearts or music; exact branded graphics are composited later. No speech, cheering or vocal effects. FOOD IDENTITY: TWO thick golden-brown brioche French-toast slices, ONE ivory bacon-speckled ice-cream scoop, crisp copper-red bacon pieces, a thin amber maple ribbon, one cream plate. Ice cream has visible bacon flecks inside. Preserve that construction from the food reference. No gelatin, green vegetables, fruit garnish, duplicate scoops or impossible food morphing.\nReference image1 is the exact new lead actor, wardrobe and location: original adult man around30 with short dark curls, round glasses, moustache/light stubble, navy T-shirt and mustard apron, warm amber midnight kitchen with matte dark-teal cabinets and wood counter. Keep him the same in every shot. Reference image2 is the food identity only. Leave8percent headroom whenever his face appears; show his whole head and eyes clearly, not a cropped forehead. Medium cooking framing: eyes near22percent of frame height, hands/counter around60–82percent.\nSIX-SECOND MAIN COOKING AND TASTE MONTAGE, five clear physical beats.0.0–0.6s: his hands dip one thick brioche slice in a shallow egg-and-milk mixture.0.6–1.8s: a separate later cooking take, medium portrait with his whole head visible as he flips a golden-brown French-toast slice in a pan using a spatula. Not burnt, no airborne acrobatics.1.8–2.8s: he snaps crisp cooked bacon and folds the small pieces into softened vanilla ice cream in a cold bowl; show crisp bacon, no raw bacon, no heat applied to ice cream.2.8–4.3s: a separate prepared serving take with the finished TWO toast slices on the cream plate. He places ONE prepared bacon-flecked scoop on the toast, then a short amber maple drizzle catches the light. Keep whole face and plated food visible, use a clear cut between the scoop and drizzle if needed, no instant freezing.4.3–6.0s: medium portrait with WHOLE head/clear eyes, finished plate visible below. He takes a small forkful of toast with a little ice cream, tastes it, then gives a surprised pleased smile and a tiny confident approving nod. Real fork and lips, no fork passing through face. Subtle steady camera punch for each shot. NO phone, no captions, no music, no voice."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "resolution": "1080p",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "d5c4daf0-4983-4c51-a546-541c4f8a62e0"
+          },
+          {
+            "role": "image",
+            "value": "7acb052d-d6b2-4596-97aa-cf69a4671e04"
+          },
+          {
+            "role": "image",
+            "value": "1d69eb2c-c44a-404b-87ce-b26a06e69691"
+          }
+        ],
+        "prompt": "Premium photorealistic Food Felonies food-comedy commercial, vertical9:16,1080p. Original fictional adults, not celebrities. Natural faces and anatomically correct hands/utensils, physical cooking continuity. Warm practical lighting, energetic clean editorial cuts, clear whole compositions. No writing, captions, logos, app UI, watermarks, graphic overlays, hearts or music; exact branded graphics are composited later. No speech, cheering or vocal effects. FOOD IDENTITY: TWO thick golden-brown brioche French-toast slices, ONE ivory bacon-speckled ice-cream scoop, crisp copper-red bacon pieces, a thin amber maple ribbon, one cream plate. Ice cream has visible bacon flecks inside. Preserve that construction from the food reference. No gelatin, green vegetables, fruit garnish, duplicate scoops or impossible food morphing.\nReference image1 is the exact new lead actor, wardrobe and location: original adult man around30 with short dark curls, round glasses, moustache/light stubble, navy T-shirt and mustard apron, warm amber midnight kitchen with matte dark-teal cabinets and wood counter. Keep him the same in every shot. Reference image2 is the food identity only. Leave8percent headroom whenever his face appears; show his whole head and eyes clearly, not a cropped forehead. Medium cooking framing: eyes near22percent of frame height, hands/counter around60–82percent.\nReference image3 is the slightly homemade plated version for consistency. FOUR-SECOND SHARING SHOT. Same man in same night kitchen stands behind his completed French toast with bacon ice cream on a cream plate. Frame head-to-waist, full head entirely inside upper third with8percent headroom, face clear. Food is on the counter in lower third. He raises an upright black smartphone at chest height, perfectly flat blank warm-cream display facing camera. He glances proudly from his plate to his phone, taps ONCE near the lower phone screen to share, then looks up with a satisfied knowing grin. The phone rectangle stays rigid and visible for precise later compositing. Keep the face, phone and dish visible together, no rotation edge-on, no food reference pictures floating in the scene. No actual text, UI, graphics, speech, cheering or music."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 5,
+        "resolution": "1080p",
+        "aspect_ratio": "9:16",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "052b20d6-6c62-4c0d-89af-02d4ec5c9f25"
+          },
+          {
+            "role": "image",
+            "value": "b246c126-0a59-4d95-bd91-2ac6b3f000db"
+          },
+          {
+            "role": "image",
+            "value": "4498750d-3af1-4ad7-801c-55e7c0e0712b"
+          },
+          {
+            "role": "image",
+            "value": "4284b1aa-ddd0-404a-9aad-364559bd3c83"
+          },
+          {
+            "role": "image",
+            "value": "7acb052d-d6b2-4596-97aa-cf69a4671e04"
+          }
+        ],
+        "prompt": "Premium photorealistic Food Felonies food-comedy commercial, vertical9:16,1080p. Original fictional adults, not celebrities. Natural faces and anatomically correct hands/utensils, physical cooking continuity. Warm practical lighting, energetic clean editorial cuts, clear whole compositions. No writing, captions, logos, app UI, watermarks, graphic overlays, hearts or music; exact branded graphics are composited later. No speech, cheering or vocal effects. FOOD IDENTITY: TWO thick golden-brown brioche French-toast slices, ONE ivory bacon-speckled ice-cream scoop, crisp copper-red bacon pieces, a thin amber maple ribbon, one cream plate. Ice cream has visible bacon flecks inside. Preserve that construction from the food reference. No gelatin, green vegetables, fruit garnish, duplicate scoops or impossible food morphing.\nA FIVE-SECOND montage of EXACTLY FOUR SEPARATE FULL-SCREEN SHOTS, one fictional home cook in each shot. Never use panels, grids, collages, multiple people together or the main lead. Images1–4 are four original identity/wardrobe/kitchen references, in shot order. Their phones in those references are irrelevant: no smartphones in this cooking montage. Image5 is only the target dish identity. The four people have just discovered a friend's shared recipe and NOW each is making it in their own kitchen. EVERY shot is a loose medium portrait: whole head entirely inside frame with8percent headroom, eyes around22percent height, active hands/counter around60–82percent; preserve entire head and eye line, no forehead/eye crops.0.00–1.25s SHOT1: exact Black adult man, short hair, burgundy T-shirt from image1. He dips one thick brioche slice into a glass bowl of pale egg/milk mixture with both hands. Raw bread and egg bowl only, no finished plate.1.25–2.50s SHOT2: exact East Asian adult woman with dark bob, white tee and blue apron from image2. She flips a crisp golden French-toast slice in a skillet using a spatula. Focused pleased expression. No finished dessert plate.2.50–3.75s SHOT3: exact older white man with gray hair and mustard-yellow shirt from image3. He crumbles crisp cooked bacon into softened vanilla ice cream in a small cold bowl and makes one folding motion. No finished toast plate.3.75–5.00s SHOT4: exact adult woman with long dark braids and cream sweater from image4. Separate later prepared serving take: TWO golden brioche slices and ONE bacon-speckled ice-cream scoop are on her cream plate; she drizzles a thin amber maple ribbon over it and smiles. This is her own homemade version. Each shot must have visible intentional cooking action immediately, one clear action per person, four distinct home kitchens, natural humans and hand geometry. No food already made in the first three prep shots. Exact clean cuts between the FOUR people, with no split-screen or extra transitions generated."
+      }
+    }
+  ]
+}
