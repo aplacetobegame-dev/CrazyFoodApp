@@ -396,7 +396,8 @@ deno_version = 2
 verify_jwt = false
 
 [functions.v1]
-verify_jwt = true
+# Anonymous recipe reads are checked inside the function. Mutations still require a user.
+verify_jwt = false
 
 [analytics]
 enabled = true

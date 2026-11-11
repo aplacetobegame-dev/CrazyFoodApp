@@ -7,7 +7,7 @@ export type WeirdnessSliderProps = {
   onChange: (value: number) => void;
 };
 
-export function WeirdnessSlider({ initialValue, value, onChange }: WeirdnessSliderProps) {
+export function WeirdnessSlider({ value, onChange }: WeirdnessSliderProps) {
   return (
     <Slider
       accessibilityLabel="Weirdness level"
@@ -16,7 +16,7 @@ export function WeirdnessSlider({ initialValue, value, onChange }: WeirdnessSlid
       minimumValue={0}
       maximumValue={100}
       step={1}
-      value={initialValue}
+      value={value}
       minimumTrackTintColor={colors.red}
       maximumTrackTintColor={colors.track}
       thumbTintColor={colors.red}

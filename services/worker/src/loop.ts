@@ -1,4 +1,4 @@
-import { classifyAttempt, handleMessage } from "./handler.ts";
+import { classifyAttempt, handleMessage, settleExhausted, type JobEffects } from "./handler.ts";
 import { log } from "./log.ts";
 import type { QueueAdapter, ReceiptStore } from "./queue/types.ts";
 
@@ -7,6 +7,7 @@ export async function processBatch(input: {
   receipts: ReceiptStore;
   maxAttempts: number;
   batchSize: number;
+  jobs?: JobEffects;
 }): Promise<{ archived: number; retried: number }> {
   const messages = await input.queue.read(input.batchSize);
   let archived = 0;
@@ -14,6 +15,17 @@ export async function processBatch(input: {
 
   for (const message of messages) {
     if (classifyAttempt(message.readCount, input.maxAttempts) === "exhaust") {
+      if (input.jobs) {
+        try {
+          await settleExhausted(message, input.jobs);
+        } catch (error) {
+          log({
+            event: "exhaust_failed",
+            messageId: message.id,
+            category: error instanceof Error ? error.name : "error",
+          });
+        }
+      }
       await input.queue.archive(message.id);
       log({ event: "job_exhausted", messageId: message.id, attempts: message.readCount });
       archived += 1;
@@ -21,7 +33,7 @@ export async function processBatch(input: {
     }
 
     try {
-      const result = await handleMessage(message, input.receipts);
+      const result = await handleMessage(message, input.receipts, input.jobs);
       if (result === "ack") {
         await input.queue.archive(message.id);
         archived += 1;

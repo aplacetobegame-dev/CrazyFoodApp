@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --experimental-strip-types src/index.ts",
     "typecheck": "tsc --noEmit",
-    "test": "node --experimental-strip-types --test src/loop.test.ts"
+    "test": "node --experimental-strip-types --test src/loop.test.ts src/fixture.test.ts src/media.test.ts"
   },
   "dependencies": {
     "@food-felonies/contracts": "workspace:*",

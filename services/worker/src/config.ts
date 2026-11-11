@@ -4,6 +4,8 @@ export type WorkerConfig = {
   maxAttempts: number;
   pollIntervalMs: number;
   port: number;
+  supabaseUrl: string;
+  supabaseSecretKey: string;
 };
 
 export function loadConfig(env: NodeJS.ProcessEnv): WorkerConfig {
@@ -18,6 +20,8 @@ export function loadConfig(env: NodeJS.ProcessEnv): WorkerConfig {
     maxAttempts: positiveInt(env.WORKER_MAX_ATTEMPTS, 5),
     pollIntervalMs: positiveInt(env.WORKER_POLL_INTERVAL_MS, 1000),
     port: positiveInt(env.PORT, 8080),
+    supabaseUrl: env.SUPABASE_URL?.trim() ?? "",
+    supabaseSecretKey: env.SUPABASE_SECRET_KEY?.trim() ?? "",
   };
 }
 

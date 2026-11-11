@@ -123,6 +123,8 @@ export function PreviewProvider({ children }: { children: ReactNode }) {
     setConnectedAccounts({});
     setShareCaptions({});
     setRewardKeys([]);
+    setModeration({});
+    nextCaseNumber.current = 73;
     setSignedIn(false);
   }
 

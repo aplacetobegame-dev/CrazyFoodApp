@@ -1,8 +1,21 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { PermanentJobError, type JobEffects } from "./handler.ts";
 import { MemoryReceiptStore } from "./receipts.ts";
 import { processBatch } from "./loop.ts";
 import type { QueueAdapter, QueueMessage } from "./queue/types.ts";
+
+function jobs(overrides: Partial<JobEffects> = {}): JobEffects {
+  return {
+    async completeGeneration() { return undefined; },
+    async failGeneration() { return undefined; },
+    async reviewPhoto() { return undefined; },
+    async rejectPhoto() { return undefined; },
+    async renderClip() { return undefined; },
+    async failClip() { return undefined; },
+    ...overrides,
+  };
+}
 
 const echoBody = {
   type: "echo",
@@ -99,4 +112,62 @@ test("an invalid message is archived and a thrown handler is left for retry", as
     batchSize: 1,
   });
   assert.deepEqual(result, { archived: 0, retried: 1 });
+});
+
+test("a permanent generation failure is refunded once and acknowledged", async () => {
+  const receipts = new MemoryReceiptStore();
+  const queue = new MemoryQueue([{
+    id: "11",
+    readCount: 1,
+    body: {
+      type: "generate_recipe",
+      idempotencyKey: "idem-key-1",
+      payload: { idempotencyKey: "idem-key-1", requestedBy: "11111111-1111-4111-8111-111111111111", jobId: "job-1" },
+    },
+  }]);
+  const failed: string[] = [];
+  const result = await processBatch({
+    queue,
+    receipts,
+    maxAttempts: 5,
+    batchSize: 1,
+    jobs: jobs({
+      async completeGeneration() {
+        throw new PermanentJobError("invalid_request");
+      },
+      async failGeneration(jobId) {
+        failed.push(jobId);
+      },
+    }),
+  });
+  assert.deepEqual(result, { archived: 1, retried: 0 });
+  assert.deepEqual(failed, ["job-1"]);
+});
+
+test("an exhausted generation asks for one refund before it is archived", async () => {
+  const receipts = new MemoryReceiptStore();
+  const queue = new MemoryQueue([{
+    id: "12",
+    readCount: 6,
+    body: {
+      type: "generate_recipe",
+      idempotencyKey: "idem-key-2",
+      payload: { idempotencyKey: "idem-key-2", requestedBy: "11111111-1111-4111-8111-111111111111", jobId: "job-2" },
+    },
+  }]);
+  const failed: string[] = [];
+  await processBatch({
+    queue,
+    receipts,
+    maxAttempts: 5,
+    batchSize: 1,
+    jobs: jobs({
+      async failGeneration(jobId, category) {
+        failed.push(`${jobId}:${category}`);
+      },
+    }),
+  });
+  assert.deepEqual(failed, ["job-2:exhausted"]);
+  assert.deepEqual(queue.archived, ["12"]);
+  assert.equal(receipts.rows.size, 0);
 });

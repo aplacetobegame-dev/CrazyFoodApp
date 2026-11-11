@@ -1,5 +1,6 @@
 import { createServerClient, type CookieMethodsServer } from "@supabase/ssr";
 import { publicSupabaseConfig } from "@/lib/public-config";
+import { serializeSetCookie, type SessionCookie } from "@/lib/session-cookies";
 
 function parseCookies(header: string | null): { name: string; value: string }[] {
   if (!header) {
@@ -28,13 +29,23 @@ function parseCookies(header: string | null): { name: string; value: string }[] 
 
 export function createRequestSupabase(cookieHeader: string | null) {
   const { url, publishableKey } = publicSupabaseConfig();
+  const setCookies: string[] = [];
   const cookies: CookieMethodsServer = {
     getAll() {
       return parseCookies(cookieHeader);
     },
-    setAll() {
-      return undefined;
+    setAll(next) {
+      setCookies.splice(0, setCookies.length, ...next.map((cookie) => serializeSetCookie(cookie as SessionCookie)));
     },
   };
-  return createServerClient(url, publishableKey, { cookies });
+  return {
+    supabase: createServerClient(url, publishableKey, { cookies }),
+    setCookieHeaders: () => [...setCookies],
+  };
+}
+
+export function applySetCookies(headers: Headers, setCookieHeaders: readonly string[]) {
+  for (const cookie of setCookieHeaders) {
+    headers.append("set-cookie", cookie);
+  }
 }

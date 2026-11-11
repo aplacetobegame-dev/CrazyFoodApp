@@ -14,6 +14,7 @@ export type ReceiptRecord = {
   messageId: string;
   idempotencyKey: string;
   jobType: string;
+  userId: string;
 };
 
 export interface ReceiptStore {

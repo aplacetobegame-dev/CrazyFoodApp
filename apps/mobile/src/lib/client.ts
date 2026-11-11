@@ -28,11 +28,20 @@ class LargeSecureStore {
   }
 
   async getItem(key: string): Promise<string | null> {
-    const encrypted = await AsyncStorage.getItem(key);
-    if (!encrypted) {
-      return encrypted;
+    try {
+      const encrypted = await AsyncStorage.getItem(key);
+      if (!encrypted) {
+        return encrypted;
+      }
+      const value = await this.decrypt(key, encrypted);
+      if (value === null) {
+        await this.removeItem(key);
+      }
+      return value;
+    } catch {
+      await this.removeItem(key).catch(() => undefined);
+      return null;
     }
-    return this.decrypt(key, encrypted);
   }
 
   async removeItem(key: string): Promise<void> {

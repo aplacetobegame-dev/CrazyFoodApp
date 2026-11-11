@@ -112,11 +112,17 @@ function IngredientField({
   );
 }
 
-export function CreateRecipeScreen({ preview = false, onBack, onSelectTab, onPreviewGenerate }: {
+export function CreateRecipeScreen({
+  preview = false, onBack, onSelectTab, onPreviewGenerate, onGenerate, allowanceText, busy = false, notice,
+}: {
   preview?: boolean;
   onBack?: () => void;
   onSelectTab?: (tab: FoodTab) => void;
   onPreviewGenerate?: (request: RecipeInput) => void;
+  onGenerate?: (request: RecipeInput) => void;
+  allowanceText?: string;
+  busy?: boolean;
+  notice?: string;
 }) {
   const scroll = useRef<ComponentRef<typeof ScrollView>>(null);
   const fieldOffsets = useRef({ ingredients: 0, time: 0 });
@@ -174,17 +180,22 @@ export function CreateRecipeScreen({ preview = false, onBack, onSelectTab, onPre
       return;
     }
 
+    const request: RecipeInput = {
+      ingredients: included,
+      exclusions: excluded.map(({ name }) => name),
+      servings,
+      weirdness,
+      maxMinutes: maxMinutes ? Number(maxMinutes) : undefined,
+      equipment: equipment.trim(),
+      cuisine: cuisine.trim(),
+      dietary: dietary.trim(),
+    };
     if (onPreviewGenerate) {
-      onPreviewGenerate({
-        ingredients: included,
-        exclusions: excluded.map(({ name }) => name),
-        servings,
-        weirdness,
-        maxMinutes: maxMinutes ? Number(maxMinutes) : undefined,
-        equipment: equipment.trim(),
-        cuisine: cuisine.trim(),
-        dietary: dietary.trim(),
-      });
+      onPreviewGenerate(request);
+      return;
+    }
+    if (onGenerate) {
+      onGenerate(request);
       return;
     }
 
@@ -230,7 +241,7 @@ export function CreateRecipeScreen({ preview = false, onBack, onSelectTab, onPre
                   <Text style={styles.intro}>Turn the ingredients you have into a delicious (and possibly criminal) recipe.</Text>
                   <View style={styles.allowanceRow}>
                     <View style={styles.allowance}>
-                      <Text style={styles.allowanceText}>3 free daily · Up to 2 earned</Text>
+                      <Text style={styles.allowanceText}>{allowanceText ?? "3 free daily · Up to 2 earned"}</Text>
                     </View>
                     {preview && (
                       <Text accessibilityLabel="Design preview with sample ingredients" style={styles.previewLabel}>
@@ -275,8 +286,9 @@ export function CreateRecipeScreen({ preview = false, onBack, onSelectTab, onPre
                       <Text accessibilityLabel={`${servings} servings`} accessibilityLiveRegion="polite"
                         style={styles.bold}>{servings}</Text>
                       <Pressable accessibilityRole="button" accessibilityLabel="Increase servings"
-                        onPress={() => setServings((value) => value + 1)} style={styles.step}>
-                        <Text style={styles.stepText}>+</Text>
+                        accessibilityState={{ disabled: servings === 12 }} disabled={servings === 12}
+                        onPress={() => setServings((value) => Math.min(12, value + 1))} style={styles.step}>
+                        <Text style={[styles.stepText, servings === 12 && styles.muted]}>+</Text>
                       </Pressable>
                     </View>
                   </View>
@@ -348,9 +360,10 @@ export function CreateRecipeScreen({ preview = false, onBack, onSelectTab, onPre
           </ScrollView>
 
           <SafeAreaView edges={preview ? ["bottom"] : []} style={styles.footer}>
-            <Pressable accessibilityRole="button" onPress={generate}
-              style={({ pressed }) => [styles.generate, pressed && styles.generatePressed]}>
-              <Text style={styles.generateText}>Generate Recipe</Text>
+            {!!notice && <Text accessibilityRole="alert" style={[styles.helper, styles.red]}>{notice}</Text>}
+            <Pressable accessibilityRole="button" disabled={busy} onPress={generate}
+              style={({ pressed }) => [styles.generate, (pressed || busy) && styles.generatePressed]}>
+              <Text style={styles.generateText}>{busy ? "Sending" : "Generate Recipe"}</Text>
               <Icon name="spark" color={colors.cream} size={22} />
             </Pressable>
             {onSelectTab && <FoodTabs active="create" onSelect={onSelectTab} />}

@@ -51,6 +51,7 @@ export function DiscoverScreen() {
   }, []);
   const publicCases = cases.filter((recipe) => recipe.published && !blockedAuthors.includes(recipe.author));
   const totalVotes = (recipe: RecipeCase) => recipe.votes[0] + recipe.votes[1] + Number(!!votes[recipe.id]);
+  if (sort === "Trending") publicCases.sort((a, b) => totalVotes(b) - totalVotes(a) || Number(b.number) - Number(a.number));
   if (sort === "Newest") publicCases.sort((a, b) => Number(b.number) - Number(a.number));
   if (sort === "Most Voted") publicCases.sort((a, b) => totalVotes(b) - totalVotes(a));
 

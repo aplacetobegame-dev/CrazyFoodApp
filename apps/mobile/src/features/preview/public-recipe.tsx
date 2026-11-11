@@ -1,17 +1,19 @@
-import { Redirect, router, useLocalSearchParams } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 import { StatusBar } from "expo-status-bar";
+import { useEffect, useState } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { colors } from "@/components/food-felonies-theme";
 import { isUiPreview } from "@/lib/app-mode";
+import { fetchPublicRecipe, type RecipeView } from "@/lib/backend";
 import { sampleRecipes, type RecipeCase } from "./preview-data";
 import { previewRoute } from "./preview-navigation";
-import { Action, Badge, Body, ChefMark, ConceptArt, Field, Heading, Note, Panel, PreviewPage, ui } from "./preview-ui";
+import { Action, Badge, Body, ChefMark, ConceptArt, Field, Heading, Note, Panel, PreviewPage, ProofArt, ui } from "./preview-ui";
 
 export function PublicRecipePreview() {
   const { slug } = useLocalSearchParams<{ slug: string }>();
+  if (!isUiPreview) return <ConnectedPublicRecipe slug={slug ?? ""} />;
   const recipe = sampleRecipes.find((item) => item.id === slug);
-  if (!isUiPreview) return <Redirect href="/" />;
 
   return (
     <SafeAreaView style={styles.page}>
@@ -84,6 +86,55 @@ export function ShareCardScreen({ recipe }: { recipe: RecipeCase }) {
         <Note>On Expo Go, add this path after /-- in your development URL to test a direct launch.</Note>
       </Panel>
     </PreviewPage>
+  );
+}
+
+function ConnectedPublicRecipe({ slug }: { slug: string }) {
+  const [recipe, setRecipe] = useState<RecipeView | null>();
+  useEffect(() => {
+    let active = true;
+    void fetchPublicRecipe(slug).then((next) => {
+      if (active) setRecipe(next);
+    });
+    return () => {
+      active = false;
+    };
+  }, [slug]);
+
+  return (
+    <SafeAreaView style={styles.page}>
+      <StatusBar style="dark" />
+      <ScrollView contentContainerStyle={styles.content}>
+        <Text style={ui.title}>Food Felonies</Text>
+        {!recipe ? (
+          <Panel>
+            <Heading>{recipe === null ? "Recipe unavailable" : "Loading recipe"}</Heading>
+            <Body>Only published cases are visible here.</Body>
+          </Panel>
+        ) : (
+          <Panel>
+            <Badge>CASE</Badge>
+            <Text accessibilityRole="header" style={ui.title}>{recipe.title}</Text>
+            <Body>{recipe.description}</Body>
+            <ConceptArt recipe={{ art: recipe.sampleImageKey, title: recipe.title }} square />
+            <Note>Sample concept image</Note>
+            <Heading>Ingredients</Heading>
+            {recipe.ingredients.map((item) => <Body key={item.name}>• {item.quantity ? `${item.quantity} ${item.name}` : item.name}</Body>)}
+            <Heading>Instructions</Heading>
+            {recipe.steps.map((step, index) => <Body key={step}>{index + 1}. {step}</Body>)}
+            <Heading>Cooked Results</Heading>
+            {recipe.cookedResults.length === 0 && <Body>No approved cooked photos yet.</Body>}
+            {recipe.cookedResults.map((photo) => (
+              <View key={photo.id}>
+                {!!photo.imageUrl && <ProofArt uri={photo.imageUrl} label="Cooked result" />}
+                <Body>Taste {photo.taste}/5 · {photo.verdict}</Body>
+              </View>
+            ))}
+            <Action label="Open in the app" onPress={() => router.push(`/case/${recipe.id}`)} />
+          </Panel>
+        )}
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 

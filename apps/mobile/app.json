@@ -37,7 +37,21 @@
         }
       ],
       "expo-video",
-      "expo-asset"
+      "expo-asset",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Food Felonies uses the camera to photograph the dish you cooked.",
+          "microphonePermission": "Food Felonies does not record audio with cooked-result photos.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Food Felonies uses your photos when you choose a cooked-result picture."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true,

@@ -43,6 +43,7 @@ export default function MainLayout() {
       <Tabs.Screen name="new-recipe" />
       <Tabs.Screen name="cases" />
       <Tabs.Screen name="profile" />
+      <Tabs.Screen name="moderation" options={{ href: null }} />
     </Tabs>
   );
 }

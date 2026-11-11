@@ -143,7 +143,7 @@ export function conceptSource(recipe: Pick<RecipeCase, "art">) {
     : require("@/assets/images/food-felonies/pickle-maple-rice.jpg");
 }
 
-export function ConceptArt({ recipe, square = false }: { recipe: RecipeCase; square?: boolean }) {
+export function ConceptArt({ recipe, square = false }: { recipe: Pick<RecipeCase, "art" | "title">; square?: boolean }) {
   const source = conceptSource(recipe);
   return <Image source={source} accessible accessibilityLabel={`AI concept for ${recipe.title}`}
     contentFit="cover" style={[ui.image, square && ui.square]} />;

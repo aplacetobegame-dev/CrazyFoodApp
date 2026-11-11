@@ -18,17 +18,41 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let active = true;
-    supabase.auth.getSession().then(({ data }) => {
-      if (!active) {
-        return;
-      }
-      setSession(data.session);
-      setReady(true);
-    });
     const { data } = supabase.auth.onAuthStateChange((_event, nextSession) => {
       setSession(nextSession);
       setReady(true);
     });
+
+    async function load() {
+      try {
+        const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+        if (!active) return;
+        const stored = sessionError ? null : sessionData.session;
+        if (!stored) {
+          setSession(null);
+          return;
+        }
+        const { data: userData, error: userError } = await supabase.auth.getUser();
+        if (!active) return;
+        if (userData.user) {
+          setSession(stored);
+          return;
+        }
+        const offline = userError?.message.toLowerCase().includes("fetch") || userError?.status === 0;
+        if (offline) {
+          setSession(stored);
+          return;
+        }
+        await supabase.auth.signOut({ scope: "local" });
+        if (active) setSession(null);
+      } catch {
+        if (active) setSession(null);
+      } finally {
+        if (active) setReady(true);
+      }
+    }
+
+    void load();
     return () => {
       active = false;
       data.subscription.unsubscribe();

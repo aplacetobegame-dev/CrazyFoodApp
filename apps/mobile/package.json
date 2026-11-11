@@ -58,7 +58,8 @@
     "web": "expo start --web",
     "export:web": "expo export --platform web",
     "typecheck": "tsc --noEmit",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test": "node --experimental-strip-types --test src/lib/session-cookies.test.ts"
   },
   "private": true
 }
