@@ -1,0 +1,14 @@
+node_modules
+.expo
+dist
+.git
+supabase/.temp
+supabase/.branches
+coverage
+*.md
+marketing
+outreach
+
+# Local environment files stay out of Docker build contexts.
+**/.env
+**/.env.*

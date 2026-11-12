@@ -1,0 +1,4095 @@
+{
+  "status": "complete",
+  "original_files": 539,
+  "original_bytes": 558357070,
+  "original_inventory": [
+    {
+      "path": "commercial-art-v7/build_review.py",
+      "bytes": 5420,
+      "sha256": "92e9c88e1b89418b4a2968830d77ae039f224ce72150b6a86f6eeac341abb38e"
+    },
+    {
+      "path": "commercial-art-v7/chef-normal-expressions.png",
+      "bytes": 1100453,
+      "sha256": "7c79fc34b1a5b57d7db8cd8b50af9a598d86e8d3b766ff9d0d1b6576d7fe47fb"
+    },
+    {
+      "path": "commercial-art-v7/chef-progression-review.png",
+      "bytes": 877055,
+      "sha256": "6a1a135e216b37a57504376d7e156a8efaf754b24e909510ce8bbf5be09b929b"
+    },
+    {
+      "path": "commercial-art-v7/chef-toxic-progression.png",
+      "bytes": 2040875,
+      "sha256": "5b204a9cc1397794dcfd66df1906d7ba0cfed409c42f810ddc1782fda813c09f"
+    },
+    {
+      "path": "commercial-art-v7/generation-manifest.json",
+      "bytes": 14017,
+      "sha256": "bcd94e9bfd0e99b8f61b131ceca72424e63e9525a9bbf3f63178dd4b2508fb1e"
+    },
+    {
+      "path": "commercial-art-v7/ingredient-art-review.png",
+      "bytes": 554028,
+      "sha256": "54b904a423391c1422a4125a396eb03fac4886e31f1245f83eea2d1bfe84ee8d"
+    },
+    {
+      "path": "commercial-art-v7/ingredient-celery.png",
+      "bytes": 1215778,
+      "sha256": "36e6e6c5ee6d049bcd948981af599da4833d9d52fb76edf93fc1651dfb30aae0"
+    },
+    {
+      "path": "commercial-art-v7/ingredient-gelatin.png",
+      "bytes": 1365983,
+      "sha256": "944e528fa9adde116cad8622866ce9b95af5c51917d3a935df8808cc7f9e3472"
+    },
+    {
+      "path": "commercial-art-v7/ingredient-green-pepper.png",
+      "bytes": 1079264,
+      "sha256": "70ccf2e37cd60b603082bcb53e838c424f38e927b2572659753bfe3c0ab2e67c"
+    },
+    {
+      "path": "commercial-art-v7/ingredient-onion.png",
+      "bytes": 1401729,
+      "sha256": "d180d30a046f6f71d24f51d9d8390d6f0c63e1bbb315085b2c1f2620c1959def"
+    },
+    {
+      "path": "commercial-art-v7/README.md",
+      "bytes": 2201,
+      "sha256": "6aa48f8662e905cc6ac3df79622e9f3e2c189970814492adb335be64ee8681ea"
+    },
+    {
+      "path": "commercial-art-v7/verification.json",
+      "bytes": 1839,
+      "sha256": "7a6908ce740be30e5a48b3096310b4d8b95dd8a331f797f5c99e907284927b9d"
+    },
+    {
+      "path": "commercial-breakfast-v1/art-generation.json",
+      "bytes": 3437,
+      "sha256": "52f72adc0361415f7f73e71f7969dda7e546c11ab99063748dc394d871b8ec1f"
+    },
+    {
+      "path": "commercial-breakfast-v1/art-prompts-extra.json",
+      "bytes": 3017,
+      "sha256": "361a3ea23568e9930a2a7a7bd6bfcec76fdff830035e432795e71d253072f4a0"
+    },
+    {
+      "path": "commercial-breakfast-v1/breakfast_ui.py",
+      "bytes": 14566,
+      "sha256": "7c50dae26e780d60cc5ec0deeb82fee945bdd0502218cad2577236c06f4105da"
+    },
+    {
+      "path": "commercial-breakfast-v1/community-results-generation.json",
+      "bytes": 1671,
+      "sha256": "a63bbe855d502259edd5ee127db87dbb49fc312738c56b2333835e6e297274d3"
+    },
+    {
+      "path": "commercial-breakfast-v1/delivery.json",
+      "bytes": 564,
+      "sha256": "0ff18a2b8e9fec8b6059b71a298736e1f335a976d13a9735c33860cb202f2dce"
+    },
+    {
+      "path": "commercial-breakfast-v1/food-felonies-breakfast-final-boss-25s.mp4",
+      "bytes": 17726877,
+      "sha256": "c408c9f5232e5fa08b5515b299425079aeec99db7466c0a527a5a52bec0418bf"
+    },
+    {
+      "path": "commercial-breakfast-v1/generation-completed.json",
+      "bytes": 1437,
+      "sha256": "65e247c882e8a9567c0add80fc4dd173c48e7ef32e253ac1699fbeb94974cff1"
+    },
+    {
+      "path": "commercial-breakfast-v1/generation-plan.json",
+      "bytes": 13450,
+      "sha256": "65c3ccde07277e3070c9b97cff52b3aed489e4c5a1060db19c3ec3869f8559d1"
+    },
+    {
+      "path": "commercial-breakfast-v1/generation-status-1.json",
+      "bytes": 1013,
+      "sha256": "467aed8c991fb9b78a5ce8ddeae8e375ff43ce1448c73286fe7f67abca4c6ac4"
+    },
+    {
+      "path": "commercial-breakfast-v1/generation-status-partial.json",
+      "bytes": 862,
+      "sha256": "5718a57446274155c6f97182b6b08c35d9091e1dea56d2387f22b66d5c3b6f82"
+    },
+    {
+      "path": "commercial-breakfast-v1/make_foley.py",
+      "bytes": 9657,
+      "sha256": "8dd78fdb7dae34d9002ce9370cfcbde37078d531f37215d01a960ea5966e1256"
+    },
+    {
+      "path": "commercial-breakfast-v1/picture.mp4",
+      "bytes": 17095711,
+      "sha256": "a400ff3e12e8ffe01040d085f1e0dfebc70ce295e8d43dbd7ff250708223124d"
+    },
+    {
+      "path": "commercial-breakfast-v1/poster.jpg",
+      "bytes": 454904,
+      "sha256": "aae741b4244f4a61ca346a9cb80228e1f31de97087127bb9884007b24afc2d92"
+    },
+    {
+      "path": "commercial-breakfast-v1/prepare_assets.py",
+      "bytes": 2699,
+      "sha256": "c8f2f04e52ed5d8957cc9e825be75bf1b330c12477e91f3eae1b671e2da87e0a"
+    },
+    {
+      "path": "commercial-breakfast-v1/README.md",
+      "bytes": 4441,
+      "sha256": "88e72c9f00f6479ac316644ba84d3f2ae0091703c4b5a93498cf7a1950bd5b5d"
+    },
+    {
+      "path": "commercial-breakfast-v1/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-breakfast-v1/render_commercial.py",
+      "bytes": 9368,
+      "sha256": "76d106e184bbef4cb581bb96315d0c21c2924bcc192e3ff8c59149f9cce32c4d"
+    },
+    {
+      "path": "commercial-breakfast-v1/repair_share_track.py",
+      "bytes": 2481,
+      "sha256": "412e8488accefd1f102d01b977237150f6e5cb74ef7a24e71e0aab85b61cef35"
+    },
+    {
+      "path": "commercial-breakfast-v1/submission-response.json",
+      "bytes": 2836,
+      "sha256": "369e660e1f0117aa8a8d71d96b11c0516b19f7515fdf567be1557ed8630672ab"
+    },
+    {
+      "path": "commercial-breakfast-v1/timing.json",
+      "bytes": 221,
+      "sha256": "a06d5529d47b644503e8d80aef1a44f866f2eef53ef89361933ac4d7e16fb565"
+    },
+    {
+      "path": "commercial-breakfast-v1/tracking.json",
+      "bytes": 23867,
+      "sha256": "3c23b57aa347652149b4885d0978b473d31126111d4939ec001e5494d2aec753"
+    },
+    {
+      "path": "commercial-breakfast-v1/verify_export.py",
+      "bytes": 3877,
+      "sha256": "f356c2ab0b8a598e792c4249fe77431325bb64ab120d025760cd2b10d5030dc9"
+    },
+    {
+      "path": "commercial-final-v10/delivery.json",
+      "bytes": 433,
+      "sha256": "2554322dc9c7bfd000dce91ea1df6181a4160b5d000ce35bdfe68ae81933a174"
+    },
+    {
+      "path": "commercial-final-v10/end-card-generated.png",
+      "bytes": 1494886,
+      "sha256": "5801f50645db3e19f387a57e6cb616aa6bd484a2e833f80baa9eb8a47b03f03f"
+    },
+    {
+      "path": "commercial-final-v10/end-card-generation.json",
+      "bytes": 2428,
+      "sha256": "afc62c3c36252bd6ddaca80616b6ffbe7c14f8296b71caa5b2d73f15470a4543"
+    },
+    {
+      "path": "commercial-final-v10/end-frame-1080x1920.png",
+      "bytes": 1678900,
+      "sha256": "48adb928783de8fc22dee4afb88429455976ab8441e4050441bc839e3c95810d"
+    },
+    {
+      "path": "commercial-final-v10/food-felonies-mask-ending-25s-v10.mp4",
+      "bytes": 18403642,
+      "sha256": "f51916d24336d2842a0d5fe3123c83d23716cacaf1bb2a1506575d562a92cc90"
+    },
+    {
+      "path": "commercial-final-v10/README.md",
+      "bytes": 1203,
+      "sha256": "f55f47c00ccf5eb52ba65ccd01a100e5efa7c8f8c6a2ad5801e9ba6f2cd39388"
+    },
+    {
+      "path": "commercial-final-v10/replace_end_card.py",
+      "bytes": 3442,
+      "sha256": "dd78bb9d58cd4590a3805ffe9c21ffff8cfc04c46b33c33b201a34840f8253d6"
+    },
+    {
+      "path": "commercial-final-v11/delivery.json",
+      "bytes": 424,
+      "sha256": "39d78e604d91acf816a01652269963ba0e2ae6bf7271fd7ff501082004c57ad5"
+    },
+    {
+      "path": "commercial-final-v11/food-felonies-discover-then-cook-25s-v11.mp4",
+      "bytes": 20310066,
+      "sha256": "ac5ba1cea2ca3096151816be7754a05cfa5c91c4cb03217df94eb71601d2ae40"
+    },
+    {
+      "path": "commercial-final-v11/generation-completed.json",
+      "bytes": 1437,
+      "sha256": "6920513794902728e66caee885f8a23c5da8330e224fabce5b6a3a7bea1b9fda"
+    },
+    {
+      "path": "commercial-final-v11/generation-plan.json",
+      "bytes": 12714,
+      "sha256": "1897eab444c086224dd98ea8a8442da68c17138b0554da4f591b3092778c883e"
+    },
+    {
+      "path": "commercial-final-v11/generation-status-partial.json",
+      "bytes": 1164,
+      "sha256": "64176ec8a27fb861f00831ce29dd1e00a7fd607142ec241c65a110a25d9533bd"
+    },
+    {
+      "path": "commercial-final-v11/picture.mp4",
+      "bytes": 19677796,
+      "sha256": "4ad95d3680062729f7ee1e905dda11bbfbd11b94e2eec8685b60449d658f391d"
+    },
+    {
+      "path": "commercial-final-v11/poster.jpg",
+      "bytes": 361145,
+      "sha256": "076a87832583607ff2f58bf78df4527d703c668fe298ea66a448a82dcd942043"
+    },
+    {
+      "path": "commercial-final-v11/prepare_assets.py",
+      "bytes": 2040,
+      "sha256": "343eee95b4a10ccce77ce7748453382b654f237f8a9341835b5502ab71eb021a"
+    },
+    {
+      "path": "commercial-final-v11/README.md",
+      "bytes": 2771,
+      "sha256": "033b5d8e70c21b3dcec39349c9add0afd94e8bd4c93a515236dbf90b79dc1cb5"
+    },
+    {
+      "path": "commercial-final-v11/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-final-v11/render_commercial.py",
+      "bytes": 7950,
+      "sha256": "58f1d346176b01d2690d626e9fb7b212bf060e75a7c406eaa25015fe432c64ce"
+    },
+    {
+      "path": "commercial-final-v11/submission-response.json",
+      "bytes": 2104,
+      "sha256": "c62769bc6ecdd9d30d223fadff65c0c0c0f97474fb0003022fd4210c356a5e78"
+    },
+    {
+      "path": "commercial-final-v11/verify_export.py",
+      "bytes": 3586,
+      "sha256": "2f8ad165160d5f8d0802056f300200c3d3801472a05bcba010bf919fd1bc41ec"
+    },
+    {
+      "path": "commercial-final-v12/caption-segment.mp4",
+      "bytes": 1688852,
+      "sha256": "ba5478992a6d9b442d8f0fe24d94820fdd81a1ca16cec4b6999ea240eb5df937"
+    },
+    {
+      "path": "commercial-final-v12/delivery.json",
+      "bytes": 297,
+      "sha256": "244fd7cb2c4bdbd3d979ccc68c1dbc5f1fa37329d57959f34521c32f99138762"
+    },
+    {
+      "path": "commercial-final-v12/food-felonies-dare-to-cook-25s-v12.mp4",
+      "bytes": 20345096,
+      "sha256": "c157c9b7ea46ff9c84eab7e93532b983e554ee1d88a71f0af82933e925138d14"
+    },
+    {
+      "path": "commercial-final-v12/README.md",
+      "bytes": 954,
+      "sha256": "da6f592d7c0351d71e7c877912f921251673b6be12c6ded473c9f063685798d6"
+    },
+    {
+      "path": "commercial-final-v12/replace_caption.py",
+      "bytes": 3708,
+      "sha256": "8dd0ceae172d1acd80d71f2fefa69ed17471dbbf36462b9a80c01c319dbb7824"
+    },
+    {
+      "path": "commercial-final-v5/community-cast-reference.md",
+      "bytes": 1874,
+      "sha256": "dbd43b41acb3a605ec8ed78e48f35cb7feb263c5d7d14add4c4539d8d19fb2e8"
+    },
+    {
+      "path": "commercial-final-v5/community-original-cast-submission.json",
+      "bytes": 5970,
+      "sha256": "f1120a95a716b1e4dbc4e22df771bb96660a7338aa2a822bb07933c82688addd"
+    },
+    {
+      "path": "commercial-final-v5/community-submission-response.json",
+      "bytes": 3432,
+      "sha256": "981732686a37b2ed35efcaec8570e55e840c92bedbc9e6eb48c64eaeec905d86"
+    },
+    {
+      "path": "commercial-final-v5/compose_commercial.py",
+      "bytes": 22291,
+      "sha256": "2de057c957c86f86aaab2126b2dcb95153820b348a5790b6dd81d17fe94ba3b1"
+    },
+    {
+      "path": "commercial-final-v5/delivery.json",
+      "bytes": 1047,
+      "sha256": "fd067eae1d14e37c8b9a4b8047be1fda3211729931d0121ae1ba149e35751dfd"
+    },
+    {
+      "path": "commercial-final-v5/food-felonies-25s-seedance-v5.mp4",
+      "bytes": 13378190,
+      "sha256": "190075695082f7e8d11f682ab293172d03d26e9c14ac217ac6452a1e3e6257b8"
+    },
+    {
+      "path": "commercial-final-v5/food-felonies-commercial-25s.mp4",
+      "bytes": 13378190,
+      "sha256": "190075695082f7e8d11f682ab293172d03d26e9c14ac217ac6452a1e3e6257b8"
+    },
+    {
+      "path": "commercial-final-v5/generation-jobs.json",
+      "bytes": 525,
+      "sha256": "877cfc03df48e6aa2203efdad7a7491fa8ad2bb0c73de5147e98cb5731f921d2"
+    },
+    {
+      "path": "commercial-final-v5/music.wav",
+      "bytes": 4800044,
+      "sha256": "757a29ae20c71bcae3329185506bdd02481ae10b20d77464f58df796eed93c91"
+    },
+    {
+      "path": "commercial-final-v5/picture.mp4",
+      "bytes": 12739065,
+      "sha256": "b65acce944939e3e9a5561efb9f56196b1277532dd1ddcb83576c6ef2a18cdac"
+    },
+    {
+      "path": "commercial-final-v5/poster.jpg",
+      "bytes": 404066,
+      "sha256": "59446564f8902fa1d3918bfef32843d56b89a3e8097fd978aada2c24e7e48d00"
+    },
+    {
+      "path": "commercial-final-v5/README.md",
+      "bytes": 3780,
+      "sha256": "e5df283f74384224eaa4d7590a47003ff861b0ce0bd5c6807465858dc089a48b"
+    },
+    {
+      "path": "commercial-final-v5/reference-generation.md",
+      "bytes": 1458,
+      "sha256": "57617eb6204156368c317b93fc06c09cc2bfd86b00ee59283c8c72d16995d89c"
+    },
+    {
+      "path": "commercial-final-v5/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-final-v5/sharing-submission-response.json",
+      "bytes": 2690,
+      "sha256": "ac1e6f1fa13a2cfe884f8ee6d34d8ec3eab4e3301c654a9f70c0ffc477d892b6"
+    },
+    {
+      "path": "commercial-final-v5/source-results.json",
+      "bytes": 1336,
+      "sha256": "cf2211074944c29d56f593f0da2d9d4d7c36e12c12c31b71e06252794c77814a"
+    },
+    {
+      "path": "commercial-final-v5/submission-plan.json",
+      "bytes": 10657,
+      "sha256": "f385d662a1443a4b8a7927e67bd8ee11b3aa528a1e2eb18e9518c15d1b91daee"
+    },
+    {
+      "path": "commercial-final-v5/submission-response-active-connection.json",
+      "bytes": 2351,
+      "sha256": "048b01571c2c6915bdba2e5c8823a0870adde7b6f4641afd96acb4baf610f409"
+    },
+    {
+      "path": "commercial-final-v5/submission-response.json",
+      "bytes": 151,
+      "sha256": "fc5efd131e39b5067e7267b1604877299132b7f866f58bdb935bb1ac4a945071"
+    },
+    {
+      "path": "commercial-final-v5/upload-receipts.json",
+      "bytes": 307,
+      "sha256": "12a24ce2a588eede0d6d0dcf901a1ee54ce9a6b846751b83681c1fabc8f5ab27"
+    },
+    {
+      "path": "commercial-final-v5/verification.json",
+      "bytes": 642,
+      "sha256": "8ec1bb8aed30e3182148b839a6dc6c3c45c943217d435d3c7c55f0f207d8b6af"
+    },
+    {
+      "path": "commercial-final-v6/delivery.json",
+      "bytes": 1236,
+      "sha256": "3ec276dcbacd878f0dcd110baf8672ca9992cbaeb5c26c6b3c10a57ac537f303"
+    },
+    {
+      "path": "commercial-final-v6/food-felonies-25s-rock-v6.mp4",
+      "bytes": 17120582,
+      "sha256": "fd14855c87977229edc8952538502ce535f1016646fe2642b3d2af6f17a52e2d"
+    },
+    {
+      "path": "commercial-final-v6/food-felonies-radioactive-rock-25s.mp4",
+      "bytes": 17120582,
+      "sha256": "fd14855c87977229edc8952538502ce535f1016646fe2642b3d2af6f17a52e2d"
+    },
+    {
+      "path": "commercial-final-v6/music-request.json",
+      "bytes": 2675,
+      "sha256": "60e68cd1aac32b5c8abdd945a8f777275dfce38870eaa8d5ca4ab8a58d889511"
+    },
+    {
+      "path": "commercial-final-v6/opening-radioactive.mp4",
+      "bytes": 1104714,
+      "sha256": "74dc8c70aac9b8a05341ec5ecf52bbe7b17e9929dbb5e03f09137832f36d624f"
+    },
+    {
+      "path": "commercial-final-v6/picture-radioactive.mp4",
+      "bytes": 16487278,
+      "sha256": "a91c630210257ae1008f91ead514970e391df7dc3439c807283b5c8c89827790"
+    },
+    {
+      "path": "commercial-final-v6/picture.mp4",
+      "bytes": 13895325,
+      "sha256": "bfd681bf035fff0b5a08d4ddf10e4b9a5238f37420ce2334c7c437dc51396a05"
+    },
+    {
+      "path": "commercial-final-v6/README.md",
+      "bytes": 2935,
+      "sha256": "e0eb1335b98f9022a4c26c43aebf5db036480e227fe0ff6c68cb4b63be79a733"
+    },
+    {
+      "path": "commercial-final-v6/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-final-v6/revise_commercial.py",
+      "bytes": 19157,
+      "sha256": "9fb86a9f4f2319d0927f62408e1e8cd3dbe3f2272637f447162e8f7aa7c59902"
+    },
+    {
+      "path": "commercial-final-v6/verification.json",
+      "bytes": 3670,
+      "sha256": "e345250d1fd620d5295134047227420350a60d797a7de7f14dfd0575a18f5668"
+    },
+    {
+      "path": "commercial-final-v7/delivery.json",
+      "bytes": 439,
+      "sha256": "5d317a3ab89fb9d6d26b56c26baefc9fd999ce2d4e3e424e420a25880f197214"
+    },
+    {
+      "path": "commercial-final-v7/food-felonies-toxic-chef-25s-v7.mp4",
+      "bytes": 18968521,
+      "sha256": "4cf6383912237fc900e1c6a661acaf54339bfd28965f056e40e5f1a5be8fc467"
+    },
+    {
+      "path": "commercial-final-v7/picture.mp4",
+      "bytes": 18335249,
+      "sha256": "fbca13bb38b1e87211e0607c14c48ea6349e925c9659e232f1bd2db3a36be322"
+    },
+    {
+      "path": "commercial-final-v7/poster.jpg",
+      "bytes": 426708,
+      "sha256": "d37a0ba32b83a93e306c416e2dcd5627609dba15ac7ca55309cbc54e281002df"
+    },
+    {
+      "path": "commercial-final-v7/README.md",
+      "bytes": 3347,
+      "sha256": "068bbad5b9bca130f0e777091810c02e4af23c2634caaecfe180ad61f8173d18"
+    },
+    {
+      "path": "commercial-final-v7/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-final-v7/render_commercial.py",
+      "bytes": 19841,
+      "sha256": "1de44d63db40c700a3e8c2b9fe8a0110cef948795ccc08ee2a139a69de27e242"
+    },
+    {
+      "path": "commercial-final-v7/tracking.json",
+      "bytes": 31830,
+      "sha256": "b83d88db9f53169dfa0550cc6a735eae0f46d91f96031ea0a674128f5e868490"
+    },
+    {
+      "path": "commercial-final-v7/verify_export.py",
+      "bytes": 3258,
+      "sha256": "6fd5c5a5d4cd882c024d62d6e51dbfcabc7aa70206b05fe4238121af4c9bec91"
+    },
+    {
+      "path": "commercial-final-v8/delivery.json",
+      "bytes": 450,
+      "sha256": "a40c22b42f84319f71ea12082a68dce6aa569923b59f478c42ef25fdecff77d5"
+    },
+    {
+      "path": "commercial-final-v8/food-felonies-hearts-four-reactions-25s-v8.mp4",
+      "bytes": 15841805,
+      "sha256": "29c0c9e1ec1ad50486cedd6000993b55b01ef801a1b10077d9337468f31103fc"
+    },
+    {
+      "path": "commercial-final-v8/generation-completed.json",
+      "bytes": 1437,
+      "sha256": "f8d6bb73710d8833b8f8618248d72a51a97ffaa35cb8d22b2f10130e87dc0784"
+    },
+    {
+      "path": "commercial-final-v8/generation-plan.json",
+      "bytes": 13081,
+      "sha256": "9d371c65c82427b96e78047b66e08ac27722ba6072cf48d4db6d37573b5fe36c"
+    },
+    {
+      "path": "commercial-final-v8/generation-status-partial.json",
+      "bytes": 1336,
+      "sha256": "b8a3c76100aaaa4ef4956cfe1b787c27824610fb32604980344fc552c40411d2"
+    },
+    {
+      "path": "commercial-final-v8/picture.mp4",
+      "bytes": 15209467,
+      "sha256": "acb5a96a62887ff0d8299430fd0b5a9224a7f1c7fa3c5fb129d0e6ec59e67b57"
+    },
+    {
+      "path": "commercial-final-v8/poster.jpg",
+      "bytes": 440529,
+      "sha256": "4d95dac4c4481afa0fca676e9ddd2e3fcb27183036ad18dec46794e12d6d1ab1"
+    },
+    {
+      "path": "commercial-final-v8/prepare_assets.py",
+      "bytes": 2046,
+      "sha256": "c05c410d2431fa0b0648d5b58e68b7ee56d7cef63c0b836a287f741212ef67c4"
+    },
+    {
+      "path": "commercial-final-v8/README.md",
+      "bytes": 2782,
+      "sha256": "b53bf3694673a448f909bee7666aa30157b9dbf6c69b2621fdc55e32ccae1efe"
+    },
+    {
+      "path": "commercial-final-v8/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-final-v8/render_commercial.py",
+      "bytes": 12887,
+      "sha256": "95fdb61a1d072f6e6e4b59dfa767a6b469d4bab7a6b4419c78773097530b279b"
+    },
+    {
+      "path": "commercial-final-v8/share-foley.wav",
+      "bytes": 4800044,
+      "sha256": "0197f3d6b78bd7678bf62a1c8918fb612e7b14672c35b19083e1d58cabd0a776"
+    },
+    {
+      "path": "commercial-final-v8/submission-response.json",
+      "bytes": 2926,
+      "sha256": "e0801269a6153be8ecd3f52f224523bef5cc7985ee270573a5d5b8e4dd25cdce"
+    },
+    {
+      "path": "commercial-final-v8/verify_export.py",
+      "bytes": 3380,
+      "sha256": "d04c2ed46fb383f81fce2fc6ffb3b0838cad3a2d8e94da59d61d474c63ba68ad"
+    },
+    {
+      "path": "commercial-final-v9/delivery.json",
+      "bytes": 430,
+      "sha256": "39c1b3c15b7ffad499ce790371f96bcfbe6499e8def19b1d6dcd8a713e2806a0"
+    },
+    {
+      "path": "commercial-final-v9/end-card-generated.png",
+      "bytes": 1310878,
+      "sha256": "3e733d08e721fbe488bc5b5f1e0b96f0efb02e4e06ec53226467de325893ac3b"
+    },
+    {
+      "path": "commercial-final-v9/end-card-generation.json",
+      "bytes": 3540,
+      "sha256": "ee35198b0f16a5ab22101959dd7849479bc5e9d743d13f9fd634f7cc0d18a819"
+    },
+    {
+      "path": "commercial-final-v9/end-frame-1080x1920.png",
+      "bytes": 1464681,
+      "sha256": "9e22275199fabd8908f94193608c75392e6c47a9367f3f0c3745650e48299f57"
+    },
+    {
+      "path": "commercial-final-v9/food-felonies-clean-ending-25s-v9.mp4",
+      "bytes": 18329706,
+      "sha256": "1cecd4bc3295308de46d0d57119b858272f6da3bbc3a1319bd643557fd2d3606"
+    },
+    {
+      "path": "commercial-final-v9/README.md",
+      "bytes": 1458,
+      "sha256": "26b9a30f5279223c7e3fb9b2c7d6bbf25338725c1333904d4b2d1822e9622b05"
+    },
+    {
+      "path": "commercial-final-v9/replace_end_card.py",
+      "bytes": 3395,
+      "sha256": "7d4bdc66fef4bc2c4d2d62164cd3b7c6005159db5ac8969e1931c8f0947289aa"
+    },
+    {
+      "path": "commercial-test-v1/food-felonies-commercial-25s-v1.mp4",
+      "bytes": 5588792,
+      "sha256": "e9dbab75589c215c46e1db1da83a93907eca53f9b8c3c064cc3b5bd892999bb7"
+    },
+    {
+      "path": "commercial-test-v1/frame-01.jpg",
+      "bytes": 243173,
+      "sha256": "d2e6eafa886f2c3d8ed5ac5330766bb2f8c04b19267e7cac022f53d58480a51c"
+    },
+    {
+      "path": "commercial-test-v1/frame-02.jpg",
+      "bytes": 195607,
+      "sha256": "b238ada27371532313f2b433f79efe8c03e90861b9c916227ae8c71274e2ed03"
+    },
+    {
+      "path": "commercial-test-v1/frame-03.jpg",
+      "bytes": 220941,
+      "sha256": "68e533fa6779fc2a8ca2ba7c50eb3dd388cd1ea28342c01be40484d22cc58ea6"
+    },
+    {
+      "path": "commercial-test-v1/frame-04.jpg",
+      "bytes": 108309,
+      "sha256": "4ccd02c8b97f5b45d2dafd79a07f25d2bb0b177781641f992ad0265fdeab1ca0"
+    },
+    {
+      "path": "commercial-test-v1/frame-05.jpg",
+      "bytes": 108768,
+      "sha256": "cd503185eae3c6fa8b51fd11351830f4e440543de57c8884f150dcc44326cb1d"
+    },
+    {
+      "path": "commercial-test-v1/frame-06.jpg",
+      "bytes": 135194,
+      "sha256": "0f96a2ebc6377a47decc4d679d5e01e2620c15e6d0a92573d2b67174e86cfd03"
+    },
+    {
+      "path": "commercial-test-v1/frame-07.jpg",
+      "bytes": 128336,
+      "sha256": "a956fd6cdcec0c976aa87dcabf0c469007967bea7ed01c536d45ba68fb1e0fde"
+    },
+    {
+      "path": "commercial-test-v1/frame-08.jpg",
+      "bytes": 82101,
+      "sha256": "140349bed532c6ac677e863b57fbc422106d43444832b034836fa31ff4cc3562"
+    },
+    {
+      "path": "commercial-test-v1/poster.jpg",
+      "bytes": 531402,
+      "sha256": "002548d1d4bb1f3156ac3cde0bc15281740ab34d24d7d3cc61e98cf569eab286"
+    },
+    {
+      "path": "commercial-test-v1/production-notes.md",
+      "bytes": 3766,
+      "sha256": "104133e2f56c6e3240fb0a759b34721c3155a752b4780760ffb15ec3c2facef3"
+    },
+    {
+      "path": "commercial-test-v1/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "commercial-test-v1/render_commercial.py",
+      "bytes": 18099,
+      "sha256": "8be9265d657867ad6bd019f69844a8a50a8d4b4ace8a3e253c68d10ad521b3f2"
+    },
+    {
+      "path": "commercial-test-v1/soundtrack.wav",
+      "bytes": 4800044,
+      "sha256": "9c854ca1e4eb7e06b25a27155596deebaf61f555e1578f74ffef6a27780a10ac"
+    },
+    {
+      "path": "commercial-test-v1/storyboard.jpg",
+      "bytes": 481783,
+      "sha256": "cc61b4bb1896adbc93b270900a524a8625757947bc63769c7f0da9c14b930e98"
+    },
+    {
+      "path": "commercial-test-v1/verification.json",
+      "bytes": 641,
+      "sha256": "268e9ba32e753419f46acb5719b8aeddf4e00688a8e19757951297b5dd0b7226"
+    },
+    {
+      "path": "commercial-v2-plan/brand-scene-01.jpg",
+      "bytes": 281678,
+      "sha256": "1ef0ce4490e1d365007158ce59ecc36da5b2b90cd4ce9e40fd41dbc535239cce"
+    },
+    {
+      "path": "commercial-v2-plan/brand-scene-02.jpg",
+      "bytes": 237577,
+      "sha256": "51cfca854088b472913d951be78aba354b4a1a129e95811166cefb7cb686278b"
+    },
+    {
+      "path": "commercial-v2-plan/brand-scene-03.jpg",
+      "bytes": 263964,
+      "sha256": "308fbc2c535a87d6ea9ba6fc0bed92a9a5688f2f2e9c748229ac56dd4c8f1b7e"
+    },
+    {
+      "path": "commercial-v2-plan/brand-scene-04.jpg",
+      "bytes": 206539,
+      "sha256": "8c03adfba6a35bf2062924872e3ddcdb9440f91f2eb8d02b8be31f81ab3d77f2"
+    },
+    {
+      "path": "commercial-v2-plan/brand-scene-05.jpg",
+      "bytes": 256616,
+      "sha256": "4f514522e0f222adaa1b6a4c146109a3b017c2c40e287588d87232ede881c412"
+    },
+    {
+      "path": "commercial-v2-plan/brand-scene-06.jpg",
+      "bytes": 122748,
+      "sha256": "41c6cc8537f89e26c167afc9e8740125b8144d9bc60616b061265dea92d36e22"
+    },
+    {
+      "path": "commercial-v2-plan/build_brand_storyboard.py",
+      "bytes": 8178,
+      "sha256": "a25bc85ae74eae9589493aa8de4445de9d0657ace03551a0f3398c739a3764a7"
+    },
+    {
+      "path": "commercial-v2-plan/build_storyboard.py",
+      "bytes": 7300,
+      "sha256": "b86494154117091608a413405d7743bafbb75830e72ce156271140e7524e2c8b"
+    },
+    {
+      "path": "commercial-v2-plan/explosive-25s-storyboard-brand-v2.jpg",
+      "bytes": 845409,
+      "sha256": "8b0f77866b633ad9b6ffcfc8db0636da35385ee112f7e5302857f957f6b7e231"
+    },
+    {
+      "path": "commercial-v2-plan/explosive-25s-storyboard.jpg",
+      "bytes": 852731,
+      "sha256": "02fcaa3106928852b0cfc8c260c63547f50858022e941383fa5cbb0930f575d9"
+    },
+    {
+      "path": "commercial-v2-plan/generation-plan-brand-v2.json",
+      "bytes": 3090,
+      "sha256": "498fc9c86fd1858fe1969a13deb7aa5e342ff2b1a0df43500dedf5c60246c4b8"
+    },
+    {
+      "path": "commercial-v2-plan/generation-plan-person-v3.json",
+      "bytes": 3793,
+      "sha256": "d0366116a9cf5fd900d65623d3752b4d6ee663b10126138a8487f7f0b729ad3a"
+    },
+    {
+      "path": "commercial-v2-plan/generation-plan-person-v4.json",
+      "bytes": 3891,
+      "sha256": "c7761a709596cc4f811ddecac7ce5586b77eabbfb94729bf1bdf43197075dfad"
+    },
+    {
+      "path": "commercial-v2-plan/generation-plan-person-v5.json",
+      "bytes": 4573,
+      "sha256": "f51f2afb99253c3aca97f1bfd0becf241114bc1c293251d69c0113bb199b7f9a"
+    },
+    {
+      "path": "commercial-v2-plan/generation-plan.json",
+      "bytes": 2583,
+      "sha256": "a24c97b3c69915916df6475405157acb2cfc0021e546108c07d69fd84241b566"
+    },
+    {
+      "path": "commercial-v2-plan/person-flow-v4.md",
+      "bytes": 1780,
+      "sha256": "28d7c619ba3fab1113dae6617d8feb9ad48ca5921cdbacf96e6ca0141fa9510d"
+    },
+    {
+      "path": "commercial-v2-plan/person-flow-v5.md",
+      "bytes": 1726,
+      "sha256": "19f643615e520d8e98a076e416a94cbf6e902f71de815c368af6921f4254753c"
+    },
+    {
+      "path": "commercial-v2-plan/person-storyboard-v3.md",
+      "bytes": 3180,
+      "sha256": "26397608ee64b999340d71db6daba0c6e51844140e6637d215a432aea9e87b7e"
+    },
+    {
+      "path": "commercial-v2-plan/scene-01.jpg",
+      "bytes": 276364,
+      "sha256": "e38aef0d9597583533b3990aaebf5e63159b9665045d9eef153092d1a2c5f586"
+    },
+    {
+      "path": "commercial-v2-plan/scene-02.jpg",
+      "bytes": 222520,
+      "sha256": "83d8208ef00e74b4d715fdef54b5127de12928560e88e0d7e1a1a9b64bb41d74"
+    },
+    {
+      "path": "commercial-v2-plan/scene-03.jpg",
+      "bytes": 248776,
+      "sha256": "850f405fd04df2f21722a4ea7bb608c01f380e04c229fc5a83c119dafa3ec158"
+    },
+    {
+      "path": "commercial-v2-plan/scene-04.jpg",
+      "bytes": 115523,
+      "sha256": "a941e1a885c7b6f56682e7eece4e968557e65126ed058b79aab29a502c69242d"
+    },
+    {
+      "path": "commercial-v2-plan/scene-05.jpg",
+      "bytes": 152149,
+      "sha256": "124eff798f8d34d3155854a8062c0ebe3c709eae87930e21577d29212baab244"
+    },
+    {
+      "path": "commercial-v2-plan/scene-06.jpg",
+      "bytes": 99663,
+      "sha256": "7555c3026c4a43bed8175984380b1eec9bea20f477690691caa5c255e253af02"
+    },
+    {
+      "path": "food-crime-images/AC-011-deep-fried-butter-v1.png",
+      "bytes": 2029492,
+      "sha256": "d60460082950b98d5ed58af10229c8830ff9b5e2770e5891dcce15f94e389999"
+    },
+    {
+      "path": "food-crime-images/AC-030-candle-salad-v1.png",
+      "bytes": 1881629,
+      "sha256": "cb61e5bf06ab7e6e343640bf3b87067c1c67890e5a5d729099724a8203776c25"
+    },
+    {
+      "path": "food-crime-images/AC-041-vegetable-gelatin-v1.png",
+      "bytes": 1927852,
+      "sha256": "702bb251a73e7d01f0b591dfc46585f82b70823b664201d8196a8f7d662eac94"
+    },
+    {
+      "path": "food-crime-images/generation-notes.md",
+      "bytes": 6368,
+      "sha256": "4239d2db8ff8cd5204189a69f1db05888718f9ba79054265308bf3621d80170b"
+    },
+    {
+      "path": "commercial-breakfast-v1/audio/breakfast-foley.wav",
+      "bytes": 4800044,
+      "sha256": "ce13457c7f69e445ffe01cbdaa76a95b1171346c72e2a88c58528aea9561c71f"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/community-third.jpg",
+      "bytes": 355145,
+      "sha256": "295d604307f7f642c0436b237e92de22badc45f308600ef4be955addf4a8a621"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/contact-sheet.jpg",
+      "bytes": 992760,
+      "sha256": "8f09c700b30067ec4e262249a6ba1456d46d1bddae36a2fd61aaa127054f0109"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-00.40.jpg",
+      "bytes": 391246,
+      "sha256": "824d4058b67b827b40491ebd3f43c52a258cc536dbcab7e9bd3b259294d6bef9"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-01.75.jpg",
+      "bytes": 436108,
+      "sha256": "65118c08793922194dff276221efc3f1b6abb02014eb749f898b120cad4ac565"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-02.60.jpg",
+      "bytes": 454904,
+      "sha256": "aae741b4244f4a61ca346a9cb80228e1f31de97087127bb9884007b24afc2d92"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-03.90.jpg",
+      "bytes": 493362,
+      "sha256": "c371d7e1b8717e6ecf80867816bb7c3e8b1d5145aad319a97580ff41db5ff8cc"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-05.50.jpg",
+      "bytes": 562642,
+      "sha256": "28c246f68aa0f12207f08281d2a850bc4ac156f3f768bd66b49c8439056ab95c"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-06.40.jpg",
+      "bytes": 321875,
+      "sha256": "d8cc06edc89e93c49c497ac165795d56e1a151b3d975c0e506ca3c2af767ef09"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-07.10.jpg",
+      "bytes": 382860,
+      "sha256": "781b18454439a2b92affbc388061059c90bb2920588f4653db3806c355bf95af"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-07.80.jpg",
+      "bytes": 388728,
+      "sha256": "e2ccb7a000ca135cc3e3c141ec809b57e015df8357361b575662d6bf46e69e70"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-08.70.jpg",
+      "bytes": 489469,
+      "sha256": "9dea811c10e4094111886774ff50ada6978a4c27fd558534e6b3111c88989ec6"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-10.40.jpg",
+      "bytes": 428756,
+      "sha256": "438ccb6f8a67c32562dc55d59409fb39893c41773cc3117706117e2024ae0daa"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-11.80.jpg",
+      "bytes": 472069,
+      "sha256": "defc08e7638bb7137253a81d946ad92fec278d49944313f4accce85938f5c504"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-12.80.jpg",
+      "bytes": 488948,
+      "sha256": "75355e5b16151d428d63e4c67f9713a038208ccb3b0e10bc5e746dacc7d84431"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-13.35.jpg",
+      "bytes": 494320,
+      "sha256": "fc16269066c7b80db9d482d39bd1ff5c69f4f10966da29e65149dfffaf6dd4a4"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-13.70.jpg",
+      "bytes": 491178,
+      "sha256": "4d942fb673e3809f1e9eae6805765508aad18265eab3d97d077beb0147f44c38"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-14.70.jpg",
+      "bytes": 569182,
+      "sha256": "c0e9d60ad3319e79434ca9c8c6c38ab38c4858137d34dfbe69a9db476b4f32d6"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-15.70.jpg",
+      "bytes": 571824,
+      "sha256": "e6ce07816ee67c97fb7a8eee8eb4fc361193fceb82dfe46f525a7951e4b5ff1e"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-16.80.jpg",
+      "bytes": 313390,
+      "sha256": "ae322587abddfd2801ddd572ea09df7cccf1afc465ebace1289dd89f19b7855d"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-18.00.jpg",
+      "bytes": 365981,
+      "sha256": "79c66028a7eb1b51140132993cb1571f09d94eb8d879458ba6b2fe20bb2c4671"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-19.20.jpg",
+      "bytes": 368888,
+      "sha256": "2eb0518b51d8e7f574f964aa60126ca8e86965a58e37d3a73b949f25ea7cdf82"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-20.50.jpg",
+      "bytes": 485374,
+      "sha256": "8361573e45500336a551d60215e31850f259b92f5db895528354ca618c0f51c8"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-21.60.jpg",
+      "bytes": 458109,
+      "sha256": "b4f3d6453fbcf04eac0311cd650863e097b2b7c4496c12c0819fd47d7e15c775"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/encoded-23.50.jpg",
+      "bytes": 431878,
+      "sha256": "35e535b8d4a02391f37ec5c66ec9b5f23e3a98c88398e42662fc81f580845e35"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/final-contact-sheet.jpg",
+      "bytes": 1112563,
+      "sha256": "07330f495ac90e682951a183a14e345c066562636fb6e00af89832a8344bf3b6"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/final-verification.json",
+      "bytes": 1376,
+      "sha256": "50f9fa30979bde7726204b89a1a18c09d609bc68fd0fa3619a0cb532bbc428ee"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-00.40.jpg",
+      "bytes": 388111,
+      "sha256": "34ba583753955cc1d0c4b9051b0ffdb564d186650d2f530488f12dd4b9e6f1d1"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-01.75.jpg",
+      "bytes": 437744,
+      "sha256": "be99d4b595d975911d9a533ca960b823ea6054abcb30c113cc45db6df67976e2"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-02.60.jpg",
+      "bytes": 455881,
+      "sha256": "527570e72e34d1f0b6a7b81b7fea8e58eca7f9516ee187b9f6eddaec11dda668"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-03.90.jpg",
+      "bytes": 485874,
+      "sha256": "fa27ebee1b526bc5defce55e3922953f62218bfcbc426c325ec202c8a67c060c"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-05.50.jpg",
+      "bytes": 557373,
+      "sha256": "8a6014f354d7b433cc1aaca94f6b57aba1becd66e4667b0897984f9a201dcf62"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-06.40.jpg",
+      "bytes": 305847,
+      "sha256": "7ea29538dccc5f0ccbe054c35b17f730a06cc14eab98b03ffc635e72faca4cb3"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-07.10.jpg",
+      "bytes": 377042,
+      "sha256": "4a3287ef66b535394600222ea52ccf51d6e401477b06821bbc8ad408e75cd9a3"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-07.80.jpg",
+      "bytes": 378253,
+      "sha256": "b3e8207f57983c419adc090f472245bcc6e49194affb4cc17c87f057dddcd706"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-08.70.jpg",
+      "bytes": 489371,
+      "sha256": "76ffe9bab2018fdd29b512a685d069de7b64a699b05abe5bd07924c3d085494e"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-10.40.jpg",
+      "bytes": 412865,
+      "sha256": "4a598fb782f4eef2c82fda902db3555b279c39e6002f375474f27fd3c9bbfa3c"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-12.80.jpg",
+      "bytes": 483819,
+      "sha256": "b1a003560318742836dc8b872dd13be7c799dde3b9df87be7b87c8205abcdd58"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-13.70.jpg",
+      "bytes": 476427,
+      "sha256": "b3cb4061bb49248edc34be3df8e523205dbad89099cb33bb7abd6d182e30140c"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-14.70.jpg",
+      "bytes": 582673,
+      "sha256": "0a66aedb7de5251344875c82e71a9065c2107486533c8b3d56305ee2b958c196"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-15.70.jpg",
+      "bytes": 575630,
+      "sha256": "01d293608fd7175015fe9398eb07f609620ea3ef6646d7eab6f843bf3b0fd0c3"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-16.80.jpg",
+      "bytes": 299389,
+      "sha256": "e263e09d2a4ebdfdc88c94d892a872bd1384d19e73ba488b0b974165a9522908"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-18.00.jpg",
+      "bytes": 356247,
+      "sha256": "7e47f75a482070eb02190308a55a01848ff42031946f00d2f1481b9a4a94bb28"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-19.20.jpg",
+      "bytes": 353762,
+      "sha256": "a61194798c6778a40a5bc4eb8ac7ebdca57ff2d6b041d8c917c5c5182bdd4d9d"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-20.50.jpg",
+      "bytes": 468237,
+      "sha256": "ef7e64004687a93510d60c9bffe2a0715ff878bc2612d15284e624a62d676762"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-21.60.jpg",
+      "bytes": 460366,
+      "sha256": "8a4486c41eb9bba695c44522cde2e052987ae845f5565175d5e1a8e5bc493448"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/frame-23.50.jpg",
+      "bytes": 421362,
+      "sha256": "1df07097bee53e6ced1d8f8844eb98991e736770051c82c1d9e124ec2ad3babd"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-metadata.json",
+      "bytes": 1494,
+      "sha256": "1f385eb11b280e35bc495ad78616ebd388417079361ce5ea12f52609ba043630"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-review.jpg",
+      "bytes": 920137,
+      "sha256": "b58db9d9093c13891452cc5e3517e5d663b066ffacee71c0047fc67e7f6a0ed6"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-0-0.50.jpg",
+      "bytes": 243035,
+      "sha256": "82e6a96da56a0c62dc108418f53739eb6395866162c5d191f9a8b5e905e8b9c1"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-0-2.40.jpg",
+      "bytes": 229774,
+      "sha256": "0e2522d88b80708a8d3780b3e4923587f3fa15940cfc0734a803193c8614deab"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-0-3.70.jpg",
+      "bytes": 405712,
+      "sha256": "3560c730b3600b66b20fad090a3e8c5ba9322f3c5dab2e3fd259e2ddfdb42798"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-0-4.90.jpg",
+      "bytes": 438263,
+      "sha256": "eb634efbcad0fbf59087465af2d93abed555f71aa9ebe74f8b449ec81926b3c7"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-0-5.60.jpg",
+      "bytes": 433405,
+      "sha256": "afe2a5bca4e7a3aa9cadc5885ce6f5db8c7f86b906fb530096eaee173876f47f"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-1-0.35.jpg",
+      "bytes": 282250,
+      "sha256": "ca98c528deb57a71b2ad152dcee16c53b62c5df69c2cf1107075f8765767e53e"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-1-1.20.jpg",
+      "bytes": 301328,
+      "sha256": "92d383a3280efc0b243683d2e8201993afc0a5bb170973bbc7be0c45793b46b1"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-1-2.20.jpg",
+      "bytes": 311789,
+      "sha256": "f0ceb6585ad21020286ae07d75cb570d62100b4acbb8df84780e859cd75a12d8"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-1-3.70.jpg",
+      "bytes": 432693,
+      "sha256": "a5bcf9a11ea63a0510e0a55d1d43b2769eaacb20b89491cb45c5b84b8222667d"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-1-5.30.jpg",
+      "bytes": 353745,
+      "sha256": "00b37014715078c472c6161a9e592dc12e9c1d2681d80652e23d3213dac4b594"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-2-0.30.jpg",
+      "bytes": 368081,
+      "sha256": "b0572e6bec02321e4b09ecdf61619f976004f980f85d64f00ccf7a49cf794eb4"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-2-1.10.jpg",
+      "bytes": 377663,
+      "sha256": "6fd042e6efa8d319e3eabfe5bf681db96fdc50fd6ef5cc18d61c2e5d832f1128"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-2-1.90.jpg",
+      "bytes": 369218,
+      "sha256": "44b620e00ac49967bb47ab79a08ea7277844edc0ed974e1b32c1112ceeae63d9"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-2-2.70.jpg",
+      "bytes": 365682,
+      "sha256": "133e6cfb76fe89036daf9002cd4971d32c3f81318fc547a885b2279bad26199b"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-2-3.60.jpg",
+      "bytes": 383177,
+      "sha256": "9b08e3c68ff493d2c317c02f89e5335c19f72262d89797ca05c2534b7f42e6a8"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-3-0.40.jpg",
+      "bytes": 268088,
+      "sha256": "8a757b864e82b07ecbdcb190ba540688fc3afb772c1144ca186f5703568f8eb1"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-3-1.65.jpg",
+      "bytes": 317284,
+      "sha256": "3d3da3e57e3c6f1edd65ed82188c99a033df093a3b3eceb14de2eecda293a9b6"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-3-2.90.jpg",
+      "bytes": 330396,
+      "sha256": "5b8e277dc344382222aa0c351cee562effbe391465c34db1e884b0815c142207"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-3-4.25.jpg",
+      "bytes": 419138,
+      "sha256": "fcf5603cdd006359694d6a2467d79215b5e82823b14a427064fccb6d797703fe"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/raw-scene-3-4.80.jpg",
+      "bytes": 413951,
+      "sha256": "8e98610d08ac35649b6172f4bf4b7e50a020c1412051b5d6b1689b1b66f565a3"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/share-fixed-11.30.jpg",
+      "bytes": 471999,
+      "sha256": "e14d1275f4b1af0d2f7481f281d5d7044894d2f118697a111dade7e73611cfc3"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/share-fixed-11.80.jpg",
+      "bytes": 467424,
+      "sha256": "19c974b5628a1f9003991f43a40108c4c1ec58226c4669d12c927dd2ea4ba209"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/share-fixed-12.80.jpg",
+      "bytes": 481972,
+      "sha256": "63539a0dd70a81f95e8ff9a0e33c0d896f3925972048139497a1244ba24ba999"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/share-fixed-13.35.jpg",
+      "bytes": 488713,
+      "sha256": "1052bd16e6412848d7dbc473070360fad8d4141f5611af1293247a8921b63a49"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/share-fixed-13.70.jpg",
+      "bytes": 484227,
+      "sha256": "3f0db069a507e6ba39a030640991bf8ff616d47a08100d8ed83cc0047aadda9f"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/share-fixed-review.jpg",
+      "bytes": 275905,
+      "sha256": "4fe73e54bf33a3a1c7898ef84ec58ab51c76b95dcee2dd75c81805f972bee350"
+    },
+    {
+      "path": "commercial-breakfast-v1/qa/ui-preview.jpg",
+      "bytes": 252065,
+      "sha256": "c4523eaa09d091a63fb86d086092929a20a923406a1d0c6400e06f47a7c4a055"
+    },
+    {
+      "path": "commercial-breakfast-v1/raw/scene-0.mp4",
+      "bytes": 2011123,
+      "sha256": "942df8512ce9c4c0f7f8a2a903241fd6737c3aae463f6f007fb1abb024e944f2"
+    },
+    {
+      "path": "commercial-breakfast-v1/raw/scene-1.mp4",
+      "bytes": 3579657,
+      "sha256": "e11166af3bf2b84c9d54f65f6711680b8cdd0cb4ced41daf1bd07624477a3719"
+    },
+    {
+      "path": "commercial-breakfast-v1/raw/scene-2.mp4",
+      "bytes": 1734943,
+      "sha256": "6ca9e60f8533ac207c6e4a1b28c6666b0ef75996ed4bfef1b9e9c81afbba4bdd"
+    },
+    {
+      "path": "commercial-breakfast-v1/raw/scene-3.mp4",
+      "bytes": 1805558,
+      "sha256": "17040bcb6469d0a2da9ac8f1f9ea64dae729c1f36172d825ea414a84fde64c58"
+    },
+    {
+      "path": "commercial-breakfast-v1/references/community-results-atlas.png",
+      "bytes": 2568340,
+      "sha256": "b81de1f4931c80a3bf26df0829a0e097f538a610af17c8c3163e2dfa83527817"
+    },
+    {
+      "path": "commercial-breakfast-v1/references/hero-food.png",
+      "bytes": 2424873,
+      "sha256": "b4215990d9e78939a1c07a30ed54e4d5a5e7403186c71f26ebbf2aaf6bd8c858"
+    },
+    {
+      "path": "commercial-breakfast-v1/references/homemade-result.png",
+      "bytes": 2350330,
+      "sha256": "31868b6ec350cbb89d8c2efce654101b88061ce24054613ef7ebc4fded44d6f8"
+    },
+    {
+      "path": "commercial-breakfast-v1/references/ingredient-atlas.png",
+      "bytes": 1443376,
+      "sha256": "f2fcb0d723eaa82d2758e2da75d2ae89c90c6bc9279f4967961c564fef295fef"
+    },
+    {
+      "path": "commercial-breakfast-v1/references/lead-actor.png",
+      "bytes": 2097490,
+      "sha256": "a601e1b55d9a76e5492dce0679594f49bbd5fad143f1c007e9e26b54dadcc38f"
+    },
+    {
+      "path": "commercial-breakfast-v1/__pycache__/breakfast_ui.cpython-312.pyc",
+      "bytes": 29559,
+      "sha256": "0a84f51378c39c8938c406e7340663a1d6d2e46c546ee3e0084c3f3e02f3e0c6"
+    },
+    {
+      "path": "commercial-breakfast-v1/__pycache__/render_commercial.cpython-312.pyc",
+      "bytes": 20173,
+      "sha256": "bd9ac83653bc7f37f996c890222e49694d3b1529d4987e34e7945c31405e887e"
+    },
+    {
+      "path": "commercial-final-v10/qa/encoded-21.90.jpg",
+      "bytes": 428059,
+      "sha256": "ed7264a02b16534051a0e5a298b69aacb64609ed3a16b092d73aba7110622081"
+    },
+    {
+      "path": "commercial-final-v10/qa/encoded-22.00.jpg",
+      "bytes": 436030,
+      "sha256": "c0eeacf547878052b206b70994ae24d7bc9413f11da83ec2f1f02fb796cc83b4"
+    },
+    {
+      "path": "commercial-final-v10/qa/encoded-22.50.jpg",
+      "bytes": 435982,
+      "sha256": "fa5dd008a3f915f93568c8afa5911078a3eddfbc13b944e1250a3357d8319b9e"
+    },
+    {
+      "path": "commercial-final-v10/qa/encoded-23.50.jpg",
+      "bytes": 435997,
+      "sha256": "79a6dffd28c2d0cb5e45db4920080cf3dd3863a28e4a64bb22d304e297aed126"
+    },
+    {
+      "path": "commercial-final-v10/qa/encoded-24.90.jpg",
+      "bytes": 436010,
+      "sha256": "1b37637b75551b9621631950958c5240c663e4d9e283a72025564bac6048363b"
+    },
+    {
+      "path": "commercial-final-v10/qa/final-verification.json",
+      "bytes": 732,
+      "sha256": "3d9450490f1d0e4ab5144e60ec6129905ac0f346202b803a177e219c44b21c90"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-0-0.05.jpg",
+      "bytes": 296998,
+      "sha256": "01764031888c9b68c264139bcb7d45a6551568b95a852f824efc0cced404b88f"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-0-0.80.jpg",
+      "bytes": 293732,
+      "sha256": "de6855fe487de35c68eeb6aa89ddc74e208f61f2990cc670b219361dfc63ed48"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-0-1.60.jpg",
+      "bytes": 287585,
+      "sha256": "b3760b9d5762f68a86ab2dd9754f5aeca17e180ec063f4446f46c86492958c8a"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-0-2.40.jpg",
+      "bytes": 280730,
+      "sha256": "e285fb8d06ee7c4ee6b112cccbb23779af0f152c27509878e7a169ab39cff134"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-0-3.60.jpg",
+      "bytes": 278619,
+      "sha256": "bb3d4b4325a6a394795fd01cc4172029a46e6ca70d824c217cea4b65408cad51"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-1-0.05.jpg",
+      "bytes": 302595,
+      "sha256": "6f68e28b90f0e005e945cb6f0c032086b4721dbc9b13737d5132a811de402b96"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-1-0.80.jpg",
+      "bytes": 309589,
+      "sha256": "e7de3c68e757a98738cc86adf4b0888ad2d09a7e487802a8e02d6454e930c6a4"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-1-1.60.jpg",
+      "bytes": 311535,
+      "sha256": "a74ced16f0f60f690290a226be3a2826e9e25d8ab043ad1b55de3ad0ecd89c28"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-1-2.40.jpg",
+      "bytes": 304096,
+      "sha256": "8ac8689a2c0e65627e800ca38a7efdfe779094365d9b97ffce49762821b8e170"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-1-3.60.jpg",
+      "bytes": 302775,
+      "sha256": "f268aead34cd02a2ae6fc96840196337db94e9d8d226c54778884190042c365a"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-2-0.05.jpg",
+      "bytes": 325671,
+      "sha256": "1d12444e043f5b3c17bbe340e1032d2d9880c627857f39d6550a5be3e9f53e22"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-2-0.80.jpg",
+      "bytes": 342497,
+      "sha256": "ec4039f1a333a3ff86bafb5aea78c72d832382415135261a0dc094a90a408eaf"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-2-1.60.jpg",
+      "bytes": 340482,
+      "sha256": "e1b051cc607cb5a97532195ce564b853df0100258077885f5abf196b4291a3b9"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-2-2.40.jpg",
+      "bytes": 341591,
+      "sha256": "af12b5d070c207414ce6cd91168ed068165a9e53a5ecc33235b3c6db57cfece2"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-2-3.60.jpg",
+      "bytes": 335138,
+      "sha256": "42b126cae88361a18b541303c69d58edae028a0d05a15cdf0037f5ba2fce1f27"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-3-0.05.jpg",
+      "bytes": 322375,
+      "sha256": "77d5e8467cb4d92e59ed74fe033101d8871648e521579a421d652a7a98d2eb27"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-3-0.80.jpg",
+      "bytes": 333079,
+      "sha256": "70f55aee382f565362705d511e5b0f0ac07411ccbf9532b2e8663d672adfcb1c"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-3-1.60.jpg",
+      "bytes": 330054,
+      "sha256": "f1a734ac48178e4806119414ec180e2c2e408ec371421835a033ac324ad82cd7"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-3-2.40.jpg",
+      "bytes": 314001,
+      "sha256": "cceb08abe907f5c073307fd387fd08e6c15ec063301b52219147847287f0b525"
+    },
+    {
+      "path": "commercial-final-v11/qa/actor-3-3.60.jpg",
+      "bytes": 314457,
+      "sha256": "57be40476e2d5d978c3677b21fcd0e702d1f833326cd935567443cff59c8036f"
+    },
+    {
+      "path": "commercial-final-v11/qa/contact-sheet.jpg",
+      "bytes": 530053,
+      "sha256": "6aac3fcd2fb7aa208d260b789a2ea5a2ec3c79974be99054cd6d10f1953ff9af"
+    },
+    {
+      "path": "commercial-final-v11/qa/discovery-review.jpg",
+      "bytes": 268224,
+      "sha256": "983b3f78c6ff7a2396fb24e668655dcd26330ab303e456e434fe12f9a6407f5b"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-01.75.jpg",
+      "bytes": 434126,
+      "sha256": "e3bbee5f215e24db02de96629e1ea34f8ca0ee9ea5cf909ba7959bd139e77986"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-05.60.jpg",
+      "bytes": 519124,
+      "sha256": "f46cd584d6abf47f8c9ae7b10016c96133cd4ae3b62040f8710695e7b4477014"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-12.80.jpg",
+      "bytes": 493902,
+      "sha256": "9a3d10ab1e967754c66d4a62c6729c8272370731be22c32866475243353cd676"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-13.70.jpg",
+      "bytes": 477071,
+      "sha256": "31d16a518323bc0f9ca7010b1b4efdb14b80094390a75100f8966a00310dcd93"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-14.20.jpg",
+      "bytes": 216558,
+      "sha256": "ff2dc75dbccaf7408ddf09f48ddf6cf8d0f46f56f916870a78720081b83337a7"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-14.70.jpg",
+      "bytes": 561962,
+      "sha256": "2d1d8b17ae61b7b7fa98bd6eef91f807251f7254f0b66533ab95cdf284048d32"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-15.60.jpg",
+      "bytes": 565440,
+      "sha256": "bc673a227878eed1a8c090cbf4022da14bde488f5de36d8eee5e559d06f2385b"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-16.30.jpg",
+      "bytes": 549944,
+      "sha256": "cdc7c62363811b1c33d8d18fa07a372998931188394f42c22cf905372fc771e4"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-16.70.jpg",
+      "bytes": 345774,
+      "sha256": "4b87828ef5ee27127a36ecb6056cc4786aaad02a834d135118113f4d487842d6"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-17.90.jpg",
+      "bytes": 361145,
+      "sha256": "076a87832583607ff2f58bf78df4527d703c668fe298ea66a448a82dcd942043"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-19.20.jpg",
+      "bytes": 402249,
+      "sha256": "46cc6849b3b9f25365088ec4e43617265fdcfb1f5d6c4fd832a77bb614e4743f"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-20.50.jpg",
+      "bytes": 376526,
+      "sha256": "3514aa3102fed2650af90132b5017804efb73a2248dcc23d57d75debb49b800e"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-21.10.jpg",
+      "bytes": 360759,
+      "sha256": "278a05b5f05e37af8a2f4a59505a581ac10c42bcbcec7bf36b81ff32cc21826d"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-21.60.jpg",
+      "bytes": 308512,
+      "sha256": "58840dca0639f4dcf1c9dc61973fe242dc2b0590435a15feb4fda332241469e4"
+    },
+    {
+      "path": "commercial-final-v11/qa/encoded-23.50.jpg",
+      "bytes": 406987,
+      "sha256": "b931c986ab750e156745887fe319d789b37bd3e96557047efabce9dec73237c9"
+    },
+    {
+      "path": "commercial-final-v11/qa/final-contact-sheet.jpg",
+      "bytes": 718027,
+      "sha256": "23c5a83c4ce16fab4ae56180c3bcf2e7444aab5dfbcb39b4afec940a56ecffe1"
+    },
+    {
+      "path": "commercial-final-v11/qa/final-verification.json",
+      "bytes": 1344,
+      "sha256": "5659189a61fb77d21b6799e075667513346775efaace3e04741530b1c16e4627"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-13.70.jpg",
+      "bytes": 425699,
+      "sha256": "c7b22c39b665724c5f638c2818e18d63169b373e6889d5cab9626273b2691200"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-14.20.jpg",
+      "bytes": 196900,
+      "sha256": "92dc52a0a42d309121bb06835993307a8f3a58639c88e54adca1afc3edcaf039"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-14.60.jpg",
+      "bytes": 487868,
+      "sha256": "92d398446519ec59a189ab70ba1c41bec6c00079171eaba5483d82550a1a6a68"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-14.70.jpg",
+      "bytes": 506297,
+      "sha256": "b7e3d9c8a76be25aa2abc34bc053b9602b1c5b4c4b1fd7fecaad3f03eead6f20"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-15.00.jpg",
+      "bytes": 500475,
+      "sha256": "56076d70c1ee6a03352aa043977aad7729bdfc388dcc8bd8b040865c5be441a8"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-15.50.jpg",
+      "bytes": 500184,
+      "sha256": "122ac488cf57987e23f30a76420ce4c2416020701d0edb6241fb8724dd8f0451"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-15.60.jpg",
+      "bytes": 499880,
+      "sha256": "7af340cac3f9c1bcc3bdaed75624ff0610db5084662bb9971db845256456a10a"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-16.20.jpg",
+      "bytes": 494408,
+      "sha256": "f1e502e19dad32b21620e8cefd1d4513ddb6bd1be03c3a57c7eded2f140ba5e3"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-16.30.jpg",
+      "bytes": 491972,
+      "sha256": "6646619a33374d4d3eabdcefd0396cfaf58edf99f3b3b0913dd97646c18e24c9"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-16.70.jpg",
+      "bytes": 291921,
+      "sha256": "4aa23fa4d8a8a55e2dbfdd2e51a49ac0c976d17a15eb140660f2c47c36f74bbf"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-17.90.jpg",
+      "bytes": 301834,
+      "sha256": "146e7b9aab07407d8babe2f4af4e70518f071ca52fbaa58b86ff1695db1f9746"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-19.20.jpg",
+      "bytes": 343758,
+      "sha256": "b3951ceb497810e4b0ef4c950f7f465959e1e0c53eafbfa3c9012ac3111e1930"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-20.50.jpg",
+      "bytes": 320320,
+      "sha256": "59faabbf9e677e8bc1f244d7466b3b887958ff4588befdfd0eebc4ce54a1ae0f"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-21.60.jpg",
+      "bytes": 276492,
+      "sha256": "8bf86416ec80e7206cf088e6b932fe8ee4d04fb4949a7650342067a75f7d480c"
+    },
+    {
+      "path": "commercial-final-v11/qa/frame-23.50.jpg",
+      "bytes": 386052,
+      "sha256": "1e85a2473ca4883015b729af6d84bee0340f7ae9453d993194c3a6675935f7c2"
+    },
+    {
+      "path": "commercial-final-v11/qa/raw-cooking-metadata.json",
+      "bytes": 757,
+      "sha256": "a63bd13fa7804a76227eba24383f7e894c1e564ea1e1c0e4bee2ab0ff2749043"
+    },
+    {
+      "path": "commercial-final-v11/qa/raw-cooking-review.jpg",
+      "bytes": 866492,
+      "sha256": "24beaa20ad6ea8a0dfc836a326f7c1d1c16423b9deb4dbc2f240986979b4b98f"
+    },
+    {
+      "path": "commercial-final-v11/raw/cooking-0.mp4",
+      "bytes": 1088346,
+      "sha256": "72d5f92f630ed40197a8b62b26c033ff1ba401ff3214e9e74ed1e7263cd27838"
+    },
+    {
+      "path": "commercial-final-v11/raw/cooking-1.mp4",
+      "bytes": 1811793,
+      "sha256": "5bb278b0d092679a92fb4eecf90c24d0606d2ca9d68f8ae4c8b9394eb7591639"
+    },
+    {
+      "path": "commercial-final-v11/raw/cooking-2.mp4",
+      "bytes": 1537551,
+      "sha256": "5463076f52476bab94fab20c0f6af5843e90275c9a8fd75d38b2b608387b1832"
+    },
+    {
+      "path": "commercial-final-v11/raw/cooking-3.mp4",
+      "bytes": 1395257,
+      "sha256": "0df4c8f94d142e37bdbf08cee26a43c215e1bb70538355c95b2f6a5def7e2d55"
+    },
+    {
+      "path": "commercial-final-v11/references/recipient-0.png",
+      "bytes": 668554,
+      "sha256": "3e423a6d27b781013d42f166670b3ac0238981aafc8140481f95c29dec66f4da"
+    },
+    {
+      "path": "commercial-final-v11/references/recipient-1.png",
+      "bytes": 867881,
+      "sha256": "efece8d1798879ebfcf6eefdbc622727a314385005b789a0d27c04d4b5325739"
+    },
+    {
+      "path": "commercial-final-v11/references/recipient-2.png",
+      "bytes": 813882,
+      "sha256": "0e6bb8e63d31c9383e81d3ff3ead5ba8d52dc4a6bc5577d0d4049b43daf17a97"
+    },
+    {
+      "path": "commercial-final-v11/references/recipient-3.png",
+      "bytes": 979771,
+      "sha256": "db00caa4f4d892586cacbb0a1173233f8ec9fd93c384b3263464e39d07147631"
+    },
+    {
+      "path": "commercial-final-v11/references/result-0.jpg",
+      "bytes": 91703,
+      "sha256": "669651a4a9de4d92d766a7a9902fb48c60e2cdeb19619150fc7478595992d190"
+    },
+    {
+      "path": "commercial-final-v11/references/result-1.jpg",
+      "bytes": 94063,
+      "sha256": "d5ff1dd0a154fdb33eaf4407505ea0208b720d125723fb49106fac521662f906"
+    },
+    {
+      "path": "commercial-final-v11/references/result-2.jpg",
+      "bytes": 89601,
+      "sha256": "dc0a370464499363e3bfde3d70e921cbf729cf652add4bea4a5b18e52390c182"
+    },
+    {
+      "path": "commercial-final-v11/references/result-3.jpg",
+      "bytes": 95356,
+      "sha256": "36c1acd439dea3c72bf92f05f46ba2243093a7cee8ad90b7dea71380112b8840"
+    },
+    {
+      "path": "commercial-final-v12/qa/encoded-3.40.jpg",
+      "bytes": 497936,
+      "sha256": "0eedfa652828f796b5cfebe6b0036815b29ed1acebfe49957883b2956b58b485"
+    },
+    {
+      "path": "commercial-final-v12/qa/encoded-3.80.jpg",
+      "bytes": 487049,
+      "sha256": "704b865cba8e9b3b3ef30e65cdbafb9edf4c411b8367cb534c32dcbca9a6852c"
+    },
+    {
+      "path": "commercial-final-v12/qa/encoded-4.40.jpg",
+      "bytes": 490780,
+      "sha256": "881f3c154c789e5b291a0af98da2947318cc3b22394d9caf6bd9e0d416915182"
+    },
+    {
+      "path": "commercial-final-v12/qa/encoded-4.70.jpg",
+      "bytes": 493915,
+      "sha256": "f32b04034a533ac4e4f8cf76ae41425242314986506d779ae8969816621ac8c8"
+    },
+    {
+      "path": "commercial-final-v12/qa/final-verification.json",
+      "bytes": 379,
+      "sha256": "0af13ab610019e1b18620839606727ae9f27c9b9ab6e918b66266fd4de8dbffc"
+    },
+    {
+      "path": "commercial-final-v5/qa/composite-0.9.jpg",
+      "bytes": 223236,
+      "sha256": "267eab0a67cdb40b7c899b5e2daf7d4d0ac0136da8714fe3f4c4df401a7c2b76"
+    },
+    {
+      "path": "commercial-final-v5/qa/composite-1.8.jpg",
+      "bytes": 255624,
+      "sha256": "d8f86227c1ce2e973630c5dddbcfde0c937c5837568e3ef8605aa12b5333d3c6"
+    },
+    {
+      "path": "commercial-final-v5/qa/composite-10.5.jpg",
+      "bytes": 324992,
+      "sha256": "37ac1f46e68b720153bffb81603adc0ecfdb038adbf5297a4bfcbe95aa6f361e"
+    },
+    {
+      "path": "commercial-final-v5/qa/composite-2.6.jpg",
+      "bytes": 328628,
+      "sha256": "171e22e7bb6a7cbf825dab79e06309ecf81cc2169fd994897604143082bfc3eb"
+    },
+    {
+      "path": "commercial-final-v5/qa/composite-3.7.jpg",
+      "bytes": 362739,
+      "sha256": "8a8484d52c7c64d8c807cf864b05a3451579b4ccae805bfebc75809ab48950ce"
+    },
+    {
+      "path": "commercial-final-v5/qa/composite-5.4.jpg",
+      "bytes": 342570,
+      "sha256": "9dbc06286fc20a7aa60868cc81f416309528f936619e5117083546f9c1f81967"
+    },
+    {
+      "path": "commercial-final-v5/qa/contact-sheet.jpg",
+      "bytes": 517314,
+      "sha256": "448bffc6430ecab3333ce337dcdb3cece3a618d7a7ab469c8d9a57192eb1d198"
+    },
+    {
+      "path": "commercial-final-v5/qa/end-card.jpg",
+      "bytes": 212103,
+      "sha256": "f85bd4a77fbe9fae811c983d8b744e9278aeb5df5b87ba6e5a055388f791ab84"
+    },
+    {
+      "path": "commercial-final-v5/qa/final-verification.json",
+      "bytes": 451,
+      "sha256": "33c5f910b43ed47ab57a68ce4c5fd8ec2f5180b97e98e86a3b2dd841a26b85c5"
+    },
+    {
+      "path": "commercial-final-v5/qa/first-composites.jpg",
+      "bytes": 400626,
+      "sha256": "b368aaddef84b663773009d253cd88efa0a93ca364709b5473342986fe07d794"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-00.jpg",
+      "bytes": 281607,
+      "sha256": "0c94ff8b191f9a3b05b13a154855f1d8dea43710a802b13e06cbe2ae41360d7f"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-01.jpg",
+      "bytes": 365674,
+      "sha256": "f05bdd64c443d7cb9b02052cef2a293c2cae600caa4bd2f5309bcfec4d790650"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-02.jpg",
+      "bytes": 391006,
+      "sha256": "89adc28bf745ba5d896cf8e8c69e0e56948cd58916e0f64c74cb52702b2da311"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-03.jpg",
+      "bytes": 383114,
+      "sha256": "3a502156d1f4060e63c68821eb6c38202a8b3f51d39a8d1d9360e87714298e58"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-04.jpg",
+      "bytes": 326669,
+      "sha256": "eb52fdc533b6d5120e4631fc787d99fcb6d27271ce52e9d60bafdfa9aa9ddd97"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-05.jpg",
+      "bytes": 342819,
+      "sha256": "323b475dc753823f1a827631972e1435ab01759b2631df3fef8c320dca1a3b25"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-06.jpg",
+      "bytes": 364238,
+      "sha256": "e2fee28692649c843e242745a59d81b16cbf95701410d2b1dabf4f7e11c063be"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-07.jpg",
+      "bytes": 557617,
+      "sha256": "f5efc457254d22a232a86e7707709151c3f7b77cd16cd58dbc0aaa7033541570"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-08.jpg",
+      "bytes": 403005,
+      "sha256": "213106a7706b1c736e21bba36691a7a8990e6dbc55bf1c28fe947cc5ff282c89"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-09.jpg",
+      "bytes": 364280,
+      "sha256": "9bcefa89a8b4abeb6bd5213898be00ff3ed5525b7eafec24279e0b7061914952"
+    },
+    {
+      "path": "commercial-final-v5/qa/frame-10.jpg",
+      "bytes": 211145,
+      "sha256": "daffa12100aaf2c8c34f8df95988566b36f29cef2cc85de51366dc615e598a3e"
+    },
+    {
+      "path": "commercial-final-v5/qa/opening-15s-picture.mp4",
+      "bytes": 8505243,
+      "sha256": "18696dab5f56123085818182d4c9a60909dcde8116d8600675bb796ccdbb8545"
+    },
+    {
+      "path": "commercial-final-v5/qa/phone-track-review.jpg",
+      "bytes": 366242,
+      "sha256": "5055bf59e8bc84d239bcc70874f3e0c027387f2841b79e273f617199e21ca42f"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-0.3.jpg",
+      "bytes": 527776,
+      "sha256": "6a90713be86e28f974cd3889e217774b797cac0ebca487ae28263a5a8ad6ae93"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-1.2.jpg",
+      "bytes": 525509,
+      "sha256": "227c26936bd91ef473578ba30eeef3c529b37b34c18e5ed69e84c2b097242f8a"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-2.3.jpg",
+      "bytes": 512716,
+      "sha256": "073dd55a1c41051ed9a571959787cde708ecf303014ff1115ca2f1a18f5a9552"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-3.4.jpg",
+      "bytes": 360912,
+      "sha256": "8af7cd63efb793a2ebe241436905b7b9f0263063d4f55855b61782d565d034f1"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-4.5.jpg",
+      "bytes": 356919,
+      "sha256": "7aae3978a8ae2c25508629ca106923d88433534bdc9363b23ca44de2a0912108"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-5.4.jpg",
+      "bytes": 378565,
+      "sha256": "44cf873f9e67fd83740c9da25afe1f4b199b1819c2d6763e8f4815a535bd885f"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-6.2.jpg",
+      "bytes": 386073,
+      "sha256": "511b7ed95d7db1f5d5078dfcd8c68b7325a805d8098281586b2d990e57d2144a"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-6.7.jpg",
+      "bytes": 386753,
+      "sha256": "efd07bb8cf93a8ab02ee5edf595c96b533ca46e3fbcd38b6045542d2ad1433de"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-community-contact.jpg",
+      "bytes": 440321,
+      "sha256": "0ba474cbe549bf06cf1d3164e9471aa37c66203eab78bddf2e42ff2c7da0a4bb"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-first-two-contact.jpg",
+      "bytes": 410622,
+      "sha256": "47ac233c211fa1a913e68435ac8258ec1f61d28f39201b4fbbf48a24ac9350aa"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-0-0.3.jpg",
+      "bytes": 213279,
+      "sha256": "eccb684c2348dfc3b958eac40c37b095575c4f81cb8265ff7c8580e548ad02e5"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-0-1.3.jpg",
+      "bytes": 214228,
+      "sha256": "8c1ec65fb117d9ade28aa4078ce456205978806f5c6ba9a4704fa4454b9f1e96"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-0-2.3.jpg",
+      "bytes": 208258,
+      "sha256": "585ed3263b3b8b01c3ba37b003566c7ccc80896e35a2a74d7ea8f4de35924dfc"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-0-3.3.jpg",
+      "bytes": 353170,
+      "sha256": "8298e24f4c7e350f1baa635feb481a0981bcd935f1b7749b18503a544d2c431b"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-0-4.3.jpg",
+      "bytes": 334871,
+      "sha256": "eacba3d75939a0c620ee121b162ca07283c93c9dee11c6863c1293724e4f702a"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-0-5.3.jpg",
+      "bytes": 333702,
+      "sha256": "d7d0a44ca9e5a3878bb85462f82a2517419001adb5573bdb829d15b108c51f44"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-1-0.3.jpg",
+      "bytes": 306084,
+      "sha256": "bbd5d6eb502024c1d2a9f1bee319d7d8bf0b2219ed53104f2ea714a38b261ec7"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-1-1.3.jpg",
+      "bytes": 301919,
+      "sha256": "e28d3507f9c48b0e964621c3fbc88d3373a815299aa77d7983a4ac16075119ba"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-1-2.3.jpg",
+      "bytes": 231409,
+      "sha256": "7a1b77cf07bcb0e1f5ce98213dab8f795923b041f8aba4dca929ad6d957aa84f"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-1-3.3.jpg",
+      "bytes": 350487,
+      "sha256": "96c6a66732aa73f79535026ebfa176760a4537d642427f85df3a92f48d3828a3"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-scene-1-4.3.jpg",
+      "bytes": 291407,
+      "sha256": "ce45b57bd4d4aa35bec2721d101dfa5d5652ad9402ecc6442276d9a2c1697c14"
+    },
+    {
+      "path": "commercial-final-v5/qa/raw-sharing-contact.jpg",
+      "bytes": 182278,
+      "sha256": "68743d7ed756ef0dd619073efe9dd1509fb168a7a1a1266e63b5fef01112657a"
+    },
+    {
+      "path": "commercial-final-v5/qa/reference-phone-composite.jpg",
+      "bytes": 440736,
+      "sha256": "8112410207f2e568ac7a541c8d0123bf8904ec6a98c542db8552a2322ee7c61a"
+    },
+    {
+      "path": "commercial-final-v5/qa/sharing-composites.jpg",
+      "bytes": 414883,
+      "sha256": "a73c499974f8e2def0fabb39bc9b5021c0cfec6dc383a730a56fc9d7ef760a6c"
+    },
+    {
+      "path": "commercial-final-v5/qa/tagline-source-detail.png",
+      "bytes": 252411,
+      "sha256": "3da787cc57bbae1774cd403fc7be4d4e34bdfa81baa4b55c7ca75e5de0eaa473"
+    },
+    {
+      "path": "commercial-final-v5/raw/scene-0.mp4",
+      "bytes": 2232488,
+      "sha256": "64e8f0deaca9f66ad12407eab7c9da2c7ba56c0b80d8ab5495bf18239ae58c75"
+    },
+    {
+      "path": "commercial-final-v5/raw/scene-1.mp4",
+      "bytes": 2783405,
+      "sha256": "b353ab158e7408c80ed8ebd9dfcb3c98f6d28632a4e2d93b5695fcab5f5b5767"
+    },
+    {
+      "path": "commercial-final-v5/raw/scene-2.mp4",
+      "bytes": 1909491,
+      "sha256": "5f2f97a9560b50f4eb0c632737d3620fcba87db3edcf44c0d19570bd362bffba"
+    },
+    {
+      "path": "commercial-final-v5/raw/scene-3.mp4",
+      "bytes": 4642896,
+      "sha256": "77f9c453dfb5d65d75737c0accc0ac905df2192fa22a8ccfd84018c9f7786eca"
+    },
+    {
+      "path": "commercial-final-v5/references/community-cast.png",
+      "bytes": 2673472,
+      "sha256": "e157a4ab83e83d8dcee512f26f197fea2de2ba39e3a478be5f10b2be7b717bcd"
+    },
+    {
+      "path": "commercial-final-v5/references/community-result-1.jpg",
+      "bytes": 57298,
+      "sha256": "918c1d34a99958ed85d40dad34ead6736de65dd682f9d23959a8c942f82bdee0"
+    },
+    {
+      "path": "commercial-final-v5/references/community-result-2.jpg",
+      "bytes": 61207,
+      "sha256": "c26bc01880bc289ab15699d0e8cbb5cc3ecc8738e92cbba01edbf666d633a7b1"
+    },
+    {
+      "path": "commercial-final-v5/references/community-result-3.jpg",
+      "bytes": 72946,
+      "sha256": "0ff6357f39c12cea96e3e343f0dfe44d4badbfebacf7abd54c45bfd847b79b0c"
+    },
+    {
+      "path": "commercial-final-v5/references/gelatin-concept.png",
+      "bytes": 1927852,
+      "sha256": "702bb251a73e7d01f0b591dfc46585f82b70823b664201d8196a8f7d662eac94"
+    },
+    {
+      "path": "commercial-final-v5/references/gelatin-original.png",
+      "bytes": 1072615,
+      "sha256": "c9d383781fc2956bda8a0f584ecd66e1b8969e3a4a1fa38219c958f96c3945ea"
+    },
+    {
+      "path": "commercial-final-v5/references/main-cook.png",
+      "bytes": 2167733,
+      "sha256": "dc36a724fcd52637126dd662ed73174f8d1df4f6e70f8ddadcb84828d7f622d1"
+    },
+    {
+      "path": "commercial-final-v5/__pycache__/compose_commercial.cpython-312.pyc",
+      "bytes": 45289,
+      "sha256": "d826730bbce2a4a15dbdb4c02f0bc188a584207d2a12a55e39d1a3092374389e"
+    },
+    {
+      "path": "commercial-final-v6/audio/clean-foley.wav",
+      "bytes": 4800044,
+      "sha256": "25268841384d3cdac8df565af08e2591daabf9c254dd36bbc12e34373273532f"
+    },
+    {
+      "path": "commercial-final-v6/audio/guitar-drums-original.mp3",
+      "bytes": 400866,
+      "sha256": "ab8872a7f4a6e469aae0315e2bc7ed15d7072ba70fb93ee107c635eb2f7e8064"
+    },
+    {
+      "path": "commercial-final-v6/qa/contact-sheet-v6.jpg",
+      "bytes": 601012,
+      "sha256": "7b064fe1abd1b23991156d1718afb6421ac75aec95d1a91ed137ce35ca700167"
+    },
+    {
+      "path": "commercial-final-v6/qa/final-contact-sheet.jpg",
+      "bytes": 587066,
+      "sha256": "14e666f8fc064802c097c036df2e7e13b2ecfc3dcb08e91a0f5c55da52594ebf"
+    },
+    {
+      "path": "commercial-final-v6/qa/final-verification.json",
+      "bytes": 720,
+      "sha256": "6cd6d0e01895de8c7574d7cec60af4950ff7fac432112ab381285e04a42c3289"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-00.jpg",
+      "bytes": 264808,
+      "sha256": "af6f3ceb48b5f4cb2e70e19123f840bffc1814cf8fc795f15c2f3e985f39c977"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-01.jpg",
+      "bytes": 277424,
+      "sha256": "4595856c0d2001bd5f5b69792ea2eb9caa5eaed2ee292b117e99bec9aaa29c07"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-02.jpg",
+      "bytes": 282027,
+      "sha256": "913a490c708b715e3265d94ebc3d97e684093af698234a7241798e5ba73c395e"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-03.jpg",
+      "bytes": 286262,
+      "sha256": "17fd853595a25745e210aebd6ad5070de37306201bf22d767c522a392e7edd6f"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-04.jpg",
+      "bytes": 359094,
+      "sha256": "20aee598e8e42b7e814f71f1bb5f50b3d9aaf08241d762331c9b39e03907ebce"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-05.jpg",
+      "bytes": 389102,
+      "sha256": "22a12f63f61331043af42dd30d40b5e2421e1a423b5bc2277f7a3e2e065181ba"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-06.jpg",
+      "bytes": 336529,
+      "sha256": "7758ebeb69c8ce7535077e75a65399dd81376d6a90d6ec4d576fd2ee55caa15a"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-07.jpg",
+      "bytes": 341196,
+      "sha256": "4f253efb6e7d2129f17b0fc7da0b58b92041d36441643131688f37b488dc3be0"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-08.jpg",
+      "bytes": 372218,
+      "sha256": "5be5ec070a424a661f0bc77aa941a2110b2466153be719d77fd000ec5f813910"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-09.jpg",
+      "bytes": 572154,
+      "sha256": "efc1bb3fa3ba381543952f525718b6d184c5ae51b5b6bfe611948a8c802ce910"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-10.jpg",
+      "bytes": 411723,
+      "sha256": "001be21396ce38cf266a0c011d81ba3c2cf9ef464db5cfd7232ac8effa4169de"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-11.jpg",
+      "bytes": 368962,
+      "sha256": "8b3519a8aaa4b6380809b6392efb181a7c90a40e5be7b5f28fc90ddd1a07fe60"
+    },
+    {
+      "path": "commercial-final-v6/qa/frame-12.jpg",
+      "bytes": 211145,
+      "sha256": "daffa12100aaf2c8c34f8df95988566b36f29cef2cc85de51366dc615e598a3e"
+    },
+    {
+      "path": "commercial-final-v6/qa/opening-review.jpg",
+      "bytes": 361047,
+      "sha256": "18de2a420702ea56b109de5af5c87f5369f8ee4b427f10243d5d19ecd6b195dd"
+    },
+    {
+      "path": "commercial-final-v6/qa/radioactive-opening-review.jpg",
+      "bytes": 369861,
+      "sha256": "738af973d0e02d76902aa5167de54c376833ea7eebfb2f98952e0bee3df133af"
+    },
+    {
+      "path": "commercial-final-v6/__pycache__/revise_commercial.cpython-312.pyc",
+      "bytes": 41411,
+      "sha256": "230e556ddbbf781af35cea2892129cf340805598e5d304be3f5e72bc19a67e1a"
+    },
+    {
+      "path": "commercial-final-v7/qa/contact-sheet.jpg",
+      "bytes": 988268,
+      "sha256": "b996b63b766a818b097dfc33aad157f04c1b9cb8c16f69d95c0fba90d253c3e7"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-00.00.jpg",
+      "bytes": 294948,
+      "sha256": "306bd5e0f71f2158f0bca481928d5450c32622bc4554c82f5fa28bbd65d443e5"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-00.35.jpg",
+      "bytes": 340143,
+      "sha256": "a99610394442410b19a4aefe09c515652e464d923c99ec127f1787e9cbdb3125"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-00.68.jpg",
+      "bytes": 354765,
+      "sha256": "c10b9d2d892d31fec3a11888387a28350e4812f7173520eea45f50569871a13a"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-01.00.jpg",
+      "bytes": 358157,
+      "sha256": "08127718c3075cb9713be0e67a7f74013a50fa80963055cb3a591afebabf46d7"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-01.35.jpg",
+      "bytes": 366314,
+      "sha256": "f5eb3f9ebdf5801c6c99b17a1f6dc5a6f7fcee0b37e5adb40803f271966f29da"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-01.75.jpg",
+      "bytes": 382985,
+      "sha256": "0dc1d3661a6cffb59b54b09690bda5c5dbb93cb12b2f83d7fcf7d2e544dd0ab1"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-02.55.jpg",
+      "bytes": 403919,
+      "sha256": "ee60876407e0d03d8bcc93694cffea71c1c93e4ae00f8fe0a09eedb6cccf4428"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-03.65.jpg",
+      "bytes": 416016,
+      "sha256": "2e55c9b320df7fe7875f1940b98fbe31e813b56b0227ddf1405b9589a7cc74a7"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-04.40.jpg",
+      "bytes": 426708,
+      "sha256": "d37a0ba32b83a93e306c416e2dcd5627609dba15ac7ca55309cbc54e281002df"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-05.60.jpg",
+      "bytes": 454280,
+      "sha256": "2d2f69818448017d7471e6860e4b704fd784b210af47499bfe41c0106e18967b"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-06.60.jpg",
+      "bytes": 382085,
+      "sha256": "bf9e0fcbb192d1f3ad1bc62a9fb4ab61767491fbc831960b76245f23748a140d"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-08.25.jpg",
+      "bytes": 277847,
+      "sha256": "cae0b87902f3344fddd58673d8550997c19618175a978ce7877b9927622ed769"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-09.12.jpg",
+      "bytes": 411530,
+      "sha256": "f17e4428449c3c1b55ea0cce8b13238595f032336a7a60564120ccb99c946664"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-10.65.jpg",
+      "bytes": 395357,
+      "sha256": "c842b7d3ceb13915bda2acd962bfaf989064b75576e6f0c30897f415aeb78019"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-12.70.jpg",
+      "bytes": 408483,
+      "sha256": "6ca75bc087f55da6f964a1821d34db630a0b3591e9b240587cd4dea39b749d51"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-15.80.jpg",
+      "bytes": 592810,
+      "sha256": "bd15d89ddde115e83c34352c1f6aa2dc7decbee567434386a9390280c5754925"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-16.45.jpg",
+      "bytes": 599067,
+      "sha256": "0b0c72d247d81380f6a9e4cd53d3e8145f93d2e439eddcb8506c8b143056b133"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-18.60.jpg",
+      "bytes": 458722,
+      "sha256": "4ce9e1964a7ae3352ef51d2e6cc49a68015a39231f29af360d70cd16f3821947"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-21.40.jpg",
+      "bytes": 389521,
+      "sha256": "accf991827178130021057d22a1b8996ec3e5393d60081900611df52715f003b"
+    },
+    {
+      "path": "commercial-final-v7/qa/encoded-23.40.jpg",
+      "bytes": 222266,
+      "sha256": "3ccebf68362138a6cc9f5ebf81189146ec297943f0bbedf6fba9f52c8fb6278b"
+    },
+    {
+      "path": "commercial-final-v7/qa/final-contact-sheet.jpg",
+      "bytes": 987194,
+      "sha256": "d79cf8f3becdef0b799750b6ff212e47303d3d17dfea1e515d315329ef82492b"
+    },
+    {
+      "path": "commercial-final-v7/qa/final-verification.json",
+      "bytes": 776,
+      "sha256": "a4ba9d9ad2dd379dcb866eea6c80795930d4ad226ab3c3df5565131aaade5ee1"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-00.00.jpg",
+      "bytes": 300012,
+      "sha256": "b65a09c794a98c655f4a6a70326182a1e7570313f48fd592cdc3c6dda491c5bf"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-00.35.jpg",
+      "bytes": 334223,
+      "sha256": "1f3805a435f1fe648e439a49ac84fa1de2114929b3fde5bf70788eafedcd3b32"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-00.68.jpg",
+      "bytes": 340311,
+      "sha256": "42ea7abc270cf0ff9099005df3b7d7fb7890911e7c3985aab8c6afa12d1370c5"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-01.00.jpg",
+      "bytes": 349276,
+      "sha256": "4f3452293d9568004fa939de460dbe41d270e2c9180913a0872e60521aa1487d"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-01.35.jpg",
+      "bytes": 358620,
+      "sha256": "c7275a4368bb0f0bde6c36ee944f49be0548c0bb14012bdf565161c200ce20cd"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-01.75.jpg",
+      "bytes": 375543,
+      "sha256": "9188030673016531fbe80fd17725e19b1f85ebb88253855e9b4dbd81707681c7"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-02.55.jpg",
+      "bytes": 404075,
+      "sha256": "dbc67d0308eb2dec927539b21f112358b9c69378e2033b88c2bae3dbc409e769"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-03.65.jpg",
+      "bytes": 409683,
+      "sha256": "30bf497338cbb62d11a56e877fe0cffe985376dfb4dd219aa7c98a7e50ec8e50"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-04.40.jpg",
+      "bytes": 410843,
+      "sha256": "b79414d40360eda3e8b9df9e9119f6b04df64df576e4e5ae1d5dfe2b3ef567f1"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-05.60.jpg",
+      "bytes": 445201,
+      "sha256": "bfae08387de614abc23591cbefb84bfb0f03adfb85c453bd331674866f716b32"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-06.60.jpg",
+      "bytes": 361803,
+      "sha256": "5637aa99c263450709e7d827947824a039572c7d33540b67301fe9643ed9130e"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-08.25.jpg",
+      "bytes": 282489,
+      "sha256": "5fab9e3fbf43de1757d8f9b2d878c0079ff7ce8a66ba5bc4ba76a2ba50edb00b"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-09.12.jpg",
+      "bytes": 407800,
+      "sha256": "fbd53315b38bb49e31d10c9e4417cf2205a608c2318d48ea7520ba4dca2c5369"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-10.65.jpg",
+      "bytes": 391369,
+      "sha256": "7c7a84aba09fd554c89e4b012277fb7650cd64d584c668f3ca582d646be98994"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-12.70.jpg",
+      "bytes": 404571,
+      "sha256": "b6d97e6dae3578af22a9668acb02c15ba588c340c766d6385f46f703659830b4"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-15.80.jpg",
+      "bytes": 601462,
+      "sha256": "0000774c52c43b641699e01a35c62667aa746e72c25cd45ee71b4ac5cb887ad2"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-16.45.jpg",
+      "bytes": 603269,
+      "sha256": "ff67f7280ca0c470778f891b8bb7fb3eed2493b5ad2e134c85bf42163df602f7"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-18.60.jpg",
+      "bytes": 451590,
+      "sha256": "9651e10f83194a2f9aaebd78af12d61f8fefd46195b67f3e5d206189c5f7e4f5"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-21.40.jpg",
+      "bytes": 386817,
+      "sha256": "0e88d71b2ac5ce694e58610b44e74def5981ee5fb33a85fe7203da374ecbbc93"
+    },
+    {
+      "path": "commercial-final-v7/qa/frame-23.40.jpg",
+      "bytes": 213484,
+      "sha256": "598ff8cbbaec594038acdc708dc147ea6152cf741baa41cf24975336cfcd2839"
+    },
+    {
+      "path": "commercial-final-v7/qa/ingredients-fixed.mp4",
+      "bytes": 1095587,
+      "sha256": "20966eb6e8f093f6f07236af34aea2b8f72fea4a6c81bd1fec1f8a52b286c808"
+    },
+    {
+      "path": "commercial-final-v7/__pycache__/render_commercial.cpython-312.pyc",
+      "bytes": 42404,
+      "sha256": "427d1654c84c4787532fdd862cd6a3138c2184d77e9803a3a49a77bfb211273f"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-0-0.05.jpg",
+      "bytes": 298096,
+      "sha256": "c41fc5173771a6c2a3293b707de5b718bd516affc55bd22d1f8380911c2c0021"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-0-0.80.jpg",
+      "bytes": 306401,
+      "sha256": "177a3ab78036d8a365e49e93a8d0804220e86fd07c9ebc992c4c2821f901c059"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-0-1.60.jpg",
+      "bytes": 296481,
+      "sha256": "85b677eae16717e591a0a20be3a891afc3fc5f43afc95a4098da39977bfcf772"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-0-2.40.jpg",
+      "bytes": 312194,
+      "sha256": "3c361f2d8831f66f3ba9c54d1c79cbc7b5f75bcbf7151013a5548fee03d19363"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-0-3.60.jpg",
+      "bytes": 306420,
+      "sha256": "38b5ee51774010deca2940d923a156e476873b941878f2b8c3e1b92edfef10da"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-1-0.05.jpg",
+      "bytes": 323373,
+      "sha256": "14f6a6cd7719120a1dae493b6f8875a7dce8fb29971c8de76e4aaafc8bacd189"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-1-0.80.jpg",
+      "bytes": 336085,
+      "sha256": "ebed3615dc0a19c1aec4ebf3b8a731b55918be7f6ec36ac7a08441c3199e3e02"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-1-1.60.jpg",
+      "bytes": 338879,
+      "sha256": "aac78315b6bb002be1e2f989b6cb38bbbbed1b373ff535350db78beedbdd5858"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-1-2.40.jpg",
+      "bytes": 340201,
+      "sha256": "745990a444fe08b0ea25bcd6883672463dce52c9c8c3e29e30ee21383fccf28c"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-1-3.60.jpg",
+      "bytes": 342870,
+      "sha256": "297076c4af0c1b76bf4a6718eff651aaf4511416f6301250c5e8a7586804a388"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-2-0.05.jpg",
+      "bytes": 323120,
+      "sha256": "4f1467f785e94747d33d9769255b63a7444d8eb1b497fdd509574bab2c8041cd"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-2-0.80.jpg",
+      "bytes": 345879,
+      "sha256": "a7193410352373c129353a4c93206b538156c52dd8c2a89c1050ca2cbf4bbc8e"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-2-1.60.jpg",
+      "bytes": 340752,
+      "sha256": "05b7734c5a8aadf7f47b464de92da7516339cda5989806145ebf1e6061f3bc39"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-2-2.40.jpg",
+      "bytes": 346224,
+      "sha256": "07ec97680ce6b89c93f26ac7a7fe1845fe6811bce43580753cc503117d3d751b"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-2-3.60.jpg",
+      "bytes": 363090,
+      "sha256": "a141946e1ae69575d3c06a53ae192c4e4d80dfcc4bca18ccad603b35e12e06e3"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-3-0.05.jpg",
+      "bytes": 387580,
+      "sha256": "426bd57bdf909a0a36953cd0bc83cc068c4bb94da34596b89364f2697ab54e8e"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-3-0.80.jpg",
+      "bytes": 406299,
+      "sha256": "b02bba4d5890a0d49d08f01e5a7e8e2d3bad8002867f5f0f9f8404fcea42d203"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-3-1.60.jpg",
+      "bytes": 406530,
+      "sha256": "957e65d971aa2c15991907f7118784287435bf488dcebddf5e2201867e31d4a6"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-3-2.40.jpg",
+      "bytes": 408090,
+      "sha256": "d8e700d9b832284fc0dc8479522c5749fa0999601a61472386c07bac19a98995"
+    },
+    {
+      "path": "commercial-final-v8/qa/actor-3-3.60.jpg",
+      "bytes": 377776,
+      "sha256": "7283d4154325045016b6c6bdfa68f5acf8f2b858902d7582c3ef0d5249cf483a"
+    },
+    {
+      "path": "commercial-final-v8/qa/comparison-review.jpg",
+      "bytes": 338124,
+      "sha256": "62f5eb7e1d60ab54eaa8fc1ca1522c886a58bae1c8eca9ab7b795a6903f15317"
+    },
+    {
+      "path": "commercial-final-v8/qa/contact-sheet.jpg",
+      "bytes": 794837,
+      "sha256": "d6ea89cd5a3f409769015fd9dc39eb8608f025373aaa4878ae82b2744b029c1d"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-00.70.jpg",
+      "bytes": 355598,
+      "sha256": "7f226787548fd3090e5c5eabe7034aae8715f9f0b20def0b9239a3ceab330b32"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-01.75.jpg",
+      "bytes": 383869,
+      "sha256": "373173e61e60a1e1264788cd80e904e0474da013b7dbabfe2fd23b291c526fcc"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-04.40.jpg",
+      "bytes": 427260,
+      "sha256": "eac1c0d0053760264e3aca5cdb1a7b683a1d3665b702523566efc0f875133b4c"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-05.60.jpg",
+      "bytes": 457442,
+      "sha256": "4d33359907d490b7f79ba2371eaa335f35b9ae40ded5831d776610d194dc7250"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-10.65.jpg",
+      "bytes": 395748,
+      "sha256": "f425be9e6db1c53e5a9eba9dfae4661516bb39b557be6e21891c47c254ad3b15"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-11.80.jpg",
+      "bytes": 436812,
+      "sha256": "fc394edbbf6ad88243a7bc7e47ab29fce44ae038b4eb4a775dfa1377a14f906f"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-12.80.jpg",
+      "bytes": 440529,
+      "sha256": "4d95dac4c4481afa0fca676e9ddd2e3fcb27183036ad18dec46794e12d6d1ab1"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-13.50.jpg",
+      "bytes": 428102,
+      "sha256": "69b915d58e79691382139e1087a6e48447165838a8144eb4fd0563e74d5fb876"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-13.80.jpg",
+      "bytes": 425308,
+      "sha256": "1efd7b8e05d8b6856c0d1263903e2298eda093ddf86e808aa51c1f267516b604"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-14.00.jpg",
+      "bytes": 40727,
+      "sha256": "43324f7538bcd40a0b80acda4e420ee0ad3143d0d35182e1b58b791ec4d490a6"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-14.20.jpg",
+      "bytes": 227129,
+      "sha256": "87331faf7edc56192cc71198190b0ba594fa7b7721428ab563a68e0c3c2ef315"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-14.45.jpg",
+      "bytes": 448615,
+      "sha256": "5e6b2f6e58a83b24fdd5341d4ca543f643af994d3032814e2ef5fd40e3ab6c8c"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-14.75.jpg",
+      "bytes": 490115,
+      "sha256": "0c409d54b57e2ef54d219a4d983b55a4ca071429454ff049550b3ee73082b6c8"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-15.50.jpg",
+      "bytes": 504070,
+      "sha256": "45aadf0303a8c4d464bc69ec9552550dbf92d5854e7aa14702de4f57af8dbacb"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-16.40.jpg",
+      "bytes": 500636,
+      "sha256": "2150629d84229980bd735ccd0a5f59b5f7ce4ad231035ce8cd8c603e344d4f3c"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-17.30.jpg",
+      "bytes": 518135,
+      "sha256": "937e1cf6ddb112fb5eaeedeb6339dd789db581299132e8a58f6076cb29bca0c5"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-17.70.jpg",
+      "bytes": 518967,
+      "sha256": "ac910b9ebd13686d4d031bdc29f272365cf04155d6fae9f29d7f93a09ff7848b"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-18.70.jpg",
+      "bytes": 448901,
+      "sha256": "1ca5020b7594e43da606f91a2e7193dfb28a3e9e6c8f67b9670cb94c6d5de28f"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-20.90.jpg",
+      "bytes": 380677,
+      "sha256": "b75a6663be0e122e227c1ed1d51fbeadeb4b3c99497640b97d7fd02efd5849c0"
+    },
+    {
+      "path": "commercial-final-v8/qa/encoded-23.50.jpg",
+      "bytes": 226277,
+      "sha256": "c236c601d6c8908630b0f031bfd4a3765e92fed4e4da04a00ad3c9ef1d7b5e9a"
+    },
+    {
+      "path": "commercial-final-v8/qa/final-contact-sheet.jpg",
+      "bytes": 1011012,
+      "sha256": "4fedd54cadaa7f29f8665eedc76090af1c7a8d51ed035e3576c77f47792e2865"
+    },
+    {
+      "path": "commercial-final-v8/qa/final-verification.json",
+      "bytes": 785,
+      "sha256": "91cfca324030c75f88139437cfbd7dd74cc472ba1d8a906269647e39d3ebdc44"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-11.50.jpg",
+      "bytes": 423538,
+      "sha256": "02033564b08625906b98b47c42741004fa41b9f3a1f5e6697b6ecdd897e3efe1"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-12.30.jpg",
+      "bytes": 426941,
+      "sha256": "68fdff825e1e8e5810a70d0343485fd17c72d3101bbd30cc7f14590a80a81afa"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-13.10.jpg",
+      "bytes": 435000,
+      "sha256": "76c70376096d92b1c1fb9abdd27f1e75e89c2920b70fd3362dd2e04e8e3fd32e"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-13.47.jpg",
+      "bytes": 432797,
+      "sha256": "a0231851b73a525af53565934f41bacdbcbaafb5218d6bc429128324bfda2c90"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-13.70.jpg",
+      "bytes": 419925,
+      "sha256": "5a1e27e48d894c0891b33d37e6f95b48a8e5bab0e95becffeb6704467efff782"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-13.90.jpg",
+      "bytes": 386408,
+      "sha256": "515d79fc2d9238b355148778233397cae399ff7e0b7ad3a4110b0838fa55db43"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-14.15.jpg",
+      "bytes": 153698,
+      "sha256": "a242cfc87342d4d40afec752c11319b74ad6d005e88ebcd14968742360b1cc6b"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-14.50.jpg",
+      "bytes": 505425,
+      "sha256": "4095bb93caa55054021bd387bc9812b8e6abe24a19e824669fe3bbdc4d90e901"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-15.00.jpg",
+      "bytes": 512904,
+      "sha256": "5133b1ce55ae15f2ace1876b98883da4807b6d28fd1d8ecbebcd5452aaacc0d6"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-15.70.jpg",
+      "bytes": 513864,
+      "sha256": "74636558599bd5b68abeb57e28f28ed6453a337717ae762fbbbb996497a846da"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-16.40.jpg",
+      "bytes": 518546,
+      "sha256": "5942d603aaa8f3f5d08e641860a72bdf2cb7da3a0e25b768805b83853847e65c"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-17.30.jpg",
+      "bytes": 523956,
+      "sha256": "969d8fe0d8d9d39768ca06bbe02cc362d8c71bb2f81e19f77bd6b4ee993e7535"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-18.50.jpg",
+      "bytes": 442485,
+      "sha256": "e7047367df60421c01171e91a795242f1f2fc64544e657d45b54d3b3ecd3626d"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-20.90.jpg",
+      "bytes": 377360,
+      "sha256": "dbab3ac6d14039b580c2c969de4bd2ed05115ff4d862fb7cbc17d489848abdbd"
+    },
+    {
+      "path": "commercial-final-v8/qa/frame-23.50.jpg",
+      "bytes": 222574,
+      "sha256": "77f08e55a2402e0064279f5086c83e13d82d26370d1d6972bdd01b6f69e58018"
+    },
+    {
+      "path": "commercial-final-v8/qa/raw-reactions-metadata.json",
+      "bytes": 757,
+      "sha256": "8a5b934a9d065ca9d2e79a0c2f97670300a85bf4061856674b3a0ea2a91d5ce7"
+    },
+    {
+      "path": "commercial-final-v8/qa/raw-reactions-review.jpg",
+      "bytes": 929496,
+      "sha256": "b8e7cb544bfb4e81d9e3396a48d4f9fb51b6bfbc0b2f9e7773b141543785c468"
+    },
+    {
+      "path": "commercial-final-v8/raw/reaction-0.mp4",
+      "bytes": 1032549,
+      "sha256": "9ee16eb580e7c9911d54fdd3578b48106e507b28037e6a0e5476374db0515d14"
+    },
+    {
+      "path": "commercial-final-v8/raw/reaction-1.mp4",
+      "bytes": 1079528,
+      "sha256": "c0690772c1900463d344d145544b3241b41f13103a440f4451ea514abef81c6d"
+    },
+    {
+      "path": "commercial-final-v8/raw/reaction-2.mp4",
+      "bytes": 1309882,
+      "sha256": "4436633e1cc943156abb0b29d65b57e824d62c36cfc331093bdaa51a4483bf94"
+    },
+    {
+      "path": "commercial-final-v8/raw/reaction-3.mp4",
+      "bytes": 2120335,
+      "sha256": "a4ecf0ef95fa258cea1ecabe83e8c3126a55a9decc53aee8cf7ab286e0db6c93"
+    },
+    {
+      "path": "commercial-final-v8/__pycache__/render_commercial.cpython-312.pyc",
+      "bytes": 28909,
+      "sha256": "93403deb140cff921c3d3353481414bf2d1a2bfa0872ea1c027545dee64bca71"
+    },
+    {
+      "path": "commercial-final-v9/qa/encoded-21.90.jpg",
+      "bytes": 428048,
+      "sha256": "fffabfd48b43f24d089f5bf78fb24c4400f1733a890204c0408f6ad33681338b"
+    },
+    {
+      "path": "commercial-final-v9/qa/encoded-22.00.jpg",
+      "bytes": 364084,
+      "sha256": "bbca78a39a8d77f93fccea05cd9e179e63b670c6a5da91bcbb0b7a8dd57dae52"
+    },
+    {
+      "path": "commercial-final-v9/qa/encoded-22.50.jpg",
+      "bytes": 364125,
+      "sha256": "d61814aabe2e5b6f525d28837155d42c8cad24eb363af0eadc88c20ac10b80b6"
+    },
+    {
+      "path": "commercial-final-v9/qa/encoded-23.50.jpg",
+      "bytes": 364164,
+      "sha256": "95d0dd0a820decaf763e6e021b48fba74fe2d46206118dbfcc160ad9d999c900"
+    },
+    {
+      "path": "commercial-final-v9/qa/encoded-24.90.jpg",
+      "bytes": 364110,
+      "sha256": "1ac99edbbccf09fa315185a9d4c77f16cb1b237569fc4be3ed35ba443501633a"
+    },
+    {
+      "path": "commercial-final-v9/qa/final-verification.json",
+      "bytes": 680,
+      "sha256": "09f3ac5698678fd6379c15c7ffcd2e3e5782d96eab2c51be6ef9ea0c3026e31b"
+    },
+    {
+      "path": "commercial-test-v1/__pycache__/render_commercial.cpython-312.pyc",
+      "bytes": 34372,
+      "sha256": "9c60b3bca1c6ea0aee71ab7653469087c3c0e210680a571ec544298c02d0a4ec"
+    },
+    {
+      "path": "commercial-v2-plan/references/food-felonies-app-design.png",
+      "bytes": 1916822,
+      "sha256": "843c7afc28f5913d0ecbdc707716f51f93b8363fcfd662aa20f1887ab714c65e"
+    },
+    {
+      "path": "commercial-v2-plan/__pycache__/build_brand_storyboard.cpython-312.pyc",
+      "bytes": 13682,
+      "sha256": "15188da44e6edea463b58ed934a5f84cd7710ce89ee2faba94167a2df2d21018"
+    },
+    {
+      "path": "commercial-v2-plan/__pycache__/build_storyboard.cpython-312.pyc",
+      "bytes": 10825,
+      "sha256": "a49173286d78d2b42ae009f785b64771dec3c1e069f5ee77f771045839c10865"
+    },
+    {
+      "path": "commercial-v2-plan/references/fonts/bricolagegrotesque/BricolageGrotesque.ttf",
+      "bytes": 408496,
+      "sha256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682"
+    },
+    {
+      "path": "commercial-v2-plan/references/fonts/bricolagegrotesque/OFL.txt",
+      "bytes": 4403,
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "path": "commercial-v2-plan/references/fonts/dmsans/DMSans.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "commercial-v2-plan/references/fonts/dmsans/OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "commercial-v2-plan/references/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "path": "commercial-v2-plan/references/fonts/ibmplexmono/OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    }
+  ],
+  "retention_checks": [
+    {
+      "original": "commercial-final-v12/food-felonies-dare-to-cook-25s-v12.mp4",
+      "retained": [
+        "final-videos/food-felonies-gelatin-25s.mp4"
+      ],
+      "sha256": "c157c9b7ea46ff9c84eab7e93532b983e554ee1d88a71f0af82933e925138d14"
+    },
+    {
+      "original": "commercial-breakfast-v1/food-felonies-breakfast-final-boss-25s.mp4",
+      "retained": [
+        "final-videos/food-felonies-breakfast-final-boss-25s.mp4"
+      ],
+      "sha256": "c408c9f5232e5fa08b5515b299425079aeec99db7466c0a527a5a52bec0418bf"
+    },
+    {
+      "original": "commercial-art-v7/chef-toxic-progression.png",
+      "retained": [
+        "shared/brand/chef-toxic-progression.png"
+      ],
+      "sha256": "5b204a9cc1397794dcfd66df1906d7ba0cfed409c42f810ddc1782fda813c09f"
+    },
+    {
+      "original": "commercial-art-v7/chef-normal-expressions.png",
+      "retained": [
+        "shared/brand/chef-normal-expressions.png"
+      ],
+      "sha256": "7c79fc34b1a5b57d7db8cd8b50af9a598d86e8d3b766ff9d0d1b6576d7fe47fb"
+    },
+    {
+      "original": "commercial-art-v7/generation-manifest.json",
+      "retained": [
+        "shared/brand/art-generation-manifest.json"
+      ],
+      "sha256": "bcd94e9bfd0e99b8f61b131ceca72424e63e9525a9bbf3f63178dd4b2508fb1e"
+    },
+    {
+      "original": "commercial-v2-plan/references/food-felonies-app-design.png",
+      "retained": [
+        "shared/brand/app-design.png"
+      ],
+      "sha256": "843c7afc28f5913d0ecbdc707716f51f93b8363fcfd662aa20f1887ab714c65e"
+    },
+    {
+      "original": "commercial-final-v10/end-frame-1080x1920.png",
+      "retained": [
+        "shared/brand/end-card-mask.png"
+      ],
+      "sha256": "48adb928783de8fc22dee4afb88429455976ab8441e4050441bc839e3c95810d"
+    },
+    {
+      "original": "commercial-final-v10/end-card-generated.png",
+      "retained": [
+        "shared/brand/end-card-source.png"
+      ],
+      "sha256": "5801f50645db3e19f387a57e6cb616aa6bd484a2e833f80baa9eb8a47b03f03f"
+    },
+    {
+      "original": "commercial-final-v10/end-card-generation.json",
+      "retained": [
+        "shared/brand/end-card-generation.json"
+      ],
+      "sha256": "afc62c3c36252bd6ddaca80616b6ffbe7c14f8296b71caa5b2d73f15470a4543"
+    },
+    {
+      "original": "commercial-final-v6/audio/guitar-drums-original.mp3",
+      "retained": [
+        "shared/audio/guitar-drums-original.mp3"
+      ],
+      "sha256": "ab8872a7f4a6e469aae0315e2bc7ed15d7072ba70fb93ee107c635eb2f7e8064"
+    },
+    {
+      "original": "commercial-final-v6/music-request.json",
+      "retained": [
+        "shared/audio/music-request.json"
+      ],
+      "sha256": "60e68cd1aac32b5c8abdd945a8f777275dfce38870eaa8d5ca4ab8a58d889511"
+    },
+    {
+      "original": "commercial-final-v5/references/main-cook.png",
+      "retained": [
+        "projects/gelatin/references/lead-actor.png"
+      ],
+      "sha256": "dc36a724fcd52637126dd662ed73174f8d1df4f6e70f8ddadcb84828d7f622d1"
+    },
+    {
+      "original": "commercial-final-v5/references/community-cast.png",
+      "retained": [
+        "shared/recipients/references/community-cast.png"
+      ],
+      "sha256": "e157a4ab83e83d8dcee512f26f197fea2de2ba39e3a478be5f10b2be7b717bcd"
+    },
+    {
+      "original": "commercial-final-v7/qa/encoded-04.40.jpg",
+      "retained": [
+        "projects/gelatin/references/lead-avatar.jpg"
+      ],
+      "sha256": "d37a0ba32b83a93e306c416e2dcd5627609dba15ac7ca55309cbc54e281002df"
+    },
+    {
+      "original": "commercial-final-v5/references/gelatin-concept.png",
+      "retained": [
+        "food-crime-images/AC-041-vegetable-gelatin-v1.png"
+      ],
+      "sha256": "702bb251a73e7d01f0b591dfc46585f82b70823b664201d8196a8f7d662eac94"
+    },
+    {
+      "original": "commercial-art-v7/ingredient-onion.png",
+      "retained": [
+        "shared/ingredients/onion.png"
+      ],
+      "sha256": "d180d30a046f6f71d24f51d9d8390d6f0c63e1bbb315085b2c1f2620c1959def"
+    },
+    {
+      "original": "commercial-art-v7/ingredient-celery.png",
+      "retained": [
+        "shared/ingredients/celery.png"
+      ],
+      "sha256": "36e6e6c5ee6d049bcd948981af599da4833d9d52fb76edf93fc1651dfb30aae0"
+    },
+    {
+      "original": "commercial-art-v7/ingredient-gelatin.png",
+      "retained": [
+        "shared/ingredients/gelatin.png"
+      ],
+      "sha256": "944e528fa9adde116cad8622866ce9b95af5c51917d3a935df8808cc7f9e3472"
+    },
+    {
+      "original": "commercial-art-v7/ingredient-green-pepper.png",
+      "retained": [
+        "shared/ingredients/green-pepper.png"
+      ],
+      "sha256": "70ccf2e37cd60b603082bcb53e838c424f38e927b2572659753bfe3c0ab2e67c"
+    },
+    {
+      "original": "commercial-v2-plan/references/fonts/bricolagegrotesque/BricolageGrotesque.ttf",
+      "retained": [
+        "shared/brand/fonts/bricolagegrotesque/BricolageGrotesque.ttf"
+      ],
+      "sha256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682"
+    },
+    {
+      "original": "commercial-v2-plan/references/fonts/dmsans/DMSans.ttf",
+      "retained": [
+        "shared/brand/fonts/dmsans/DMSans.ttf"
+      ],
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "original": "commercial-v2-plan/references/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "retained": [
+        "shared/brand/fonts/ibmplexmono/IBMPlexMono-Regular.ttf"
+      ],
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "original": "commercial-v2-plan/references/fonts/bricolagegrotesque/OFL.txt",
+      "retained": [
+        "shared/brand/fonts/bricolagegrotesque/OFL.txt"
+      ],
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "original": "commercial-v2-plan/references/fonts/dmsans/OFL.txt",
+      "retained": [
+        "shared/brand/fonts/dmsans/OFL.txt"
+      ],
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "original": "commercial-v2-plan/references/fonts/ibmplexmono/OFL.txt",
+      "retained": [
+        "shared/brand/fonts/ibmplexmono/OFL.txt"
+      ],
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "original": "commercial-final-v5/raw/scene-0.mp4",
+      "retained": [
+        "projects/gelatin/raw/scene-0.mp4"
+      ],
+      "sha256": "64e8f0deaca9f66ad12407eab7c9da2c7ba56c0b80d8ab5495bf18239ae58c75"
+    },
+    {
+      "original": "commercial-final-v5/raw/scene-1.mp4",
+      "retained": [
+        "projects/gelatin/raw/scene-1.mp4"
+      ],
+      "sha256": "b353ab158e7408c80ed8ebd9dfcb3c98f6d28632a4e2d93b5695fcab5f5b5767"
+    },
+    {
+      "original": "commercial-final-v5/raw/scene-2.mp4",
+      "retained": [
+        "projects/gelatin/raw/scene-2.mp4"
+      ],
+      "sha256": "5f2f97a9560b50f4eb0c632737d3620fcba87db3edcf44c0d19570bd362bffba"
+    },
+    {
+      "original": "commercial-final-v11/raw/cooking-0.mp4",
+      "retained": [
+        "projects/gelatin/raw/cooking-0.mp4"
+      ],
+      "sha256": "72d5f92f630ed40197a8b62b26c033ff1ba401ff3214e9e74ed1e7263cd27838"
+    },
+    {
+      "original": "commercial-final-v11/raw/cooking-1.mp4",
+      "retained": [
+        "projects/gelatin/raw/cooking-1.mp4"
+      ],
+      "sha256": "5bb278b0d092679a92fb4eecf90c24d0606d2ca9d68f8ae4c8b9394eb7591639"
+    },
+    {
+      "original": "commercial-final-v11/raw/cooking-2.mp4",
+      "retained": [
+        "projects/gelatin/raw/cooking-2.mp4"
+      ],
+      "sha256": "5463076f52476bab94fab20c0f6af5843e90275c9a8fd75d38b2b608387b1832"
+    },
+    {
+      "original": "commercial-final-v11/raw/cooking-3.mp4",
+      "retained": [
+        "projects/gelatin/raw/cooking-3.mp4"
+      ],
+      "sha256": "0df4c8f94d142e37bdbf08cee26a43c215e1bb70538355c95b2f6a5def7e2d55"
+    },
+    {
+      "original": "commercial-final-v8/raw/reaction-0.mp4",
+      "retained": [
+        "shared/recipients/raw/reaction-0.mp4"
+      ],
+      "sha256": "9ee16eb580e7c9911d54fdd3578b48106e507b28037e6a0e5476374db0515d14"
+    },
+    {
+      "original": "commercial-final-v8/raw/reaction-1.mp4",
+      "retained": [
+        "shared/recipients/raw/reaction-1.mp4"
+      ],
+      "sha256": "c0690772c1900463d344d145544b3241b41f13103a440f4451ea514abef81c6d"
+    },
+    {
+      "original": "commercial-final-v8/raw/reaction-2.mp4",
+      "retained": [
+        "shared/recipients/raw/reaction-2.mp4"
+      ],
+      "sha256": "4436633e1cc943156abb0b29d65b57e824d62c36cfc331093bdaa51a4483bf94"
+    },
+    {
+      "original": "commercial-final-v8/raw/reaction-3.mp4",
+      "retained": [
+        "shared/recipients/raw/reaction-3.mp4"
+      ],
+      "sha256": "a4ecf0ef95fa258cea1ecabe83e8c3126a55a9decc53aee8cf7ab286e0db6c93"
+    },
+    {
+      "original": "commercial-final-v11/references/recipient-0.png",
+      "retained": [
+        "shared/recipients/references/recipient-0.png"
+      ],
+      "sha256": "3e423a6d27b781013d42f166670b3ac0238981aafc8140481f95c29dec66f4da"
+    },
+    {
+      "original": "commercial-final-v11/references/recipient-1.png",
+      "retained": [
+        "shared/recipients/references/recipient-1.png"
+      ],
+      "sha256": "efece8d1798879ebfcf6eefdbc622727a314385005b789a0d27c04d4b5325739"
+    },
+    {
+      "original": "commercial-final-v11/references/recipient-2.png",
+      "retained": [
+        "shared/recipients/references/recipient-2.png"
+      ],
+      "sha256": "0e6bb8e63d31c9383e81d3ff3ead5ba8d52dc4a6bc5577d0d4049b43daf17a97"
+    },
+    {
+      "original": "commercial-final-v11/references/recipient-3.png",
+      "retained": [
+        "shared/recipients/references/recipient-3.png"
+      ],
+      "sha256": "db00caa4f4d892586cacbb0a1173233f8ec9fd93c384b3263464e39d07147631"
+    },
+    {
+      "original": "commercial-breakfast-v1/raw/scene-0.mp4",
+      "retained": [
+        "projects/breakfast/raw/scene-0.mp4"
+      ],
+      "sha256": "942df8512ce9c4c0f7f8a2a903241fd6737c3aae463f6f007fb1abb024e944f2"
+    },
+    {
+      "original": "commercial-breakfast-v1/raw/scene-1.mp4",
+      "retained": [
+        "projects/breakfast/raw/scene-1.mp4"
+      ],
+      "sha256": "e11166af3bf2b84c9d54f65f6711680b8cdd0cb4ced41daf1bd07624477a3719"
+    },
+    {
+      "original": "commercial-breakfast-v1/raw/scene-2.mp4",
+      "retained": [
+        "projects/breakfast/raw/scene-2.mp4"
+      ],
+      "sha256": "6ca9e60f8533ac207c6e4a1b28c6666b0ef75996ed4bfef1b9e9c81afbba4bdd"
+    },
+    {
+      "original": "commercial-breakfast-v1/raw/scene-3.mp4",
+      "retained": [
+        "projects/breakfast/raw/scene-3.mp4"
+      ],
+      "sha256": "17040bcb6469d0a2da9ac8f1f9ea64dae729c1f36172d825ea414a84fde64c58"
+    },
+    {
+      "original": "commercial-breakfast-v1/references/hero-food.png",
+      "retained": [
+        "projects/breakfast/references/hero-food.png"
+      ],
+      "sha256": "b4215990d9e78939a1c07a30ed54e4d5a5e7403186c71f26ebbf2aaf6bd8c858"
+    },
+    {
+      "original": "commercial-breakfast-v1/references/homemade-result.png",
+      "retained": [
+        "projects/breakfast/references/homemade-result.png"
+      ],
+      "sha256": "31868b6ec350cbb89d8c2efce654101b88061ce24054613ef7ebc4fded44d6f8"
+    },
+    {
+      "original": "commercial-breakfast-v1/references/ingredient-atlas.png",
+      "retained": [
+        "projects/breakfast/references/ingredient-atlas.png"
+      ],
+      "sha256": "f2fcb0d723eaa82d2758e2da75d2ae89c90c6bc9279f4967961c564fef295fef"
+    },
+    {
+      "original": "commercial-breakfast-v1/references/community-results-atlas.png",
+      "retained": [
+        "projects/breakfast/references/community-results-atlas.png"
+      ],
+      "sha256": "b81de1f4931c80a3bf26df0829a0e097f538a610af17c8c3163e2dfa83527817"
+    },
+    {
+      "original": "commercial-breakfast-v1/references/lead-actor.png",
+      "retained": [
+        "projects/breakfast/references/lead-actor.png"
+      ],
+      "sha256": "a601e1b55d9a76e5492dce0679594f49bbd5fad143f1c007e9e26b54dadcc38f"
+    }
+  ],
+  "planned_removed_directories": [
+    "commercial-art-v7",
+    "commercial-breakfast-v1",
+    "commercial-final-v10",
+    "commercial-final-v11",
+    "commercial-final-v12",
+    "commercial-final-v5",
+    "commercial-final-v6",
+    "commercial-final-v7",
+    "commercial-final-v8",
+    "commercial-final-v9",
+    "commercial-test-v1",
+    "commercial-v2-plan"
+  ],
+  "post_cleanup_checks": {
+    "breakfast": {
+      "post_cleanup_import_passed": true,
+      "sample_frames_rendered": 16,
+      "all_legacy_directories_absent": true
+    },
+    "gelatin": {
+      "post_cleanup_import_passed": true,
+      "sample_frames_rendered": 16,
+      "all_legacy_directories_absent": true
+    }
+  },
+  "completed_at": "2026-11-11T22:18:59.770959+00:00",
+  "removal_method": "Windows Recycle Bin; recoverable until emptied",
+  "removed_original_paths": [
+    "commercial-art-v7/build_review.py",
+    "commercial-art-v7/chef-normal-expressions.png",
+    "commercial-art-v7/chef-progression-review.png",
+    "commercial-art-v7/chef-toxic-progression.png",
+    "commercial-art-v7/generation-manifest.json",
+    "commercial-art-v7/ingredient-art-review.png",
+    "commercial-art-v7/ingredient-celery.png",
+    "commercial-art-v7/ingredient-gelatin.png",
+    "commercial-art-v7/ingredient-green-pepper.png",
+    "commercial-art-v7/ingredient-onion.png",
+    "commercial-art-v7/README.md",
+    "commercial-art-v7/verification.json",
+    "commercial-breakfast-v1/art-generation.json",
+    "commercial-breakfast-v1/art-prompts-extra.json",
+    "commercial-breakfast-v1/breakfast_ui.py",
+    "commercial-breakfast-v1/community-results-generation.json",
+    "commercial-breakfast-v1/delivery.json",
+    "commercial-breakfast-v1/food-felonies-breakfast-final-boss-25s.mp4",
+    "commercial-breakfast-v1/generation-completed.json",
+    "commercial-breakfast-v1/generation-plan.json",
+    "commercial-breakfast-v1/generation-status-1.json",
+    "commercial-breakfast-v1/generation-status-partial.json",
+    "commercial-breakfast-v1/make_foley.py",
+    "commercial-breakfast-v1/picture.mp4",
+    "commercial-breakfast-v1/poster.jpg",
+    "commercial-breakfast-v1/prepare_assets.py",
+    "commercial-breakfast-v1/README.md",
+    "commercial-breakfast-v1/render.log",
+    "commercial-breakfast-v1/render_commercial.py",
+    "commercial-breakfast-v1/repair_share_track.py",
+    "commercial-breakfast-v1/submission-response.json",
+    "commercial-breakfast-v1/timing.json",
+    "commercial-breakfast-v1/tracking.json",
+    "commercial-breakfast-v1/verify_export.py",
+    "commercial-final-v10/delivery.json",
+    "commercial-final-v10/end-card-generated.png",
+    "commercial-final-v10/end-card-generation.json",
+    "commercial-final-v10/end-frame-1080x1920.png",
+    "commercial-final-v10/food-felonies-mask-ending-25s-v10.mp4",
+    "commercial-final-v10/README.md",
+    "commercial-final-v10/replace_end_card.py",
+    "commercial-final-v11/delivery.json",
+    "commercial-final-v11/food-felonies-discover-then-cook-25s-v11.mp4",
+    "commercial-final-v11/generation-completed.json",
+    "commercial-final-v11/generation-plan.json",
+    "commercial-final-v11/generation-status-partial.json",
+    "commercial-final-v11/picture.mp4",
+    "commercial-final-v11/poster.jpg",
+    "commercial-final-v11/prepare_assets.py",
+    "commercial-final-v11/README.md",
+    "commercial-final-v11/render.log",
+    "commercial-final-v11/render_commercial.py",
+    "commercial-final-v11/submission-response.json",
+    "commercial-final-v11/verify_export.py",
+    "commercial-final-v12/caption-segment.mp4",
+    "commercial-final-v12/delivery.json",
+    "commercial-final-v12/food-felonies-dare-to-cook-25s-v12.mp4",
+    "commercial-final-v12/README.md",
+    "commercial-final-v12/replace_caption.py",
+    "commercial-final-v5/community-cast-reference.md",
+    "commercial-final-v5/community-original-cast-submission.json",
+    "commercial-final-v5/community-submission-response.json",
+    "commercial-final-v5/compose_commercial.py",
+    "commercial-final-v5/delivery.json",
+    "commercial-final-v5/food-felonies-25s-seedance-v5.mp4",
+    "commercial-final-v5/food-felonies-commercial-25s.mp4",
+    "commercial-final-v5/generation-jobs.json",
+    "commercial-final-v5/music.wav",
+    "commercial-final-v5/picture.mp4",
+    "commercial-final-v5/poster.jpg",
+    "commercial-final-v5/README.md",
+    "commercial-final-v5/reference-generation.md",
+    "commercial-final-v5/render.log",
+    "commercial-final-v5/sharing-submission-response.json",
+    "commercial-final-v5/source-results.json",
+    "commercial-final-v5/submission-plan.json",
+    "commercial-final-v5/submission-response-active-connection.json",
+    "commercial-final-v5/submission-response.json",
+    "commercial-final-v5/upload-receipts.json",
+    "commercial-final-v5/verification.json",
+    "commercial-final-v6/delivery.json",
+    "commercial-final-v6/food-felonies-25s-rock-v6.mp4",
+    "commercial-final-v6/food-felonies-radioactive-rock-25s.mp4",
+    "commercial-final-v6/music-request.json",
+    "commercial-final-v6/opening-radioactive.mp4",
+    "commercial-final-v6/picture-radioactive.mp4",
+    "commercial-final-v6/picture.mp4",
+    "commercial-final-v6/README.md",
+    "commercial-final-v6/render.log",
+    "commercial-final-v6/revise_commercial.py",
+    "commercial-final-v6/verification.json",
+    "commercial-final-v7/delivery.json",
+    "commercial-final-v7/food-felonies-toxic-chef-25s-v7.mp4",
+    "commercial-final-v7/picture.mp4",
+    "commercial-final-v7/poster.jpg",
+    "commercial-final-v7/README.md",
+    "commercial-final-v7/render.log",
+    "commercial-final-v7/render_commercial.py",
+    "commercial-final-v7/tracking.json",
+    "commercial-final-v7/verify_export.py",
+    "commercial-final-v8/delivery.json",
+    "commercial-final-v8/food-felonies-hearts-four-reactions-25s-v8.mp4",
+    "commercial-final-v8/generation-completed.json",
+    "commercial-final-v8/generation-plan.json",
+    "commercial-final-v8/generation-status-partial.json",
+    "commercial-final-v8/picture.mp4",
+    "commercial-final-v8/poster.jpg",
+    "commercial-final-v8/prepare_assets.py",
+    "commercial-final-v8/README.md",
+    "commercial-final-v8/render.log",
+    "commercial-final-v8/render_commercial.py",
+    "commercial-final-v8/share-foley.wav",
+    "commercial-final-v8/submission-response.json",
+    "commercial-final-v8/verify_export.py",
+    "commercial-final-v9/delivery.json",
+    "commercial-final-v9/end-card-generated.png",
+    "commercial-final-v9/end-card-generation.json",
+    "commercial-final-v9/end-frame-1080x1920.png",
+    "commercial-final-v9/food-felonies-clean-ending-25s-v9.mp4",
+    "commercial-final-v9/README.md",
+    "commercial-final-v9/replace_end_card.py",
+    "commercial-test-v1/food-felonies-commercial-25s-v1.mp4",
+    "commercial-test-v1/frame-01.jpg",
+    "commercial-test-v1/frame-02.jpg",
+    "commercial-test-v1/frame-03.jpg",
+    "commercial-test-v1/frame-04.jpg",
+    "commercial-test-v1/frame-05.jpg",
+    "commercial-test-v1/frame-06.jpg",
+    "commercial-test-v1/frame-07.jpg",
+    "commercial-test-v1/frame-08.jpg",
+    "commercial-test-v1/poster.jpg",
+    "commercial-test-v1/production-notes.md",
+    "commercial-test-v1/render.log",
+    "commercial-test-v1/render_commercial.py",
+    "commercial-test-v1/soundtrack.wav",
+    "commercial-test-v1/storyboard.jpg",
+    "commercial-test-v1/verification.json",
+    "commercial-v2-plan/brand-scene-01.jpg",
+    "commercial-v2-plan/brand-scene-02.jpg",
+    "commercial-v2-plan/brand-scene-03.jpg",
+    "commercial-v2-plan/brand-scene-04.jpg",
+    "commercial-v2-plan/brand-scene-05.jpg",
+    "commercial-v2-plan/brand-scene-06.jpg",
+    "commercial-v2-plan/build_brand_storyboard.py",
+    "commercial-v2-plan/build_storyboard.py",
+    "commercial-v2-plan/explosive-25s-storyboard-brand-v2.jpg",
+    "commercial-v2-plan/explosive-25s-storyboard.jpg",
+    "commercial-v2-plan/generation-plan-brand-v2.json",
+    "commercial-v2-plan/generation-plan-person-v3.json",
+    "commercial-v2-plan/generation-plan-person-v4.json",
+    "commercial-v2-plan/generation-plan-person-v5.json",
+    "commercial-v2-plan/generation-plan.json",
+    "commercial-v2-plan/person-flow-v4.md",
+    "commercial-v2-plan/person-flow-v5.md",
+    "commercial-v2-plan/person-storyboard-v3.md",
+    "commercial-v2-plan/scene-01.jpg",
+    "commercial-v2-plan/scene-02.jpg",
+    "commercial-v2-plan/scene-03.jpg",
+    "commercial-v2-plan/scene-04.jpg",
+    "commercial-v2-plan/scene-05.jpg",
+    "commercial-v2-plan/scene-06.jpg",
+    "commercial-breakfast-v1/audio/breakfast-foley.wav",
+    "commercial-breakfast-v1/qa/community-third.jpg",
+    "commercial-breakfast-v1/qa/contact-sheet.jpg",
+    "commercial-breakfast-v1/qa/encoded-00.40.jpg",
+    "commercial-breakfast-v1/qa/encoded-01.75.jpg",
+    "commercial-breakfast-v1/qa/encoded-02.60.jpg",
+    "commercial-breakfast-v1/qa/encoded-03.90.jpg",
+    "commercial-breakfast-v1/qa/encoded-05.50.jpg",
+    "commercial-breakfast-v1/qa/encoded-06.40.jpg",
+    "commercial-breakfast-v1/qa/encoded-07.10.jpg",
+    "commercial-breakfast-v1/qa/encoded-07.80.jpg",
+    "commercial-breakfast-v1/qa/encoded-08.70.jpg",
+    "commercial-breakfast-v1/qa/encoded-10.40.jpg",
+    "commercial-breakfast-v1/qa/encoded-11.80.jpg",
+    "commercial-breakfast-v1/qa/encoded-12.80.jpg",
+    "commercial-breakfast-v1/qa/encoded-13.35.jpg",
+    "commercial-breakfast-v1/qa/encoded-13.70.jpg",
+    "commercial-breakfast-v1/qa/encoded-14.70.jpg",
+    "commercial-breakfast-v1/qa/encoded-15.70.jpg",
+    "commercial-breakfast-v1/qa/encoded-16.80.jpg",
+    "commercial-breakfast-v1/qa/encoded-18.00.jpg",
+    "commercial-breakfast-v1/qa/encoded-19.20.jpg",
+    "commercial-breakfast-v1/qa/encoded-20.50.jpg",
+    "commercial-breakfast-v1/qa/encoded-21.60.jpg",
+    "commercial-breakfast-v1/qa/encoded-23.50.jpg",
+    "commercial-breakfast-v1/qa/final-contact-sheet.jpg",
+    "commercial-breakfast-v1/qa/final-verification.json",
+    "commercial-breakfast-v1/qa/frame-00.40.jpg",
+    "commercial-breakfast-v1/qa/frame-01.75.jpg",
+    "commercial-breakfast-v1/qa/frame-02.60.jpg",
+    "commercial-breakfast-v1/qa/frame-03.90.jpg",
+    "commercial-breakfast-v1/qa/frame-05.50.jpg",
+    "commercial-breakfast-v1/qa/frame-06.40.jpg",
+    "commercial-breakfast-v1/qa/frame-07.10.jpg",
+    "commercial-breakfast-v1/qa/frame-07.80.jpg",
+    "commercial-breakfast-v1/qa/frame-08.70.jpg",
+    "commercial-breakfast-v1/qa/frame-10.40.jpg",
+    "commercial-breakfast-v1/qa/frame-12.80.jpg",
+    "commercial-breakfast-v1/qa/frame-13.70.jpg",
+    "commercial-breakfast-v1/qa/frame-14.70.jpg",
+    "commercial-breakfast-v1/qa/frame-15.70.jpg",
+    "commercial-breakfast-v1/qa/frame-16.80.jpg",
+    "commercial-breakfast-v1/qa/frame-18.00.jpg",
+    "commercial-breakfast-v1/qa/frame-19.20.jpg",
+    "commercial-breakfast-v1/qa/frame-20.50.jpg",
+    "commercial-breakfast-v1/qa/frame-21.60.jpg",
+    "commercial-breakfast-v1/qa/frame-23.50.jpg",
+    "commercial-breakfast-v1/qa/raw-metadata.json",
+    "commercial-breakfast-v1/qa/raw-review.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-0-0.50.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-0-2.40.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-0-3.70.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-0-4.90.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-0-5.60.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-1-0.35.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-1-1.20.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-1-2.20.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-1-3.70.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-1-5.30.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-2-0.30.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-2-1.10.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-2-1.90.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-2-2.70.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-2-3.60.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-3-0.40.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-3-1.65.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-3-2.90.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-3-4.25.jpg",
+    "commercial-breakfast-v1/qa/raw-scene-3-4.80.jpg",
+    "commercial-breakfast-v1/qa/share-fixed-11.30.jpg",
+    "commercial-breakfast-v1/qa/share-fixed-11.80.jpg",
+    "commercial-breakfast-v1/qa/share-fixed-12.80.jpg",
+    "commercial-breakfast-v1/qa/share-fixed-13.35.jpg",
+    "commercial-breakfast-v1/qa/share-fixed-13.70.jpg",
+    "commercial-breakfast-v1/qa/share-fixed-review.jpg",
+    "commercial-breakfast-v1/qa/ui-preview.jpg",
+    "commercial-breakfast-v1/raw/scene-0.mp4",
+    "commercial-breakfast-v1/raw/scene-1.mp4",
+    "commercial-breakfast-v1/raw/scene-2.mp4",
+    "commercial-breakfast-v1/raw/scene-3.mp4",
+    "commercial-breakfast-v1/references/community-results-atlas.png",
+    "commercial-breakfast-v1/references/hero-food.png",
+    "commercial-breakfast-v1/references/homemade-result.png",
+    "commercial-breakfast-v1/references/ingredient-atlas.png",
+    "commercial-breakfast-v1/references/lead-actor.png",
+    "commercial-breakfast-v1/__pycache__/breakfast_ui.cpython-312.pyc",
+    "commercial-breakfast-v1/__pycache__/render_commercial.cpython-312.pyc",
+    "commercial-final-v10/qa/encoded-21.90.jpg",
+    "commercial-final-v10/qa/encoded-22.00.jpg",
+    "commercial-final-v10/qa/encoded-22.50.jpg",
+    "commercial-final-v10/qa/encoded-23.50.jpg",
+    "commercial-final-v10/qa/encoded-24.90.jpg",
+    "commercial-final-v10/qa/final-verification.json",
+    "commercial-final-v11/qa/actor-0-0.05.jpg",
+    "commercial-final-v11/qa/actor-0-0.80.jpg",
+    "commercial-final-v11/qa/actor-0-1.60.jpg",
+    "commercial-final-v11/qa/actor-0-2.40.jpg",
+    "commercial-final-v11/qa/actor-0-3.60.jpg",
+    "commercial-final-v11/qa/actor-1-0.05.jpg",
+    "commercial-final-v11/qa/actor-1-0.80.jpg",
+    "commercial-final-v11/qa/actor-1-1.60.jpg",
+    "commercial-final-v11/qa/actor-1-2.40.jpg",
+    "commercial-final-v11/qa/actor-1-3.60.jpg",
+    "commercial-final-v11/qa/actor-2-0.05.jpg",
+    "commercial-final-v11/qa/actor-2-0.80.jpg",
+    "commercial-final-v11/qa/actor-2-1.60.jpg",
+    "commercial-final-v11/qa/actor-2-2.40.jpg",
+    "commercial-final-v11/qa/actor-2-3.60.jpg",
+    "commercial-final-v11/qa/actor-3-0.05.jpg",
+    "commercial-final-v11/qa/actor-3-0.80.jpg",
+    "commercial-final-v11/qa/actor-3-1.60.jpg",
+    "commercial-final-v11/qa/actor-3-2.40.jpg",
+    "commercial-final-v11/qa/actor-3-3.60.jpg",
+    "commercial-final-v11/qa/contact-sheet.jpg",
+    "commercial-final-v11/qa/discovery-review.jpg",
+    "commercial-final-v11/qa/encoded-01.75.jpg",
+    "commercial-final-v11/qa/encoded-05.60.jpg",
+    "commercial-final-v11/qa/encoded-12.80.jpg",
+    "commercial-final-v11/qa/encoded-13.70.jpg",
+    "commercial-final-v11/qa/encoded-14.20.jpg",
+    "commercial-final-v11/qa/encoded-14.70.jpg",
+    "commercial-final-v11/qa/encoded-15.60.jpg",
+    "commercial-final-v11/qa/encoded-16.30.jpg",
+    "commercial-final-v11/qa/encoded-16.70.jpg",
+    "commercial-final-v11/qa/encoded-17.90.jpg",
+    "commercial-final-v11/qa/encoded-19.20.jpg",
+    "commercial-final-v11/qa/encoded-20.50.jpg",
+    "commercial-final-v11/qa/encoded-21.10.jpg",
+    "commercial-final-v11/qa/encoded-21.60.jpg",
+    "commercial-final-v11/qa/encoded-23.50.jpg",
+    "commercial-final-v11/qa/final-contact-sheet.jpg",
+    "commercial-final-v11/qa/final-verification.json",
+    "commercial-final-v11/qa/frame-13.70.jpg",
+    "commercial-final-v11/qa/frame-14.20.jpg",
+    "commercial-final-v11/qa/frame-14.60.jpg",
+    "commercial-final-v11/qa/frame-14.70.jpg",
+    "commercial-final-v11/qa/frame-15.00.jpg",
+    "commercial-final-v11/qa/frame-15.50.jpg",
+    "commercial-final-v11/qa/frame-15.60.jpg",
+    "commercial-final-v11/qa/frame-16.20.jpg",
+    "commercial-final-v11/qa/frame-16.30.jpg",
+    "commercial-final-v11/qa/frame-16.70.jpg",
+    "commercial-final-v11/qa/frame-17.90.jpg",
+    "commercial-final-v11/qa/frame-19.20.jpg",
+    "commercial-final-v11/qa/frame-20.50.jpg",
+    "commercial-final-v11/qa/frame-21.60.jpg",
+    "commercial-final-v11/qa/frame-23.50.jpg",
+    "commercial-final-v11/qa/raw-cooking-metadata.json",
+    "commercial-final-v11/qa/raw-cooking-review.jpg",
+    "commercial-final-v11/raw/cooking-0.mp4",
+    "commercial-final-v11/raw/cooking-1.mp4",
+    "commercial-final-v11/raw/cooking-2.mp4",
+    "commercial-final-v11/raw/cooking-3.mp4",
+    "commercial-final-v11/references/recipient-0.png",
+    "commercial-final-v11/references/recipient-1.png",
+    "commercial-final-v11/references/recipient-2.png",
+    "commercial-final-v11/references/recipient-3.png",
+    "commercial-final-v11/references/result-0.jpg",
+    "commercial-final-v11/references/result-1.jpg",
+    "commercial-final-v11/references/result-2.jpg",
+    "commercial-final-v11/references/result-3.jpg",
+    "commercial-final-v12/qa/encoded-3.40.jpg",
+    "commercial-final-v12/qa/encoded-3.80.jpg",
+    "commercial-final-v12/qa/encoded-4.40.jpg",
+    "commercial-final-v12/qa/encoded-4.70.jpg",
+    "commercial-final-v12/qa/final-verification.json",
+    "commercial-final-v5/qa/composite-0.9.jpg",
+    "commercial-final-v5/qa/composite-1.8.jpg",
+    "commercial-final-v5/qa/composite-10.5.jpg",
+    "commercial-final-v5/qa/composite-2.6.jpg",
+    "commercial-final-v5/qa/composite-3.7.jpg",
+    "commercial-final-v5/qa/composite-5.4.jpg",
+    "commercial-final-v5/qa/contact-sheet.jpg",
+    "commercial-final-v5/qa/end-card.jpg",
+    "commercial-final-v5/qa/final-verification.json",
+    "commercial-final-v5/qa/first-composites.jpg",
+    "commercial-final-v5/qa/frame-00.jpg",
+    "commercial-final-v5/qa/frame-01.jpg",
+    "commercial-final-v5/qa/frame-02.jpg",
+    "commercial-final-v5/qa/frame-03.jpg",
+    "commercial-final-v5/qa/frame-04.jpg",
+    "commercial-final-v5/qa/frame-05.jpg",
+    "commercial-final-v5/qa/frame-06.jpg",
+    "commercial-final-v5/qa/frame-07.jpg",
+    "commercial-final-v5/qa/frame-08.jpg",
+    "commercial-final-v5/qa/frame-09.jpg",
+    "commercial-final-v5/qa/frame-10.jpg",
+    "commercial-final-v5/qa/opening-15s-picture.mp4",
+    "commercial-final-v5/qa/phone-track-review.jpg",
+    "commercial-final-v5/qa/raw-community-0.3.jpg",
+    "commercial-final-v5/qa/raw-community-1.2.jpg",
+    "commercial-final-v5/qa/raw-community-2.3.jpg",
+    "commercial-final-v5/qa/raw-community-3.4.jpg",
+    "commercial-final-v5/qa/raw-community-4.5.jpg",
+    "commercial-final-v5/qa/raw-community-5.4.jpg",
+    "commercial-final-v5/qa/raw-community-6.2.jpg",
+    "commercial-final-v5/qa/raw-community-6.7.jpg",
+    "commercial-final-v5/qa/raw-community-contact.jpg",
+    "commercial-final-v5/qa/raw-first-two-contact.jpg",
+    "commercial-final-v5/qa/raw-scene-0-0.3.jpg",
+    "commercial-final-v5/qa/raw-scene-0-1.3.jpg",
+    "commercial-final-v5/qa/raw-scene-0-2.3.jpg",
+    "commercial-final-v5/qa/raw-scene-0-3.3.jpg",
+    "commercial-final-v5/qa/raw-scene-0-4.3.jpg",
+    "commercial-final-v5/qa/raw-scene-0-5.3.jpg",
+    "commercial-final-v5/qa/raw-scene-1-0.3.jpg",
+    "commercial-final-v5/qa/raw-scene-1-1.3.jpg",
+    "commercial-final-v5/qa/raw-scene-1-2.3.jpg",
+    "commercial-final-v5/qa/raw-scene-1-3.3.jpg",
+    "commercial-final-v5/qa/raw-scene-1-4.3.jpg",
+    "commercial-final-v5/qa/raw-sharing-contact.jpg",
+    "commercial-final-v5/qa/reference-phone-composite.jpg",
+    "commercial-final-v5/qa/sharing-composites.jpg",
+    "commercial-final-v5/qa/tagline-source-detail.png",
+    "commercial-final-v5/raw/scene-0.mp4",
+    "commercial-final-v5/raw/scene-1.mp4",
+    "commercial-final-v5/raw/scene-2.mp4",
+    "commercial-final-v5/raw/scene-3.mp4",
+    "commercial-final-v5/references/community-cast.png",
+    "commercial-final-v5/references/community-result-1.jpg",
+    "commercial-final-v5/references/community-result-2.jpg",
+    "commercial-final-v5/references/community-result-3.jpg",
+    "commercial-final-v5/references/gelatin-concept.png",
+    "commercial-final-v5/references/gelatin-original.png",
+    "commercial-final-v5/references/main-cook.png",
+    "commercial-final-v5/__pycache__/compose_commercial.cpython-312.pyc",
+    "commercial-final-v6/audio/clean-foley.wav",
+    "commercial-final-v6/audio/guitar-drums-original.mp3",
+    "commercial-final-v6/qa/contact-sheet-v6.jpg",
+    "commercial-final-v6/qa/final-contact-sheet.jpg",
+    "commercial-final-v6/qa/final-verification.json",
+    "commercial-final-v6/qa/frame-00.jpg",
+    "commercial-final-v6/qa/frame-01.jpg",
+    "commercial-final-v6/qa/frame-02.jpg",
+    "commercial-final-v6/qa/frame-03.jpg",
+    "commercial-final-v6/qa/frame-04.jpg",
+    "commercial-final-v6/qa/frame-05.jpg",
+    "commercial-final-v6/qa/frame-06.jpg",
+    "commercial-final-v6/qa/frame-07.jpg",
+    "commercial-final-v6/qa/frame-08.jpg",
+    "commercial-final-v6/qa/frame-09.jpg",
+    "commercial-final-v6/qa/frame-10.jpg",
+    "commercial-final-v6/qa/frame-11.jpg",
+    "commercial-final-v6/qa/frame-12.jpg",
+    "commercial-final-v6/qa/opening-review.jpg",
+    "commercial-final-v6/qa/radioactive-opening-review.jpg",
+    "commercial-final-v6/__pycache__/revise_commercial.cpython-312.pyc",
+    "commercial-final-v7/qa/contact-sheet.jpg",
+    "commercial-final-v7/qa/encoded-00.00.jpg",
+    "commercial-final-v7/qa/encoded-00.35.jpg",
+    "commercial-final-v7/qa/encoded-00.68.jpg",
+    "commercial-final-v7/qa/encoded-01.00.jpg",
+    "commercial-final-v7/qa/encoded-01.35.jpg",
+    "commercial-final-v7/qa/encoded-01.75.jpg",
+    "commercial-final-v7/qa/encoded-02.55.jpg",
+    "commercial-final-v7/qa/encoded-03.65.jpg",
+    "commercial-final-v7/qa/encoded-04.40.jpg",
+    "commercial-final-v7/qa/encoded-05.60.jpg",
+    "commercial-final-v7/qa/encoded-06.60.jpg",
+    "commercial-final-v7/qa/encoded-08.25.jpg",
+    "commercial-final-v7/qa/encoded-09.12.jpg",
+    "commercial-final-v7/qa/encoded-10.65.jpg",
+    "commercial-final-v7/qa/encoded-12.70.jpg",
+    "commercial-final-v7/qa/encoded-15.80.jpg",
+    "commercial-final-v7/qa/encoded-16.45.jpg",
+    "commercial-final-v7/qa/encoded-18.60.jpg",
+    "commercial-final-v7/qa/encoded-21.40.jpg",
+    "commercial-final-v7/qa/encoded-23.40.jpg",
+    "commercial-final-v7/qa/final-contact-sheet.jpg",
+    "commercial-final-v7/qa/final-verification.json",
+    "commercial-final-v7/qa/frame-00.00.jpg",
+    "commercial-final-v7/qa/frame-00.35.jpg",
+    "commercial-final-v7/qa/frame-00.68.jpg",
+    "commercial-final-v7/qa/frame-01.00.jpg",
+    "commercial-final-v7/qa/frame-01.35.jpg",
+    "commercial-final-v7/qa/frame-01.75.jpg",
+    "commercial-final-v7/qa/frame-02.55.jpg",
+    "commercial-final-v7/qa/frame-03.65.jpg",
+    "commercial-final-v7/qa/frame-04.40.jpg",
+    "commercial-final-v7/qa/frame-05.60.jpg",
+    "commercial-final-v7/qa/frame-06.60.jpg",
+    "commercial-final-v7/qa/frame-08.25.jpg",
+    "commercial-final-v7/qa/frame-09.12.jpg",
+    "commercial-final-v7/qa/frame-10.65.jpg",
+    "commercial-final-v7/qa/frame-12.70.jpg",
+    "commercial-final-v7/qa/frame-15.80.jpg",
+    "commercial-final-v7/qa/frame-16.45.jpg",
+    "commercial-final-v7/qa/frame-18.60.jpg",
+    "commercial-final-v7/qa/frame-21.40.jpg",
+    "commercial-final-v7/qa/frame-23.40.jpg",
+    "commercial-final-v7/qa/ingredients-fixed.mp4",
+    "commercial-final-v7/__pycache__/render_commercial.cpython-312.pyc",
+    "commercial-final-v8/qa/actor-0-0.05.jpg",
+    "commercial-final-v8/qa/actor-0-0.80.jpg",
+    "commercial-final-v8/qa/actor-0-1.60.jpg",
+    "commercial-final-v8/qa/actor-0-2.40.jpg",
+    "commercial-final-v8/qa/actor-0-3.60.jpg",
+    "commercial-final-v8/qa/actor-1-0.05.jpg",
+    "commercial-final-v8/qa/actor-1-0.80.jpg",
+    "commercial-final-v8/qa/actor-1-1.60.jpg",
+    "commercial-final-v8/qa/actor-1-2.40.jpg",
+    "commercial-final-v8/qa/actor-1-3.60.jpg",
+    "commercial-final-v8/qa/actor-2-0.05.jpg",
+    "commercial-final-v8/qa/actor-2-0.80.jpg",
+    "commercial-final-v8/qa/actor-2-1.60.jpg",
+    "commercial-final-v8/qa/actor-2-2.40.jpg",
+    "commercial-final-v8/qa/actor-2-3.60.jpg",
+    "commercial-final-v8/qa/actor-3-0.05.jpg",
+    "commercial-final-v8/qa/actor-3-0.80.jpg",
+    "commercial-final-v8/qa/actor-3-1.60.jpg",
+    "commercial-final-v8/qa/actor-3-2.40.jpg",
+    "commercial-final-v8/qa/actor-3-3.60.jpg",
+    "commercial-final-v8/qa/comparison-review.jpg",
+    "commercial-final-v8/qa/contact-sheet.jpg",
+    "commercial-final-v8/qa/encoded-00.70.jpg",
+    "commercial-final-v8/qa/encoded-01.75.jpg",
+    "commercial-final-v8/qa/encoded-04.40.jpg",
+    "commercial-final-v8/qa/encoded-05.60.jpg",
+    "commercial-final-v8/qa/encoded-10.65.jpg",
+    "commercial-final-v8/qa/encoded-11.80.jpg",
+    "commercial-final-v8/qa/encoded-12.80.jpg",
+    "commercial-final-v8/qa/encoded-13.50.jpg",
+    "commercial-final-v8/qa/encoded-13.80.jpg",
+    "commercial-final-v8/qa/encoded-14.00.jpg",
+    "commercial-final-v8/qa/encoded-14.20.jpg",
+    "commercial-final-v8/qa/encoded-14.45.jpg",
+    "commercial-final-v8/qa/encoded-14.75.jpg",
+    "commercial-final-v8/qa/encoded-15.50.jpg",
+    "commercial-final-v8/qa/encoded-16.40.jpg",
+    "commercial-final-v8/qa/encoded-17.30.jpg",
+    "commercial-final-v8/qa/encoded-17.70.jpg",
+    "commercial-final-v8/qa/encoded-18.70.jpg",
+    "commercial-final-v8/qa/encoded-20.90.jpg",
+    "commercial-final-v8/qa/encoded-23.50.jpg",
+    "commercial-final-v8/qa/final-contact-sheet.jpg",
+    "commercial-final-v8/qa/final-verification.json",
+    "commercial-final-v8/qa/frame-11.50.jpg",
+    "commercial-final-v8/qa/frame-12.30.jpg",
+    "commercial-final-v8/qa/frame-13.10.jpg",
+    "commercial-final-v8/qa/frame-13.47.jpg",
+    "commercial-final-v8/qa/frame-13.70.jpg",
+    "commercial-final-v8/qa/frame-13.90.jpg",
+    "commercial-final-v8/qa/frame-14.15.jpg",
+    "commercial-final-v8/qa/frame-14.50.jpg",
+    "commercial-final-v8/qa/frame-15.00.jpg",
+    "commercial-final-v8/qa/frame-15.70.jpg",
+    "commercial-final-v8/qa/frame-16.40.jpg",
+    "commercial-final-v8/qa/frame-17.30.jpg",
+    "commercial-final-v8/qa/frame-18.50.jpg",
+    "commercial-final-v8/qa/frame-20.90.jpg",
+    "commercial-final-v8/qa/frame-23.50.jpg",
+    "commercial-final-v8/qa/raw-reactions-metadata.json",
+    "commercial-final-v8/qa/raw-reactions-review.jpg",
+    "commercial-final-v8/raw/reaction-0.mp4",
+    "commercial-final-v8/raw/reaction-1.mp4",
+    "commercial-final-v8/raw/reaction-2.mp4",
+    "commercial-final-v8/raw/reaction-3.mp4",
+    "commercial-final-v8/__pycache__/render_commercial.cpython-312.pyc",
+    "commercial-final-v9/qa/encoded-21.90.jpg",
+    "commercial-final-v9/qa/encoded-22.00.jpg",
+    "commercial-final-v9/qa/encoded-22.50.jpg",
+    "commercial-final-v9/qa/encoded-23.50.jpg",
+    "commercial-final-v9/qa/encoded-24.90.jpg",
+    "commercial-final-v9/qa/final-verification.json",
+    "commercial-test-v1/__pycache__/render_commercial.cpython-312.pyc",
+    "commercial-v2-plan/references/food-felonies-app-design.png",
+    "commercial-v2-plan/__pycache__/build_brand_storyboard.cpython-312.pyc",
+    "commercial-v2-plan/__pycache__/build_storyboard.cpython-312.pyc",
+    "commercial-v2-plan/references/fonts/bricolagegrotesque/BricolageGrotesque.ttf",
+    "commercial-v2-plan/references/fonts/bricolagegrotesque/OFL.txt",
+    "commercial-v2-plan/references/fonts/dmsans/DMSans.ttf",
+    "commercial-v2-plan/references/fonts/dmsans/OFL.txt",
+    "commercial-v2-plan/references/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "commercial-v2-plan/references/fonts/ibmplexmono/OFL.txt"
+  ],
+  "retained_inventory": [
+    {
+      "path": ".gitignore",
+      "bytes": 42,
+      "sha256": "dc502f37dc1fd7ba67ef6543f291d80dfc400d2f1d72b4491186084110e9614d"
+    },
+    {
+      "path": "final-videos/breakfast-verification.json",
+      "bytes": 1908,
+      "sha256": "02876f02d9684aa9eaaf8563e5e9350e4f6c8fbcf05404f58b6d66b42ac94330"
+    },
+    {
+      "path": "final-videos/food-felonies-breakfast-final-boss-25s.mp4",
+      "bytes": 17726877,
+      "sha256": "c408c9f5232e5fa08b5515b299425079aeec99db7466c0a527a5a52bec0418bf"
+    },
+    {
+      "path": "final-videos/food-felonies-gelatin-25s.mp4",
+      "bytes": 20345096,
+      "sha256": "c157c9b7ea46ff9c84eab7e93532b983e554ee1d88a71f0af82933e925138d14"
+    },
+    {
+      "path": "final-videos/gelatin-verification.json",
+      "bytes": 898,
+      "sha256": "ad7d519b8f65a06a7525c8eeb330376ce698f1c79e4c1498aad31949d86de508"
+    },
+    {
+      "path": "food-crime-images/AC-011-deep-fried-butter-v1.png",
+      "bytes": 2029492,
+      "sha256": "d60460082950b98d5ed58af10229c8830ff9b5e2770e5891dcce15f94e389999"
+    },
+    {
+      "path": "food-crime-images/AC-030-candle-salad-v1.png",
+      "bytes": 1881629,
+      "sha256": "cb61e5bf06ab7e6e343640bf3b87067c1c67890e5a5d729099724a8203776c25"
+    },
+    {
+      "path": "food-crime-images/AC-041-vegetable-gelatin-v1.png",
+      "bytes": 1927852,
+      "sha256": "702bb251a73e7d01f0b591dfc46585f82b70823b664201d8196a8f7d662eac94"
+    },
+    {
+      "path": "food-crime-images/generation-notes.md",
+      "bytes": 6368,
+      "sha256": "4239d2db8ff8cd5204189a69f1db05888718f9ba79054265308bf3621d80170b"
+    },
+    {
+      "path": "projects/breakfast/art-generation.json",
+      "bytes": 3437,
+      "sha256": "52f72adc0361415f7f73e71f7969dda7e546c11ab99063748dc394d871b8ec1f"
+    },
+    {
+      "path": "projects/breakfast/art-prompts-extra.json",
+      "bytes": 3017,
+      "sha256": "361a3ea23568e9930a2a7a7bd6bfcec76fdff830035e432795e71d253072f4a0"
+    },
+    {
+      "path": "projects/breakfast/breakfast_ui.py",
+      "bytes": 14780,
+      "sha256": "643e678b410ecbd52f84f44a7f14c4c262fcb42ce28036af6953fe99f6eeb9e5"
+    },
+    {
+      "path": "projects/breakfast/community-results-generation.json",
+      "bytes": 1671,
+      "sha256": "a63bbe855d502259edd5ee127db87dbb49fc312738c56b2333835e6e297274d3"
+    },
+    {
+      "path": "projects/breakfast/generation-completed.json",
+      "bytes": 1437,
+      "sha256": "65e247c882e8a9567c0add80fc4dd173c48e7ef32e253ac1699fbeb94974cff1"
+    },
+    {
+      "path": "projects/breakfast/generation-plan.json",
+      "bytes": 13450,
+      "sha256": "65c3ccde07277e3070c9b97cff52b3aed489e4c5a1060db19c3ec3869f8559d1"
+    },
+    {
+      "path": "projects/breakfast/make_foley.py",
+      "bytes": 9905,
+      "sha256": "1e9c375c6482a7c375cb3d5224bdd605e4b09fd8e7de53a0eca5e724bb9a435e"
+    },
+    {
+      "path": "projects/breakfast/prepare_assets.py",
+      "bytes": 2788,
+      "sha256": "121d7ed5a8d875c1cf515f1bbbef5ed3cedd4690fe934c958d9a4428211e30f9"
+    },
+    {
+      "path": "projects/breakfast/raw/scene-0.mp4",
+      "bytes": 2011123,
+      "sha256": "942df8512ce9c4c0f7f8a2a903241fd6737c3aae463f6f007fb1abb024e944f2"
+    },
+    {
+      "path": "projects/breakfast/raw/scene-1.mp4",
+      "bytes": 3579657,
+      "sha256": "e11166af3bf2b84c9d54f65f6711680b8cdd0cb4ced41daf1bd07624477a3719"
+    },
+    {
+      "path": "projects/breakfast/raw/scene-2.mp4",
+      "bytes": 1734943,
+      "sha256": "6ca9e60f8533ac207c6e4a1b28c6666b0ef75996ed4bfef1b9e9c81afbba4bdd"
+    },
+    {
+      "path": "projects/breakfast/raw/scene-3.mp4",
+      "bytes": 1805558,
+      "sha256": "17040bcb6469d0a2da9ac8f1f9ea64dae729c1f36172d825ea414a84fde64c58"
+    },
+    {
+      "path": "projects/breakfast/README.md",
+      "bytes": 2788,
+      "sha256": "d1474edb43ed01551d3cf94edb77b7fa1f18ed5f7d521715f2a304e8586a141b"
+    },
+    {
+      "path": "projects/breakfast/references/community-results-atlas.png",
+      "bytes": 2568340,
+      "sha256": "b81de1f4931c80a3bf26df0829a0e097f538a610af17c8c3163e2dfa83527817"
+    },
+    {
+      "path": "projects/breakfast/references/hero-food.png",
+      "bytes": 2424873,
+      "sha256": "b4215990d9e78939a1c07a30ed54e4d5a5e7403186c71f26ebbf2aaf6bd8c858"
+    },
+    {
+      "path": "projects/breakfast/references/homemade-result.png",
+      "bytes": 2350330,
+      "sha256": "31868b6ec350cbb89d8c2efce654101b88061ce24054613ef7ebc4fded44d6f8"
+    },
+    {
+      "path": "projects/breakfast/references/ingredient-atlas.png",
+      "bytes": 1443376,
+      "sha256": "f2fcb0d723eaa82d2758e2da75d2ae89c90c6bc9279f4967961c564fef295fef"
+    },
+    {
+      "path": "projects/breakfast/references/lead-actor.png",
+      "bytes": 2097490,
+      "sha256": "a601e1b55d9a76e5492dce0679594f49bbd5fad143f1c007e9e26b54dadcc38f"
+    },
+    {
+      "path": "projects/breakfast/render_commercial.py",
+      "bytes": 9712,
+      "sha256": "85dc8802fb195a5a6a58c7113d51fc60d39786d232f320acbb22391269b087f5"
+    },
+    {
+      "path": "projects/breakfast/repair_share_track.py",
+      "bytes": 2481,
+      "sha256": "412e8488accefd1f102d01b977237150f6e5cb74ef7a24e71e0aab85b61cef35"
+    },
+    {
+      "path": "projects/breakfast/source-verification.json",
+      "bytes": 2073,
+      "sha256": "1e5f04f016f3b914445e15dea1d9b7c5ceb2dfd4db20fef16ba321f57bba1e60"
+    },
+    {
+      "path": "projects/breakfast/timing.json",
+      "bytes": 221,
+      "sha256": "a06d5529d47b644503e8d80aef1a44f866f2eef53ef89361933ac4d7e16fb565"
+    },
+    {
+      "path": "projects/breakfast/tracking.json",
+      "bytes": 23867,
+      "sha256": "3c23b57aa347652149b4885d0978b473d31126111d4939ec001e5494d2aec753"
+    },
+    {
+      "path": "projects/breakfast/verify_export.py",
+      "bytes": 2279,
+      "sha256": "ebdfd2804e02d9e783a06c6ca4f8eb129ef5f4536136f79ac71c2028e5c28d51"
+    },
+    {
+      "path": "projects/gelatin/final-verification.json",
+      "bytes": 379,
+      "sha256": "0af13ab610019e1b18620839606727ae9f27c9b9ab6e918b66266fd4de8dbffc"
+    },
+    {
+      "path": "projects/gelatin/provenance/community-cooking-completed.json",
+      "bytes": 1437,
+      "sha256": "6920513794902728e66caee885f8a23c5da8330e224fabce5b6a3a7bea1b9fda"
+    },
+    {
+      "path": "projects/gelatin/provenance/community-cooking-plan.json",
+      "bytes": 12714,
+      "sha256": "1897eab444c086224dd98ea8a8442da68c17138b0554da4f591b3092778c883e"
+    },
+    {
+      "path": "projects/gelatin/provenance/lead-generation-jobs.json",
+      "bytes": 525,
+      "sha256": "877cfc03df48e6aa2203efdad7a7491fa8ad2bb0c73de5147e98cb5731f921d2"
+    },
+    {
+      "path": "projects/gelatin/provenance/lead-generation-plan.json",
+      "bytes": 10657,
+      "sha256": "f385d662a1443a4b8a7927e67bd8ee11b3aa528a1e2eb18e9518c15d1b91daee"
+    },
+    {
+      "path": "projects/gelatin/provenance/lead-generation-results.json",
+      "bytes": 1336,
+      "sha256": "cf2211074944c29d56f593f0da2d9d4d7c36e12c12c31b71e06252794c77814a"
+    },
+    {
+      "path": "projects/gelatin/provenance/README.md",
+      "bytes": 208,
+      "sha256": "c805aba2b09b7dabe7eaf1e4a13ac5eea253fa35fb956e712d367a799dff1a87"
+    },
+    {
+      "path": "projects/gelatin/provenance/reference-generation.md",
+      "bytes": 1458,
+      "sha256": "57617eb6204156368c317b93fc06c09cc2bfd86b00ee59283c8c72d16995d89c"
+    },
+    {
+      "path": "projects/gelatin/raw/cooking-0.mp4",
+      "bytes": 1088346,
+      "sha256": "72d5f92f630ed40197a8b62b26c033ff1ba401ff3214e9e74ed1e7263cd27838"
+    },
+    {
+      "path": "projects/gelatin/raw/cooking-1.mp4",
+      "bytes": 1811793,
+      "sha256": "5bb278b0d092679a92fb4eecf90c24d0606d2ca9d68f8ae4c8b9394eb7591639"
+    },
+    {
+      "path": "projects/gelatin/raw/cooking-2.mp4",
+      "bytes": 1537551,
+      "sha256": "5463076f52476bab94fab20c0f6af5843e90275c9a8fd75d38b2b608387b1832"
+    },
+    {
+      "path": "projects/gelatin/raw/cooking-3.mp4",
+      "bytes": 1395257,
+      "sha256": "0df4c8f94d142e37bdbf08cee26a43c215e1bb70538355c95b2f6a5def7e2d55"
+    },
+    {
+      "path": "projects/gelatin/raw/scene-0.mp4",
+      "bytes": 2232488,
+      "sha256": "64e8f0deaca9f66ad12407eab7c9da2c7ba56c0b80d8ab5495bf18239ae58c75"
+    },
+    {
+      "path": "projects/gelatin/raw/scene-1.mp4",
+      "bytes": 2783405,
+      "sha256": "b353ab158e7408c80ed8ebd9dfcb3c98f6d28632a4e2d93b5695fcab5f5b5767"
+    },
+    {
+      "path": "projects/gelatin/raw/scene-2.mp4",
+      "bytes": 1909491,
+      "sha256": "5f2f97a9560b50f4eb0c632737d3620fcba87db3edcf44c0d19570bd362bffba"
+    },
+    {
+      "path": "projects/gelatin/README.md",
+      "bytes": 2115,
+      "sha256": "62e2d609d23851bfd3ff87c35eaf7d795377d14358b05d9f136d065f37c43837"
+    },
+    {
+      "path": "projects/gelatin/references/lead-actor.png",
+      "bytes": 2167733,
+      "sha256": "dc36a724fcd52637126dd662ed73174f8d1df4f6e70f8ddadcb84828d7f622d1"
+    },
+    {
+      "path": "projects/gelatin/references/lead-avatar.jpg",
+      "bytes": 426708,
+      "sha256": "d37a0ba32b83a93e306c416e2dcd5627609dba15ac7ca55309cbc54e281002df"
+    },
+    {
+      "path": "projects/gelatin/render_commercial.py",
+      "bytes": 21621,
+      "sha256": "67dd7fc5bfbd752ad39a2e95f32fd167381105def8ac073c4ca373dc61d16e6f"
+    },
+    {
+      "path": "projects/gelatin/source-verification.json",
+      "bytes": 701,
+      "sha256": "a368359eb11b02e80d6def84a4e75c187434f159cd809258d32b2effe9b8342c"
+    },
+    {
+      "path": "projects/gelatin/tracking.json",
+      "bytes": 31830,
+      "sha256": "b83d88db9f53169dfa0550cc6a735eae0f46d91f96031ea0a674128f5e868490"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2465,
+      "sha256": "ae3581fd4602e58e3221f72951adb835bd7661a94385410e436cd1c8cb4fdba5"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 36,
+      "sha256": "a58ae2851f2a9786adf777db1ef6ae6032b32083ff8e73ea8a09c46b1224a53b"
+    },
+    {
+      "path": "shared/audio/guitar-drums-original.mp3",
+      "bytes": 400866,
+      "sha256": "ab8872a7f4a6e469aae0315e2bc7ed15d7072ba70fb93ee107c635eb2f7e8064"
+    },
+    {
+      "path": "shared/audio/music-request.json",
+      "bytes": 2675,
+      "sha256": "60e68cd1aac32b5c8abdd945a8f777275dfce38870eaa8d5ca4ab8a58d889511"
+    },
+    {
+      "path": "shared/brand/app-design.png",
+      "bytes": 1916822,
+      "sha256": "843c7afc28f5913d0ecbdc707716f51f93b8363fcfd662aa20f1887ab714c65e"
+    },
+    {
+      "path": "shared/brand/art-generation-manifest.json",
+      "bytes": 14017,
+      "sha256": "bcd94e9bfd0e99b8f61b131ceca72424e63e9525a9bbf3f63178dd4b2508fb1e"
+    },
+    {
+      "path": "shared/brand/chef-normal-expressions.png",
+      "bytes": 1100453,
+      "sha256": "7c79fc34b1a5b57d7db8cd8b50af9a598d86e8d3b766ff9d0d1b6576d7fe47fb"
+    },
+    {
+      "path": "shared/brand/chef-toxic-progression.png",
+      "bytes": 2040875,
+      "sha256": "5b204a9cc1397794dcfd66df1906d7ba0cfed409c42f810ddc1782fda813c09f"
+    },
+    {
+      "path": "shared/brand/end-card-generation.json",
+      "bytes": 2428,
+      "sha256": "afc62c3c36252bd6ddaca80616b6ffbe7c14f8296b71caa5b2d73f15470a4543"
+    },
+    {
+      "path": "shared/brand/end-card-mask.png",
+      "bytes": 1678900,
+      "sha256": "48adb928783de8fc22dee4afb88429455976ab8441e4050441bc839e3c95810d"
+    },
+    {
+      "path": "shared/brand/end-card-source.png",
+      "bytes": 1494886,
+      "sha256": "5801f50645db3e19f387a57e6cb616aa6bd484a2e833f80baa9eb8a47b03f03f"
+    },
+    {
+      "path": "shared/brand/fonts/bricolagegrotesque/BricolageGrotesque.ttf",
+      "bytes": 408496,
+      "sha256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682"
+    },
+    {
+      "path": "shared/brand/fonts/bricolagegrotesque/OFL.txt",
+      "bytes": 4403,
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "path": "shared/brand/fonts/dmsans/DMSans.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "path": "shared/brand/fonts/dmsans/OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "path": "shared/brand/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "path": "shared/brand/fonts/ibmplexmono/OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "shared/engine.py",
+      "bytes": 19877,
+      "sha256": "730383f890595643017ccac8fb3e9689c6b14e102458e9ceb4589ae31f54dc3a"
+    },
+    {
+      "path": "shared/hearts.py",
+      "bytes": 3575,
+      "sha256": "fe4a59b068ef6f8b28f3976147de353821c0f1c6ceeeafc98519abc2ba33a231"
+    },
+    {
+      "path": "shared/ingredients/celery.png",
+      "bytes": 1215778,
+      "sha256": "36e6e6c5ee6d049bcd948981af599da4833d9d52fb76edf93fc1651dfb30aae0"
+    },
+    {
+      "path": "shared/ingredients/gelatin.png",
+      "bytes": 1365983,
+      "sha256": "944e528fa9adde116cad8622866ce9b95af5c51917d3a935df8808cc7f9e3472"
+    },
+    {
+      "path": "shared/ingredients/green-pepper.png",
+      "bytes": 1079264,
+      "sha256": "70ccf2e37cd60b603082bcb53e838c424f38e927b2572659753bfe3c0ab2e67c"
+    },
+    {
+      "path": "shared/ingredients/onion.png",
+      "bytes": 1401729,
+      "sha256": "d180d30a046f6f71d24f51d9d8390d6f0c63e1bbb315085b2c1f2620c1959def"
+    },
+    {
+      "path": "shared/README.md",
+      "bytes": 3896,
+      "sha256": "d123afa9158baea4fde170801b0e85ed1168a8dc616a43e4f80282740efba2f2"
+    },
+    {
+      "path": "shared/recipients/community-cast-reference.md",
+      "bytes": 1874,
+      "sha256": "dbd43b41acb3a605ec8ed78e48f35cb7feb263c5d7d14add4c4539d8d19fb2e8"
+    },
+    {
+      "path": "shared/recipients/cooking-generation-completed.json",
+      "bytes": 1437,
+      "sha256": "6920513794902728e66caee885f8a23c5da8330e224fabce5b6a3a7bea1b9fda"
+    },
+    {
+      "path": "shared/recipients/cooking-generation-plan.json",
+      "bytes": 12714,
+      "sha256": "1897eab444c086224dd98ea8a8442da68c17138b0554da4f591b3092778c883e"
+    },
+    {
+      "path": "shared/recipients/raw/reaction-0.mp4",
+      "bytes": 1032549,
+      "sha256": "9ee16eb580e7c9911d54fdd3578b48106e507b28037e6a0e5476374db0515d14"
+    },
+    {
+      "path": "shared/recipients/raw/reaction-1.mp4",
+      "bytes": 1079528,
+      "sha256": "c0690772c1900463d344d145544b3241b41f13103a440f4451ea514abef81c6d"
+    },
+    {
+      "path": "shared/recipients/raw/reaction-2.mp4",
+      "bytes": 1309882,
+      "sha256": "4436633e1cc943156abb0b29d65b57e824d62c36cfc331093bdaa51a4483bf94"
+    },
+    {
+      "path": "shared/recipients/raw/reaction-3.mp4",
+      "bytes": 2120335,
+      "sha256": "a4ecf0ef95fa258cea1ecabe83e8c3126a55a9decc53aee8cf7ab286e0db6c93"
+    },
+    {
+      "path": "shared/recipients/reaction-generation-completed.json",
+      "bytes": 1437,
+      "sha256": "f8d6bb73710d8833b8f8618248d72a51a97ffaa35cb8d22b2f10130e87dc0784"
+    },
+    {
+      "path": "shared/recipients/reaction-generation-plan.json",
+      "bytes": 13081,
+      "sha256": "9d371c65c82427b96e78047b66e08ac27722ba6072cf48d4db6d37573b5fe36c"
+    },
+    {
+      "path": "shared/recipients/references/community-cast.png",
+      "bytes": 2673472,
+      "sha256": "e157a4ab83e83d8dcee512f26f197fea2de2ba39e3a478be5f10b2be7b717bcd"
+    },
+    {
+      "path": "shared/recipients/references/recipient-0.png",
+      "bytes": 668554,
+      "sha256": "3e423a6d27b781013d42f166670b3ac0238981aafc8140481f95c29dec66f4da"
+    },
+    {
+      "path": "shared/recipients/references/recipient-1.png",
+      "bytes": 867881,
+      "sha256": "efece8d1798879ebfcf6eefdbc622727a314385005b789a0d27c04d4b5325739"
+    },
+    {
+      "path": "shared/recipients/references/recipient-2.png",
+      "bytes": 813882,
+      "sha256": "0e6bb8e63d31c9383e81d3ff3ead5ba8d52dc4a6bc5577d0d4049b43daf17a97"
+    },
+    {
+      "path": "shared/recipients/references/recipient-3.png",
+      "bytes": 979771,
+      "sha256": "db00caa4f4d892586cacbb0a1173233f8ec9fd93c384b3263464e39d07147631"
+    }
+  ],
+  "summary": {
+    "original_files": 539,
+    "retained_files": 93,
+    "original_bytes": 558357070,
+    "retained_bytes": 105738360,
+    "working_folder_reduction_bytes": 452618710,
+    "original_source_files_retained_by_hash": 73,
+    "finals_bit_identical": true,
+    "completed_source_checks": {
+      "breakfast": {
+        "post_cleanup_import_passed": true,
+        "sample_frames_rendered": 16,
+        "all_legacy_directories_absent": true
+      },
+      "gelatin": {
+        "post_cleanup_import_passed": true,
+        "sample_frames_rendered": 16,
+        "all_legacy_directories_absent": true
+      }
+    }
+  }
+}

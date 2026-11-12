@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "model": "seedance_2_5",
+  "approved_credits": 352,
+  "net_credits_used": 352,
+  "verified_output": "food-felonies-commercial-25s.mp4",
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "93af7ceb-db76-4f06-bdf0-aae89afb5d52"
+    },
+    {
+      "index": 1,
+      "job_id": "fde2367f-f96d-4adb-8791-a506ac0c461c"
+    },
+    {
+      "index": 2,
+      "job_id": "135c61d7-862c-4cf3-b0a6-9c2822a74770"
+    },
+    {
+      "index": 3,
+      "job_id": "787e2e51-a14f-4b16-af56-2d11bbd63d25"
+    }
+  ]
+}

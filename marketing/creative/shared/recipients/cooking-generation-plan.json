@@ -1,0 +1,154 @@
+{
+  "model": "seedance_2_5",
+  "quoted_total_credits": 256,
+  "purpose": "Four recipients discover the shared recipe on phones, then four separate full-frame shots of those same people cooking it.",
+  "phone_source": "../commercial-final-v8/raw/reaction-{0..3}.mp4, reframe upper1440px to exclude finished dish, use phone-reading opening only",
+  "timeline": {
+    "discover": [
+      14,
+      16.4
+    ],
+    "cooking": [
+      [
+        16.4,
+        17.6
+      ],
+      [
+        17.6,
+        18.8
+      ],
+      [
+        18.8,
+        20
+      ],
+      [
+        20,
+        21.2
+      ]
+    ],
+    "uploads": [
+      21.2,
+      22
+    ],
+    "end": [
+      22,
+      25
+    ]
+  },
+  "people": [
+    {
+      "index": 0,
+      "key": "burgundy-chopping",
+      "action": "Exact original adult Black man in burgundy tee from reference1. He enthusiastically CHOPS celery and green bell pepper on a wooden cutting board, several controlled quick rocking knife strokes with a safe guiding hand. Start already actively chopping so usable action is visible from the first frame. A little chopped onion is on the board. Empty glass prep bowl to the side, but no finished gelatin dish anywhere. Warm oak kitchen matches identity reference. Preserve face, hair and shirt. One clear coherent action for all four seconds."
+    },
+    {
+      "index": 1,
+      "key": "blue-apron-mixing",
+      "action": "Exact original adult East Asian woman, straight dark bob, white tee and blue apron from reference1. She is actively MIXING transparent yellow liquid gelatin and chopped green celery, green pepper and onion in a clear glass bowl with a whisk. One hand holds the bowl stationary, the other makes several visible circular whisking motions. Start with real mixing already happening, focused smile, face in view. No solid or finished gelatin ring anywhere. Same bright neutral kitchen as reference1. Continuous coherent action for four seconds."
+    },
+    {
+      "index": 2,
+      "key": "mustard-pouring",
+      "action": "Exact original older white adult man, short gray hair and mustard-yellow shirt from reference1. He carefully POURS a stream of transparent yellow liquid gelatin with small chopped green vegetables from one glass bowl into an EMPTY scalloped metal ring mold with a center tube on his wooden counter. Both hands support the bowl naturally. The stream lands inside the mold, not on the counter; mixture gradually fills its cavity around the center tube. Start just as the pour begins, continue visibly throughout four seconds. Face remains visible, focused pleased expression. No finished gelatin dish or smartphone anywhere. Same warm kitchen as reference1."
+    },
+    {
+      "index": 3,
+      "key": "braids-unmolding",
+      "action": "Exact original adult woman with dark braids and cream sweater from reference1. This is a separate LATER-TIME shot after the gelatin has chilled and set. At the beginning she holds an inverted scalloped ring mold resting on an ivory home plate; both hands grip its outer edges. From0.3–2.3 seconds she steadily lifts the metal mold upward and away, revealing the fully set bright yellow vegetable gelatin ring on the plate, with a central hole and green vegetables inside. From2.3–4seconds she places the mold aside and smiles delightedly at the wobbling finished dish. The set gelatin stays on the plate; nothing melts, duplicates or morphs. Same sunlit modern kitchen as reference1. Medium-close framing includes whole face, hands, mold and plate. No phone or extra person."
+    }
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "052b20d6-6c62-4c0d-89af-02d4ec5c9f25"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, one continuous four-second vertical9:16 shot at 1080p. The first reference is the exact fictional adult identity, wardrobe and kitchen to preserve. The phone in that identity reference is NOT part of the new scene: both hands are now cooking, no smartphone anywhere. The second reference is the finished target RECIPE ONLY: transparent bright yellow scalloped ring vegetable gelatin with celery, green bell pepper and onion inside and a central hole. Do not copy the finished dish into a prep scene. Clear physical cooking action, natural warm kitchen light, attractive tactile food detail, subtle steady camera push. Show this same person’s entire face in upper half and their hands actively working on the counter in lower half, within one full-frame shot; no panels, no grid, no other people. Anatomically correct hands and utensils. No text, logos, watermarks, overlays, captions, music, speech or vocal effects. No instantaneous liquid-to-solid transformations. This shot takes place AFTER this person saw a friend’s recipe post and is now making it at home.\nExact original adult Black man in burgundy tee from reference1. He enthusiastically CHOPS celery and green bell pepper on a wooden cutting board, several controlled quick rocking knife strokes with a safe guiding hand. Start already actively chopping so usable action is visible from the first frame. A little chopped onion is on the board. Empty glass prep bowl to the side, but no finished gelatin dish anywhere. Warm oak kitchen matches identity reference. Preserve face, hair and shirt. One clear coherent action for all four seconds."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "b246c126-0a59-4d95-bd91-2ac6b3f000db"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, one continuous four-second vertical9:16 shot at 1080p. The first reference is the exact fictional adult identity, wardrobe and kitchen to preserve. The phone in that identity reference is NOT part of the new scene: both hands are now cooking, no smartphone anywhere. The second reference is the finished target RECIPE ONLY: transparent bright yellow scalloped ring vegetable gelatin with celery, green bell pepper and onion inside and a central hole. Do not copy the finished dish into a prep scene. Clear physical cooking action, natural warm kitchen light, attractive tactile food detail, subtle steady camera push. Show this same person’s entire face in upper half and their hands actively working on the counter in lower half, within one full-frame shot; no panels, no grid, no other people. Anatomically correct hands and utensils. No text, logos, watermarks, overlays, captions, music, speech or vocal effects. No instantaneous liquid-to-solid transformations. This shot takes place AFTER this person saw a friend’s recipe post and is now making it at home.\nExact original adult East Asian woman, straight dark bob, white tee and blue apron from reference1. She is actively MIXING transparent yellow liquid gelatin and chopped green celery, green pepper and onion in a clear glass bowl with a whisk. One hand holds the bowl stationary, the other makes several visible circular whisking motions. Start with real mixing already happening, focused smile, face in view. No solid or finished gelatin ring anywhere. Same bright neutral kitchen as reference1. Continuous coherent action for four seconds."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "4498750d-3af1-4ad7-801c-55e7c0e0712b"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, one continuous four-second vertical9:16 shot at 1080p. The first reference is the exact fictional adult identity, wardrobe and kitchen to preserve. The phone in that identity reference is NOT part of the new scene: both hands are now cooking, no smartphone anywhere. The second reference is the finished target RECIPE ONLY: transparent bright yellow scalloped ring vegetable gelatin with celery, green bell pepper and onion inside and a central hole. Do not copy the finished dish into a prep scene. Clear physical cooking action, natural warm kitchen light, attractive tactile food detail, subtle steady camera push. Show this same person’s entire face in upper half and their hands actively working on the counter in lower half, within one full-frame shot; no panels, no grid, no other people. Anatomically correct hands and utensils. No text, logos, watermarks, overlays, captions, music, speech or vocal effects. No instantaneous liquid-to-solid transformations. This shot takes place AFTER this person saw a friend’s recipe post and is now making it at home.\nExact original older white adult man, short gray hair and mustard-yellow shirt from reference1. He carefully POURS a stream of transparent yellow liquid gelatin with small chopped green vegetables from one glass bowl into an EMPTY scalloped metal ring mold with a center tube on his wooden counter. Both hands support the bowl naturally. The stream lands inside the mold, not on the counter; mixture gradually fills its cavity around the center tube. Start just as the pour begins, continue visibly throughout four seconds. Face remains visible, focused pleased expression. No finished gelatin dish or smartphone anywhere. Same warm kitchen as reference1."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "seedance_2_5",
+        "mode": "omni_reference",
+        "duration": 4,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "generate_audio": false,
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "4284b1aa-ddd0-404a-9aad-364559bd3c83"
+          },
+          {
+            "role": "image",
+            "value": "d3893b04-1d9d-4786-a857-e66daed7d9ee"
+          }
+        ],
+        "prompt": "Photorealistic premium food-comedy commercial, one continuous four-second vertical9:16 shot at 1080p. The first reference is the exact fictional adult identity, wardrobe and kitchen to preserve. The phone in that identity reference is NOT part of the new scene: both hands are now cooking, no smartphone anywhere. The second reference is the finished target RECIPE ONLY: transparent bright yellow scalloped ring vegetable gelatin with celery, green bell pepper and onion inside and a central hole. Do not copy the finished dish into a prep scene. Clear physical cooking action, natural warm kitchen light, attractive tactile food detail, subtle steady camera push. Show this same person’s entire face in upper half and their hands actively working on the counter in lower half, within one full-frame shot; no panels, no grid, no other people. Anatomically correct hands and utensils. No text, logos, watermarks, overlays, captions, music, speech or vocal effects. No instantaneous liquid-to-solid transformations. This shot takes place AFTER this person saw a friend’s recipe post and is now making it at home.\nExact original adult woman with dark braids and cream sweater from reference1. This is a separate LATER-TIME shot after the gelatin has chilled and set. At the beginning she holds an inverted scalloped ring mold resting on an ivory home plate; both hands grip its outer edges. From0.3–2.3 seconds she steadily lifts the metal mold upward and away, revealing the fully set bright yellow vegetable gelatin ring on the plate, with a central hole and green vegetables inside. From2.3–4seconds she places the mold aside and smiles delightedly at the wobbling finished dish. The set gelatin stays on the plate; nothing melts, duplicates or morphs. Same sunlit modern kitchen as reference1. Medium-close framing includes whole face, hands, mold and plate. No phone or extra person."
+      }
+    }
+  ]
+}

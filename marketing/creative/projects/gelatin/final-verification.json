@@ -1,0 +1,20 @@
+{
+  "verified": true,
+  "duration_seconds": 25,
+  "width": 1080,
+  "height": 1920,
+  "frames": 750,
+  "fps": 30,
+  "caption": "Do I dare to cook this?",
+  "replaced_grin_captions": [
+    "BAD IDEA?",
+    "PERFECT."
+  ],
+  "replaced_video_frames": [
+    95,
+    144
+  ],
+  "audio_identical_to_v11": true,
+  "decode_errors": false,
+  "new_generation_jobs": 0
+}

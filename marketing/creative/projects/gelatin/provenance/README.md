@@ -1,0 +1,1 @@
+Generation records retain the original historical project paths and provider URLs for provenance. Active source files are now organized under this project and shared/. No remote URLs are required to render.
