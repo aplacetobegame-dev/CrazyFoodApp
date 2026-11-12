@@ -1,16 +1,68 @@
-node_modules/
+# Dependencies.
+# No trailing slash: that form only matches a real directory, and pnpm on
+# Windows often creates node_modules as a junction. One rule covers the
+# repo root and every nested node_modules, including node_modules/.pnpm.
+node_modules
+.pnpm-store
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Builds and caches
 dist/
+build/
+web-build/
 .expo/
 .expo-shared/
-npm-debug.log*
-pnpm-debug.log*
+.turbo/
+.cache/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+.metro-health-check*
+expo-env.d.ts
 
+# Expo prebuild output. These trees are generated and can be huge.
+ios/
+android/
+.kotlin/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+*.orig.*
+
+# Local env. .env.example stays tracked.
 .env
 .env.*
 !.env.example
 
+# Supabase CLI local state
 supabase/.branches/
 supabase/.temp/
 
-*.tsbuildinfo
-coverage/
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.*
+yarn-error.*
+
+# Python caches from the marketing tools
+__pycache__/
+*.py[cod]
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+*.swp
+*~
+.~lock.*
