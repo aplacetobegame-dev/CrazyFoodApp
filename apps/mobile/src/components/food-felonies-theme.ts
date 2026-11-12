@@ -1,0 +1,18 @@
+export const colors = {
+  forest: "#10442F",
+  forestDeep: "#0B3829",
+  forestTint: "#E8F0E3",
+  canvas: "#FAF1E2",
+  paper: "#FFF7EB",
+  ink: "#231F1C",
+  muted: "#665E56",
+  red: "#AD2925",
+  redPressed: "#8C201D",
+  mustard: "#F5BA47",
+  pickle: "#DCE9AA",
+  blush: "#F9DDD4",
+  border: "#E1D3BE",
+  controlBorder: "#99866D",
+  track: "#D9C9B0",
+  cream: "#FFF9EF",
+};

@@ -318,6 +318,24 @@ This section is the implementation team’s QA plan; no application code or test
 
 ## 11. Delivery sequence
 
+### Current phase — connected staging build
+
+The goal is to run the core app on Supabase and Google Cloud with persistent data. This is a staging milestone for invited testers. Generated recipes use a deterministic fixture provider and a bundled illustration. Camera and gallery uploads remain part of the cooked-proof flow.
+
+**Deferred integrations.** Custom domain and DNS, email OTP and SMTP setup, Gemini, generated concept images, AdMob, Instagram, and TikTok. The current phase uses three free generations per user per UTC day. Ads, social destinations, and earned-credit controls stay hidden in the connected app. The full product roadmap below records the eventual integrations.
+
+| Step | Backend and infrastructure | Frontend and acceptance |
+| --- | --- | --- |
+| 1. Connect staging | Apply migrations to local and staging Supabase. Provision restricted test accounts and use normal Supabase sessions and row-level security. Disable public signup in staging. Set up Google Cloud Artifact Registry, Secret Manager, a continuously running Cloud Run worker pool, and a public Expo web service using its default HTTPS URL. | Give testers a staging-only sign-in flow with provisioned accounts. Verify authenticated requests, worker queue consumption, and web rendering. |
+| 2. Generate and save | Add shared recipe contracts, recipe and job tables, and the daily allowance ledger. Reserve quota and enqueue in one transaction. Run the deterministic fixture provider through the real worker, persist the private draft, and refund permanent failures once. | Connect Create, job status, allowance, and My Cases. Label fixture output as sample content. A tester can submit, close the app, reopen it, and find the job or saved draft. |
+| 3. Publish and discover | Implement explicit publishing, paginated feed and search, voting, and an anonymous read path limited to approved public cases. | Connect Discover, Search, Case File, and votes. Verify that a published recipe has a working public page and share metadata on the default staging URL and that private drafts remain inaccessible. |
+| 4. Collect and moderate cooked proof | Validate and re-encode uploaded photos, strip metadata, and store originals privately. Add staff review, optional Cloud Vision screening through the worker service identity, approved derivatives, reports, blocking, takedowns, and account deletion with media cleanup. Keep submissions pending until approved. | Connect the camera and gallery fallback, taste score and verdict, status and retry, staff review, reporting, blocking, and deletion. Show approved photos and their reviews on public cases. |
+| 5. Share and verify | Render a short clip from the user's approved cooked photo with FFmpeg. Keep preview assets private and issue short-lived download URLs. Add logs for queue age, failures, refunds, and moderation state. | Let the owner preview and export the clip using the system share sheet. Verify the full flow on Android, iOS, and web where applicable, including denied camera permission, failed upload retries, duplicate jobs, quota concurrency and UTC reset, and anonymous access boundaries. |
+
+The first end-to-end milestone is **staging sign-in → Create → queued job → saved private recipe in My Cases**, with the same result after restarting the app. The phase is complete when a tester can also publish the case, open its public link, submit a cooked review, and export a clip after staff approval.
+
+### Full product roadmap
+
 1. **Foundation:** Expo app, Supabase project, auth, RLS, migrations, private storage, queue and worker deployment.
 2. **Recipe generation:** Structured recipe contract, Gemini adapters, job status UI, image generation, failure/refund path, spend monitoring.
 3. **Core community:** Private drafts, publish flow, feed/search, recipe votes, server-rendered public recipe pages and metadata.

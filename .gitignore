@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.expo/
+.expo-shared/
+npm-debug.log*
+pnpm-debug.log*
+
+.env
+.env.*
+!.env.example
+
+supabase/.branches/
+supabase/.temp/
+
+*.tsbuildinfo
+coverage/
